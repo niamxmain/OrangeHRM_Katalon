@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_-- Select --</name>
+   <name>div_Admin</name>
    <tag></tag>
-   <elementGuidId>efe1565d-f66c-4a5d-9ae3-90a08909f4d2</elementGuidId>
+   <elementGuidId>16b30f9d-6c75-43af-b6ae-ab38ebbd6024</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div[2]/div</value>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div[2]/div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.oxd-select-option</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>cff1b141-1320-445e-b4be-7062ae96f97f</webElementGuid>
+      <webElementGuid>500edbef-40ac-4057-a8ae-ba8261577732</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>09c3c54c-90dc-470d-a854-b97624f83060</webElementGuid>
+      <webElementGuid>3dfa687c-f435-4385-b684-1d73dbca0b7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +38,15 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-select-option</value>
-      <webElementGuid>8e7e5f72-d128-4b85-806a-bd3121747e23</webElementGuid>
+      <webElementGuid>228900f0-b638-44ea-bfe4-6c567e54c93e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>-- Select --</value>
-      <webElementGuid>acee1014-8d3b-43dc-baa7-6c44743fbb1a</webElementGuid>
+      <value>Admin</value>
+      <webElementGuid>039fda61-325f-4d19-854f-9ca64e435d2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,30 +54,30 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-select-wrapper&quot;]/div[@class=&quot;oxd-select-dropdown --positon-bottom&quot;]/div[@class=&quot;oxd-select-option&quot;]</value>
-      <webElementGuid>c1757587-3028-4f70-9ef1-0506fa9e1465</webElementGuid>
+      <webElementGuid>b8559f08-20cc-4280-acd0-6637abc7d03c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div[2]/div</value>
-      <webElementGuid>a389cc24-90ea-40e8-902e-5fa0e8586d42</webElementGuid>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div[2]/div[2]</value>
+      <webElementGuid>51504cd2-93b0-4323-9c7c-633d68cafa67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/div[2]/div/div[2]/div</value>
-      <webElementGuid>26ade9bf-b086-4196-aa80-af8c3d3d7cfa</webElementGuid>
+      <value>//div[2]/div/div[2]/div[2]</value>
+      <webElementGuid>31119a2b-bd0f-4f62-932b-29097f8f224b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '-- Select --' or . = '-- Select --')]</value>
-      <webElementGuid>8b45541d-f204-4753-9cfa-2ae42d52b64a</webElementGuid>
+      <value>//div[(text() = 'Admin' or . = 'Admin')]</value>
+      <webElementGuid>f7ee8745-d9dc-4d9d-bb17-e5848d9946eb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
