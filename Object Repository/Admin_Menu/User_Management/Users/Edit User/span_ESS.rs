@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ESS</name>
+   <tag></tag>
+   <elementGuidId>228ada8b-6b2a-4c4a-8cd7-14a65f949dde</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div[2]/div[3]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.oxd-select-option.--selected > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0830e7c3-5b64-44d6-a041-7323d54b744d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ESS</value>
+      <webElementGuid>aa488586-20ea-4be8-a4d5-4aa0202221bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-select-wrapper&quot;]/div[@class=&quot;oxd-select-dropdown --positon-bottom&quot;]/div[@class=&quot;oxd-select-option --selected&quot;]/span[1]</value>
+      <webElementGuid>53dd4917-a53a-41b0-af9c-dada754a9c99</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div[2]/div[3]/span</value>
+      <webElementGuid>b15ad7b4-a3fd-451f-8f78-fb4f392632a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/span</value>
+      <webElementGuid>e6b37bce-a26f-4a40-baf7-d8637031511f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'ESS' or . = 'ESS')]</value>
+      <webElementGuid>b5a1f561-5ed5-4705-9b8d-11930a948138</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

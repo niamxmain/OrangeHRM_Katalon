@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_Add User</name>
+   <tag></tag>
+   <elementGuidId>fc9385bc-6bdf-4de7-8a0e-f9d888ef055a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/h6</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6.oxd-text.oxd-text--h6.orangehrm-main-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>67d63249-ba32-4c42-b60b-46669dca5f85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-text oxd-text--h6 orangehrm-main-title</value>
+      <webElementGuid>c37864e2-4dcd-48b7-9700-47790c98d82e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add User</value>
+      <webElementGuid>00815c38-0f60-4910-8d60-ab6fb587c941</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/h6[@class=&quot;oxd-text oxd-text--h6 orangehrm-main-title&quot;]</value>
+      <webElementGuid>4746d6ae-679a-4cc2-8a9e-a9e4eed817d4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/h6</value>
+      <webElementGuid>5b7c5b2a-2f86-4a70-9389-174daa1f5655</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/h6</value>
+      <webElementGuid>43b3b0c5-edf5-4e64-b587-da3ce5328abb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Add User' or . = 'Add User')]</value>
+      <webElementGuid>425c3e7b-f3e1-4116-bbbe-1ba37b6c3f51</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

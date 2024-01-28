@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_InfoNo Records Found</name>
+   <tag></tag>
+   <elementGuidId>9d67e221-774a-4ab0-b41b-5a1bf104b8ea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='oxd-toaster_1']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.oxd-toast.oxd-toast--info.oxd-toast-container--toast</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>334fb013-390c-4f18-ac5a-95fb48997ff0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-toast oxd-toast--info oxd-toast-container--toast</value>
+      <webElementGuid>f69e0574-c6b0-4058-9d2f-7799415b1441</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-live</name>
+      <type>Main</type>
+      <value>assertive</value>
+      <webElementGuid>af301c15-39e0-486f-9f44-65ca393d4a9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>InfoNo Records Found×</value>
+      <webElementGuid>be894bde-6d80-474a-8cd5-affe72c746d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;oxd-toaster_1&quot;)/div[@class=&quot;oxd-toast oxd-toast--info oxd-toast-container--toast&quot;]</value>
+      <webElementGuid>54b1e53b-20e7-46e5-af82-c28d298d963f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='oxd-toaster_1']/div</value>
+      <webElementGuid>7f3b6113-5cf8-4678-9dd2-a0dd2e3b4137</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div</value>
+      <webElementGuid>bcebb585-871c-4bc2-828a-25e214565ccb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'InfoNo Records Found×' or . = 'InfoNo Records Found×')]</value>
+      <webElementGuid>52fce61a-a898-4dd4-8671-bb76d5136af0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

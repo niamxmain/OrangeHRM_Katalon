@@ -12,11 +12,26 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Admin'</initValue>
-      <name>USERNAME</name>
+      <name>G_USERNAME</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'hUKwJTbofgPU9eVlw/CnDQ=='</initValue>
       <name>PASSWORD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'John Doe'</initValue>
+      <name>USERNAME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Odis Adalwin'</initValue>
+      <name>EMPLOYEE_NAME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Nathan Elliot'</initValue>
+      <name>EDIT_EMPLOYEE_NAME</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

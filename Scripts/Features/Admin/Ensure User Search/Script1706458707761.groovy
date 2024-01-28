@@ -17,15 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Features/Admin/Search User'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.BASE_URL)
+WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/div_John Doe'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_username'), GlobalVariable.G_USERNAME)
+WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/div_Admin'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_password'), GlobalVariable.PASSWORD)
+WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/div_Odis Adalwin'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img'))
+WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/div_Enabled'))
 

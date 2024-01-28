@@ -17,15 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Features/Admin/Search User'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.BASE_URL)
+WebUI.click(findTestObject('Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-edit'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_username'), GlobalVariable.G_USERNAME)
+WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/Edit User/span_Admin'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_password'), GlobalVariable.PASSWORD)
+WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/Edit User/span_Enabled'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
+WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/Edit User/input'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img'))
+WebUI.verifyElementText(findTestObject('Admin_Menu/User_Management/Users/Edit User/input'), GlobalVariable.EMPLOYEE_NAME)
+
+WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/Edit User/input_Username_oxd-input oxd-input--focus'))
+
+WebUI.verifyElementText(findTestObject('Admin_Menu/User_Management/Users/Edit User/input_Username_oxd-input oxd-input--focus'), 
+    GlobalVariable.USERNAME)
 
