@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Ensure User Deleted</name>
-   <tag>Jan</tag>
-   <comment></comment>
-   <testCaseGuid>e4a1d1e1-9683-4112-ab86-e6fd2d639e46</testCaseGuid>
-</TestCaseEntity>

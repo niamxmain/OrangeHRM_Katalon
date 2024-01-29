@@ -1,0 +1,89 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User Management,Chrome 121.0.0.0,,,29-01-2024 23:08:35,29-01-2024 23:14:18,5m - 43.171s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu,Chrome 121.0.0.0,,login,29-01-2024 23:08:36,29-01-2024 23:09:03,27.057s,PASSED
+"callTestCase(findTestCase(""Login/Login Valid Admin""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,29-01-2024 23:08:37,29-01-2024 23:09:00,23.017s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Admin""))",Chrome 121.0.0.0,,,29-01-2024 23:09:00,29-01-2024 23:09:01,1.452s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/h5_System Users""), 0)",Chrome 121.0.0.0,,,29-01-2024 23:09:01,29-01-2024 23:09:03,1.731s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/TC_Admin_002_Add New User,Chrome 121.0.0.0,,Jan,29-01-2024 23:09:03,29-01-2024 23:09:40,36.741s,PASSED
+"callTestCase(findTestCase(""Features/Admin/TC_Admin_001_Access Admin Menu""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,29-01-2024 23:09:03,29-01-2024 23:09:25,21.413s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/button_Add_User""))",Chrome 121.0.0.0,,,29-01-2024 23:09:25,29-01-2024 23:09:28,2.776s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/Add User/h6_Add User""), 0)",Chrome 121.0.0.0,,,29-01-2024 23:09:28,29-01-2024 23:09:29,1.079s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Add User/dropdown_role""))",Chrome 121.0.0.0,,,29-01-2024 23:09:29,29-01-2024 23:09:29,0.538s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Add User/div_Admin""))",Chrome 121.0.0.0,,,29-01-2024 23:09:29,29-01-2024 23:09:30,0.611s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Add User/dropdown_status""))",Chrome 121.0.0.0,,,29-01-2024 23:09:30,29-01-2024 23:09:30,0.612s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Add User/div_Enabled""))",Chrome 121.0.0.0,,,29-01-2024 23:09:30,29-01-2024 23:09:31,0.554s,PASSED
+"setText(findTestObject(""Admin_Menu/User_Management/Users/Add User/input_employee_name""), EMPLOYEE_NAME)",Chrome 121.0.0.0,,,29-01-2024 23:09:31,29-01-2024 23:09:32,0.927s,PASSED
+"verifyElementVisible(findTestObject(""Admin_Menu/User_Management/Users/Add User/div_Odis  Adalwin""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,29-01-2024 23:09:32,29-01-2024 23:09:32,0.510s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Add User/div_Odis  Adalwin""))",Chrome 121.0.0.0,,,29-01-2024 23:09:32,29-01-2024 23:09:34,1.251s,PASSED
+"setText(findTestObject(""Admin_Menu/User_Management/Users/Add User/input_Username_oxd-input oxd-input--focus""), USERNAME)",Chrome 121.0.0.0,,,29-01-2024 23:09:34,29-01-2024 23:09:35,1.011s,PASSED
+"setEncryptedText(findTestObject(""Admin_Menu/User_Management/Users/Add User/input_Password_oxd-input oxd-input--focus""), PASSWORD)",Chrome 121.0.0.0,,,29-01-2024 23:09:35,29-01-2024 23:09:35,0.620s,PASSED
+"setEncryptedText(findTestObject(""Admin_Menu/User_Management/Users/Add User/input_Confirm Password_oxd-input oxd-input--focus""), PASSWORD)",Chrome 121.0.0.0,,,29-01-2024 23:09:35,29-01-2024 23:09:36,1.057s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Add User/button_Save""))",Chrome 121.0.0.0,,,29-01-2024 23:09:36,29-01-2024 23:09:37,0.596s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/Add User/popup_SuccessSuccessfully Saved""), 0)",Chrome 121.0.0.0,,,29-01-2024 23:09:37,29-01-2024 23:09:40,2.563s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/TC_Admin_003_Search User,Chrome 121.0.0.0,,Jan,29-01-2024 23:09:40,29-01-2024 23:10:09,29.515s,PASSED
+"callTestCase(findTestCase(""Features/Admin/TC_Admin_001_Access Admin Menu""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,29-01-2024 23:09:40,29-01-2024 23:10:03,22.283s,PASSED
+"sendKeys(findTestObject(""Admin_Menu/User_Management/Users/input_Username""), USERNAME)",Chrome 121.0.0.0,,,29-01-2024 23:10:03,29-01-2024 23:10:03,0.578s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/dropdown_user_role""))",Chrome 121.0.0.0,,,29-01-2024 23:10:03,29-01-2024 23:10:04,0.487s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/span_Admin""))",Chrome 121.0.0.0,,,29-01-2024 23:10:04,29-01-2024 23:10:04,0.625s,PASSED
+"sendKeys(findTestObject(""Admin_Menu/User_Management/Users/input_Employee_Name""), EMPLOYEE_NAME)",Chrome 121.0.0.0,,,29-01-2024 23:10:04,29-01-2024 23:10:05,0.668s,PASSED
+"verifyElementVisible(findTestObject(""Admin_Menu/User_Management/Users/span_Odis  Adalwin""))",Chrome 121.0.0.0,,,29-01-2024 23:10:05,29-01-2024 23:10:07,1.860s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/span_Odis  Adalwin""))",Chrome 121.0.0.0,,,29-01-2024 23:10:07,29-01-2024 23:10:07,0.536s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/dropdown_status""))",Chrome 121.0.0.0,,,29-01-2024 23:10:07,29-01-2024 23:10:08,0.617s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/span_Enabled""))",Chrome 121.0.0.0,,,29-01-2024 23:10:08,29-01-2024 23:10:09,0.565s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/button_Search""))",Chrome 121.0.0.0,,,29-01-2024 23:10:09,29-01-2024 23:10:09,0.614s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/TC_Admin_004_Ensure User Search,Chrome 121.0.0.0,,Jan,29-01-2024 23:10:09,29-01-2024 23:10:39,29.589s,PASSED
+"callTestCase(findTestCase(""Features/Admin/TC_Admin_003_Search User""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,29-01-2024 23:10:10,29-01-2024 23:10:36,26.892s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/div_John Doe""), 0)",Chrome 121.0.0.0,,,29-01-2024 23:10:36,29-01-2024 23:10:37,0.998s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/div_Admin""), 0)",Chrome 121.0.0.0,,,29-01-2024 23:10:37,29-01-2024 23:10:38,0.439s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/div_Odis Adalwin""), 0)",Chrome 121.0.0.0,,,29-01-2024 23:10:38,29-01-2024 23:10:38,0.415s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/div_Enabled""), 0)",Chrome 121.0.0.0,,,29-01-2024 23:10:38,29-01-2024 23:10:39,0.415s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/Ensure Data Edit User,Chrome 121.0.0.0,,Jan,29-01-2024 23:10:39,29-01-2024 23:11:08,29.537s,PASSED
+"callTestCase(findTestCase(""Features/Admin/TC_Admin_003_Search User""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,29-01-2024 23:10:39,29-01-2024 23:11:03,24.280s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-edit""))",Chrome 121.0.0.0,,,29-01-2024 23:11:03,29-01-2024 23:11:05,1.743s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/Edit User/div_Admin""), 0)",Chrome 121.0.0.0,,,29-01-2024 23:11:05,29-01-2024 23:11:07,1.416s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/Edit User/div_Enabled""), 0)",Chrome 121.0.0.0,,,29-01-2024 23:11:07,29-01-2024 23:11:08,0.915s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/Edit User/input""), 0)",Chrome 121.0.0.0,,,29-01-2024 23:11:08,29-01-2024 23:11:08,0.402s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/Edit User/input_Username_oxd-input oxd-input--focus""), 0)",Chrome 121.0.0.0,,,29-01-2024 23:11:08,29-01-2024 23:11:08,0.387s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/Update User,Chrome 121.0.0.0,,Jan,29-01-2024 23:11:08,29-01-2024 23:11:46,37.846s,PASSED
+"callTestCase(findTestCase(""Features/Admin/Ensure Data Edit User""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,29-01-2024 23:11:09,29-01-2024 23:11:41,32.406s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Edit User/div_Admin""))",Chrome 121.0.0.0,,,29-01-2024 23:11:41,29-01-2024 23:11:42,0.535s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Edit User/span_ESS""))",Chrome 121.0.0.0,,,29-01-2024 23:11:42,29-01-2024 23:11:42,0.596s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Edit User/div_Enabled""))",Chrome 121.0.0.0,,,29-01-2024 23:11:42,29-01-2024 23:11:43,0.590s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Edit User/span_Disabled""))",Chrome 121.0.0.0,,,29-01-2024 23:11:43,29-01-2024 23:11:43,0.548s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Edit User/button_Save""))",Chrome 121.0.0.0,,,29-01-2024 23:11:43,29-01-2024 23:11:44,0.588s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/Add User/popup_SuccessSuccessfully Saved""), 0)",Chrome 121.0.0.0,,,29-01-2024 23:11:44,29-01-2024 23:11:46,2.166s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/Search Updated User,Chrome 121.0.0.0,,Jan,29-01-2024 23:11:46,29-01-2024 23:12:19,33.276s,PASSED
+"callTestCase(findTestCase(""Features/Admin/TC_Admin_001_Access Admin Menu""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,29-01-2024 23:11:47,29-01-2024 23:12:13,25.999s,PASSED
+"sendKeys(findTestObject(""Admin_Menu/User_Management/Users/input_Username""), USERNAME)",Chrome 121.0.0.0,,,29-01-2024 23:12:13,29-01-2024 23:12:13,0.556s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/dropdown_user_role""))",Chrome 121.0.0.0,,,29-01-2024 23:12:13,29-01-2024 23:12:14,0.485s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/span_ESS""))",Chrome 121.0.0.0,,,29-01-2024 23:12:14,29-01-2024 23:12:14,0.611s,PASSED
+"sendKeys(findTestObject(""Admin_Menu/User_Management/Users/input_Employee_Name""), EMPLOYEE_NAME)",Chrome 121.0.0.0,,,29-01-2024 23:12:14,29-01-2024 23:12:15,0.649s,PASSED
+"verifyElementVisible(findTestObject(""Admin_Menu/User_Management/Users/span_Odis  Adalwin""))",Chrome 121.0.0.0,,,29-01-2024 23:12:15,29-01-2024 23:12:17,1.978s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/span_Odis  Adalwin""))",Chrome 121.0.0.0,,,29-01-2024 23:12:17,29-01-2024 23:12:18,0.511s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/dropdown_status""))",Chrome 121.0.0.0,,,29-01-2024 23:12:18,29-01-2024 23:12:18,0.587s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/span_Disabled""))",Chrome 121.0.0.0,,,29-01-2024 23:12:18,29-01-2024 23:12:19,0.614s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/button_Search""))",Chrome 121.0.0.0,,,29-01-2024 23:12:19,29-01-2024 23:12:19,0.603s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/Ensure Data User Updated,Chrome 121.0.0.0,,Jan,29-01-2024 23:12:19,29-01-2024 23:12:48,28.597s,PASSED
+"callTestCase(findTestCase(""Features/Admin/Search Updated User""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,29-01-2024 23:12:20,29-01-2024 23:12:46,25.969s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/div_John Doe""), 0)",Chrome 121.0.0.0,,,29-01-2024 23:12:46,29-01-2024 23:12:47,0.910s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/div_ESS""), 0)",Chrome 121.0.0.0,,,29-01-2024 23:12:47,29-01-2024 23:12:47,0.426s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/div_Odis Adalwin""), 0)",Chrome 121.0.0.0,,,29-01-2024 23:12:47,29-01-2024 23:12:48,0.411s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/div_Disable""), 0)",Chrome 121.0.0.0,,,29-01-2024 23:12:48,29-01-2024 23:12:48,0.483s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/Delete User,Chrome 121.0.0.0,,Jan,29-01-2024 23:12:48,29-01-2024 23:13:48,1m - 0.263s,PASSED
+"callTestCase(findTestCase(""Features/Admin/Ensure Data User Updated""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,29-01-2024 23:12:48,29-01-2024 23:13:16,27.138s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-trash""))",Chrome 121.0.0.0,,,29-01-2024 23:13:16,29-01-2024 23:13:16,0.510s,PASSED
+"verifyElementVisible(findTestObject(""Admin_Menu/User_Management/Users/div_modals_delete""))",Chrome 121.0.0.0,,,29-01-2024 23:13:16,29-01-2024 23:13:17,0.473s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/button_Yes, Delete""))",Chrome 121.0.0.0,,,29-01-2024 23:13:17,29-01-2024 23:13:48,31.727s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/Ensure User Deleted,Chrome 121.0.0.0,,Jan,29-01-2024 23:13:48,29-01-2024 23:14:18,30.069s,PASSED
+"callTestCase(findTestCase(""Features/Admin/Search Updated User""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,29-01-2024 23:13:49,29-01-2024 23:14:17,27.903s,PASSED
+"verifyElementVisible(findTestObject(""Admin_Menu/User_Management/Users/div_InfoNo Records Found""))",Chrome 121.0.0.0,,,29-01-2024 23:14:17,29-01-2024 23:14:18,1.752s,PASSED

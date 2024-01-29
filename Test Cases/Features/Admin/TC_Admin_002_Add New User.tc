@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Admin_002_Add New User</name>
+   <tag>Jan</tag>
+   <comment></comment>
+   <testCaseGuid>abd00b5b-07c6-47af-b553-0e9a24e4c673</testCaseGuid>
+</TestCaseEntity>
