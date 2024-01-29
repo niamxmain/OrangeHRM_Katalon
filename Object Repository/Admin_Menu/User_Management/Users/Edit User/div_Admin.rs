@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Enabled</name>
+   <name>div_Admin</name>
    <tag></tag>
-   <elementGuidId>4f4d17e7-0b02-47a7-a9a4-d361fc20c3ae</elementGuidId>
+   <elementGuidId>771a2d92-05fb-4d93-99c9-939bfd9a3d33</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div[3]/div/div[2]/div/div/div</value>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.oxd-select-text-input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>0ce22c89-23d0-4f9e-9476-e664a2975470</webElementGuid>
+      <webElementGuid>fb1c1142-5e6d-4965-9fd8-6bc6db4314ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-select-text-input</value>
-      <webElementGuid>c461d4a7-1a6a-41dc-8dc8-bc08af7974ef</webElementGuid>
+      <webElementGuid>3ecd5ffa-8ce7-429d-894f-f922087e89ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +38,15 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>26550693-eea4-4114-892b-7cc0c425e211</webElementGuid>
+      <webElementGuid>d727cd77-c296-4ca9-96b1-6a20f0488e34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Enabled</value>
-      <webElementGuid>c88896f4-2107-4bae-8824-9a21d82b79f7</webElementGuid>
+      <value>Admin</value>
+      <webElementGuid>33a62aad-845f-46f7-affd-a29b3c3d7fb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,30 +54,30 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-select-wrapper&quot;]/div[@class=&quot;oxd-select-text oxd-select-text--active&quot;]/div[@class=&quot;oxd-select-text-input&quot;]</value>
-      <webElementGuid>af0f018f-5cab-4fa1-ba3b-5e0f034c9fdc</webElementGuid>
+      <webElementGuid>1c488793-dea2-4b53-9d38-dbb4d90811e8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div[3]/div/div[2]/div/div/div</value>
-      <webElementGuid>008564ff-6767-4f8c-872f-9580a19e91a4</webElementGuid>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>6e3c13e8-79c3-4817-95de-ff6f27ab7520</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div[2]/div/div/div</value>
-      <webElementGuid>e357bc53-8a2a-4be6-a565-42eada705714</webElementGuid>
+      <value>//div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>10bf7873-a26f-456a-8635-36dc02ab466b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Enabled' or . = 'Enabled')]</value>
-      <webElementGuid>cca88859-5176-46cf-a439-4d8f0a9ad293</webElementGuid>
+      <value>//div[(text() = 'Admin' or . = 'Admin')]</value>
+      <webElementGuid>74239b21-5342-4417-8925-84005ba5e2ea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

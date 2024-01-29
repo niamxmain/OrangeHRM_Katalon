@@ -17,15 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Features/Admin/Search User'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Features/Admin/Access Admin Menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-edit'))
+WebUI.sendKeys(findTestObject('Admin_Menu/User_Management/Users/input_Username'), GlobalVariable.USERNAME)
 
-WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/Edit User/span_Admin'))
+WebUI.click(findTestObject('Admin_Menu/User_Management/Users/dropdown_user_role'))
 
-WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/Edit User/span_Enabled'))
+WebUI.click(findTestObject('Admin_Menu/User_Management/Users/span_ESS'))
 
-WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/Edit User/input'))
+WebUI.sendKeys(findTestObject('Admin_Menu/User_Management/Users/input_Employee_Name'), GlobalVariable.EMPLOYEE_NAME)
 
-WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/Edit User/input_Username_oxd-input oxd-input--focus'))
+WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/span_Odis  Adalwin'))
+
+WebUI.click(findTestObject('Admin_Menu/User_Management/Users/span_Odis  Adalwin'))
+
+WebUI.click(findTestObject('Admin_Menu/User_Management/Users/dropdown_status'))
+
+WebUI.click(findTestObject('Admin_Menu/User_Management/Users/span_Disabled'))
+
+WebUI.click(findTestObject('Admin_Menu/User_Management/Users/button_Search'))
 

@@ -17,15 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Features/Admin/Search User'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Features/Admin/Ensure Data User Updated'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-edit'))
+WebUI.click(findTestObject('Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-trash'))
 
-WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/Edit User/span_Admin'))
+WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/div_modals_delete'))
 
-WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/Edit User/span_Enabled'))
-
-WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/Edit User/input'))
-
-WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/Edit User/input_Username_oxd-input oxd-input--focus'))
+WebUI.click(findTestObject('Admin_Menu/User_Management/Users/button_Yes, Delete'))
 
