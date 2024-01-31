@@ -19,5 +19,3 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'sample.Login.loginGlobalVariable'()
 
-WebUI.closeBrowser()
-

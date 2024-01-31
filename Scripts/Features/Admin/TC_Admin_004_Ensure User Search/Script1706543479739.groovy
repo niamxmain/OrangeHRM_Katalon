@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_003_Search User'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Admin_Menu/User_Management/Users/div_John Doe'), 0)
+WebUI.verifyElementPresent(findTestObject('Admin Menu/User Management/Users/div_John Doe'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Admin_Menu/User_Management/Users/div_Admin'), 0)
+WebUI.verifyElementPresent(findTestObject('Admin Menu/User Management/Users/div_Admin'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Admin_Menu/User_Management/Users/div_Odis Adalwin'), 0)
+WebUI.verifyElementPresent(findTestObject('Admin Menu/User Management/Users/div_Odis Adalwin'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Admin_Menu/User_Management/Users/div_Enabled'), 0)
+WebUI.verifyElementPresent(findTestObject('Admin Menu/User Management/Users/div_Enabled'), 0)
 

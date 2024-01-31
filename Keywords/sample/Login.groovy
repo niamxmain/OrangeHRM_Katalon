@@ -34,7 +34,6 @@ public class Login {
 		WebUI.sendKeys(findTestObject('Login Page/input_Username_username'), username)
 		WebUI.sendKeys(findTestObject('Login Page/input_Password_password'), password)
 		WebUI.click(findTestObject('Login Page/button_Login'))
-
 	}
 
 	@Keyword

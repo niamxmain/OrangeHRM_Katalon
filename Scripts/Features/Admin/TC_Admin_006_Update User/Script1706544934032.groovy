@@ -19,16 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_005_Ensure Data Edit User'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Admin_Menu/User_Management/Users/Edit User/div_Admin'))
+WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/div_Admin'))
 
-WebUI.click(findTestObject('Admin_Menu/User_Management/Users/Edit User/span_ESS'))
+WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/span_ESS'))
 
-WebUI.click(findTestObject('Admin_Menu/User_Management/Users/Edit User/div_Enabled'))
+WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/div_Enabled'))
 
-WebUI.click(findTestObject('Admin_Menu/User_Management/Users/Edit User/span_Disabled'))
+WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/span_Disabled'))
 
-WebUI.click(findTestObject('Admin_Menu/User_Management/Users/Edit User/button_Save'))
+WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/button_Save'))
 
-WebUI.verifyElementPresent(findTestObject('Admin_Menu/User_Management/Users/Add User/popup_SuccessSuccessfully Saved'), 
+WebUI.verifyElementPresent(findTestObject('Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved'), 
     0)
 

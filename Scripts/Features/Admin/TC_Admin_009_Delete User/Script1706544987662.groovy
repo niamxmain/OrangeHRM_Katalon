@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_008_Ensure Data User Updated'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-trash'))
+WebUI.click(findTestObject('Admin Menu/User Management/Users/btn_i_Enabled_oxd-icon bi-trash'))
 
-WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/div_modals_delete'))
+WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/div_modals_delete'))
 
-WebUI.click(findTestObject('Admin_Menu/User_Management/Users/button_Yes, Delete'))
+WebUI.click(findTestObject('Admin Menu/User Management/Users/button_Yes, Delete'))
 

@@ -19,14 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_003_Search User'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-edit'))
+WebUI.click(findTestObject('Admin Menu/User Management/Users/btn_i_Enabled_oxd-icon bi-edit'))
 
-WebUI.verifyElementPresent(findTestObject('Admin_Menu/User_Management/Users/Edit User/div_Admin'), 0)
+WebUI.verifyElementPresent(findTestObject('Admin Menu/User Management/Users/Edit User/div_Admin'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Admin_Menu/User_Management/Users/Edit User/div_Enabled'), 0)
+WebUI.verifyElementPresent(findTestObject('Admin Menu/User Management/Users/Edit User/div_Enabled'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Admin_Menu/User_Management/Users/Edit User/input'), 0)
+WebUI.verifyElementPresent(findTestObject('Admin Menu/User Management/Users/Edit User/input'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Admin_Menu/User_Management/Users/Edit User/input_Username_oxd-input oxd-input--focus'), 
+WebUI.verifyElementPresent(findTestObject('Admin Menu/User Management/Users/Edit User/input_Username_oxd-input oxd-input--focus'), 
     0)
 
