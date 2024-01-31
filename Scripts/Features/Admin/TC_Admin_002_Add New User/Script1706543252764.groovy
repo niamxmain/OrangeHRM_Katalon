@@ -33,6 +33,8 @@ WebUI.click(findTestObject('Admin_Menu/User_Management/Users/Add User/div_Enable
 
 WebUI.setText(findTestObject('Admin_Menu/User_Management/Users/Add User/input_employee_name'), GlobalVariable.EMPLOYEE_NAME)
 
+WebUI.waitForElementVisible(findTestObject('Admin_Menu/User_Management/Users/div_Odis Adalwin'), 5)
+
 WebUI.verifyElementVisible(findTestObject('Admin_Menu/User_Management/Users/Add User/div_Odis  Adalwin'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Admin_Menu/User_Management/Users/Add User/div_Odis  Adalwin'))

@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'hUKwJTbofgPU9eVlw/CnDQ=='</initValue>
+      <initValue>'admin123'</initValue>
       <name>PASSWORD</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -33,5 +33,10 @@
       <description></description>
       <initValue>'Nathan Elliot'</initValue>
       <name>EDIT_EMPLOYEE_NAME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>5</initValue>
+      <name>DELAY_TIME</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

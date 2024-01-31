@@ -17,15 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+CustomKeywords.'sample.Login.loginGlobalVariable'()
 
-WebUI.navigateToUrl(GlobalVariable.BASE_URL)
-
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_username'), GlobalVariable.G_USERNAME)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_password'), GlobalVariable.PASSWORD)
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img'))
+WebUI.closeBrowser()
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_oxd-userdropdown-img</name>
+   <name>img_Dashboard</name>
    <tag></tag>
-   <elementGuidId>5a9cb142-52e6-4f34-bff3-b16021d95d26</elementGuidId>
+   <elementGuidId>f6fd6da3-df68-4161-b8ed-a9958c9fa13e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>ae986849-a124-4223-87d1-b83274adeb85</webElementGuid>
+      <webElementGuid>4046968d-5ce2-4482-b3ea-472dd55e3321</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>profile picture</value>
-      <webElementGuid>e8d19515-a425-4364-b009-dad649063aeb</webElementGuid>
+      <webElementGuid>e4c88306-8aa4-432f-b766-4b262330fcaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-userdropdown-img</value>
-      <webElementGuid>00801d74-edef-48d1-a929-e914fd379fd4</webElementGuid>
+      <webElementGuid>9fff1fe1-187a-42b9-b943-b21b5a04dca4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/web/index.php/pim/viewPhoto/empNumber/7</value>
-      <webElementGuid>a54ab3c2-ccbb-46ee-8cb2-fe6cac1cc803</webElementGuid>
+      <webElementGuid>9ef9ba25-9af0-4c29-8399-1720fd8db186</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-header&quot;]/div[@class=&quot;oxd-topbar-header-userarea&quot;]/ul[1]/li[@class=&quot;oxd-userdropdown&quot;]/span[@class=&quot;oxd-userdropdown-tab&quot;]/img[@class=&quot;oxd-userdropdown-img&quot;]</value>
-      <webElementGuid>85aecfe9-747f-48c7-9109-ba32495d0e2a</webElementGuid>
+      <webElementGuid>7a41d266-002d-4e5e-928b-3085e6580b7f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/header/div/div[2]/ul/li/span/img</value>
-      <webElementGuid>b3463f19-cbf0-4dbd-b2a3-00b43132d770</webElementGuid>
+      <webElementGuid>68e395dc-ddb4-46fa-9a64-6c276fa31364</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='profile picture']</value>
-      <webElementGuid>4918fe83-4a91-4521-be5e-ad41468b9b8f</webElementGuid>
+      <webElementGuid>9c08119f-8968-4b4a-af0a-6c04ae5a3828</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/img</value>
-      <webElementGuid>23778b05-ae34-4337-8e90-376e7a7a3fcb</webElementGuid>
+      <webElementGuid>802566f3-6780-49c2-8f1f-678c448fe3bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@alt = 'profile picture' and @src = '/web/index.php/pim/viewPhoto/empNumber/7']</value>
-      <webElementGuid>2a58017e-6ad9-4019-866d-ba7bc24642b2</webElementGuid>
+      <webElementGuid>550892ad-bcee-4f89-9677-9f776be88e77</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

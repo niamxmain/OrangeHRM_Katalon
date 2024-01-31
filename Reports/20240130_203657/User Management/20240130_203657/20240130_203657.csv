@@ -1,0 +1,90 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User Management,Firefox 122.0,,,30-01-2024 20:37:06,30-01-2024 20:44:42,7m - 35.559s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu,Firefox 122.0,,login,30-01-2024 20:37:07,30-01-2024 20:37:37,30.349s,PASSED
+"callTestCase(findTestCase(""Login/Login Valid Admin""), [:], STOP_ON_FAILURE)",Firefox 122.0,,,30-01-2024 20:37:07,30-01-2024 20:37:34,26.147s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Admin""))",Firefox 122.0,,,30-01-2024 20:37:34,30-01-2024 20:37:35,1.725s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/h5_System Users""), 0)",Firefox 122.0,,,30-01-2024 20:37:35,30-01-2024 20:37:37,1.635s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/TC_Admin_002_Add New User,Firefox 122.0,,Jan,30-01-2024 20:37:37,30-01-2024 20:38:23,46.233s,PASSED
+"callTestCase(findTestCase(""Features/Admin/TC_Admin_001_Access Admin Menu""), [:], STOP_ON_FAILURE)",Firefox 122.0,,,30-01-2024 20:37:38,30-01-2024 20:38:02,24.072s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/button_Add_User""))",Firefox 122.0,,,30-01-2024 20:38:02,30-01-2024 20:38:03,1.301s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/Add User/h6_Add User""), 0)",Firefox 122.0,,,30-01-2024 20:38:03,30-01-2024 20:38:04,0.999s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Add User/dropdown_role""))",Firefox 122.0,,,30-01-2024 20:38:04,30-01-2024 20:38:05,0.547s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Add User/div_Admin""))",Firefox 122.0,,,30-01-2024 20:38:05,30-01-2024 20:38:05,0.593s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Add User/dropdown_status""))",Firefox 122.0,,,30-01-2024 20:38:05,30-01-2024 20:38:06,0.604s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Add User/div_Enabled""))",Firefox 122.0,,,30-01-2024 20:38:06,30-01-2024 20:38:06,0.583s,PASSED
+"setText(findTestObject(""Admin_Menu/User_Management/Users/Add User/input_employee_name""), EMPLOYEE_NAME)",Firefox 122.0,,,30-01-2024 20:38:06,30-01-2024 20:38:07,0.640s,PASSED
+"waitForElementVisible(findTestObject(""Admin_Menu/User_Management/Users/div_Odis Adalwin""), 5)",Firefox 122.0,,,30-01-2024 20:38:07,30-01-2024 20:38:18,10.562s,PASSED
+"verifyElementVisible(findTestObject(""Admin_Menu/User_Management/Users/Add User/div_Odis  Adalwin""), STOP_ON_FAILURE)",Firefox 122.0,,,30-01-2024 20:38:18,30-01-2024 20:38:18,0.405s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Add User/div_Odis  Adalwin""))",Firefox 122.0,,,30-01-2024 20:38:18,30-01-2024 20:38:19,0.593s,PASSED
+"setText(findTestObject(""Admin_Menu/User_Management/Users/Add User/input_Username_oxd-input oxd-input--focus""), USERNAME)",Firefox 122.0,,,30-01-2024 20:38:19,30-01-2024 20:38:19,0.625s,PASSED
+"setEncryptedText(findTestObject(""Admin_Menu/User_Management/Users/Add User/input_Password_oxd-input oxd-input--focus""), PASSWORD)",Firefox 122.0,,,30-01-2024 20:38:19,30-01-2024 20:38:20,0.499s,PASSED
+"setEncryptedText(findTestObject(""Admin_Menu/User_Management/Users/Add User/input_Confirm Password_oxd-input oxd-input--focus""), PASSWORD)",Firefox 122.0,,,30-01-2024 20:38:20,30-01-2024 20:38:20,0.582s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Add User/button_Save""))",Firefox 122.0,,,30-01-2024 20:38:20,30-01-2024 20:38:21,0.995s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/Add User/popup_SuccessSuccessfully Saved""), 0)",Firefox 122.0,,,30-01-2024 20:38:21,30-01-2024 20:38:23,2.026s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/TC_Admin_003_Search User,Firefox 122.0,,Jan,30-01-2024 20:38:23,30-01-2024 20:39:33,1m - 10.095s,PASSED
+"callTestCase(findTestCase(""Features/Admin/TC_Admin_001_Access Admin Menu""), [:], STOP_ON_FAILURE)",Firefox 122.0,,,30-01-2024 20:38:24,30-01-2024 20:39:27,1m - 3.039s,PASSED
+"sendKeys(findTestObject(""Admin_Menu/User_Management/Users/input_Username""), USERNAME)",Firefox 122.0,,,30-01-2024 20:39:27,30-01-2024 20:39:27,0.459s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/dropdown_user_role""))",Firefox 122.0,,,30-01-2024 20:39:27,30-01-2024 20:39:28,0.610s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/span_Admin""))",Firefox 122.0,,,30-01-2024 20:39:28,30-01-2024 20:39:29,0.648s,PASSED
+"sendKeys(findTestObject(""Admin_Menu/User_Management/Users/input_Employee_Name""), EMPLOYEE_NAME)",Firefox 122.0,,,30-01-2024 20:39:29,30-01-2024 20:39:29,0.388s,PASSED
+"verifyElementVisible(findTestObject(""Admin_Menu/User_Management/Users/span_Odis  Adalwin""))",Firefox 122.0,,,30-01-2024 20:39:29,30-01-2024 20:39:31,1.721s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/span_Odis  Adalwin""))",Firefox 122.0,,,30-01-2024 20:39:31,30-01-2024 20:39:31,0.628s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/dropdown_status""))",Firefox 122.0,,,30-01-2024 20:39:31,30-01-2024 20:39:32,0.638s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/span_Enabled""))",Firefox 122.0,,,30-01-2024 20:39:32,30-01-2024 20:39:33,0.697s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/button_Search""))",Firefox 122.0,,,30-01-2024 20:39:33,30-01-2024 20:39:33,0.706s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/TC_Admin_004_Ensure User Search,Firefox 122.0,,Jan,30-01-2024 20:39:33,30-01-2024 20:40:14,40.129s,PASSED
+"callTestCase(findTestCase(""Features/Admin/TC_Admin_003_Search User""), [:], STOP_ON_FAILURE)",Firefox 122.0,,,30-01-2024 20:39:34,30-01-2024 20:40:12,37.593s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/div_John Doe""), 0)",Firefox 122.0,,,30-01-2024 20:40:12,30-01-2024 20:40:12,0.701s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/div_Admin""), 0)",Firefox 122.0,,,30-01-2024 20:40:12,30-01-2024 20:40:13,0.363s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/div_Odis Adalwin""), 0)",Firefox 122.0,,,30-01-2024 20:40:13,30-01-2024 20:40:13,0.351s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/div_Enabled""), 0)",Firefox 122.0,,,30-01-2024 20:40:13,30-01-2024 20:40:14,0.435s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/TC_Admin_005_Ensure Data Edit User,Firefox 122.0,,Jan,30-01-2024 20:40:14,30-01-2024 20:40:52,38.334s,PASSED
+"callTestCase(findTestCase(""Features/Admin/TC_Admin_003_Search User""), [:], STOP_ON_FAILURE)",Firefox 122.0,,,30-01-2024 20:40:14,30-01-2024 20:40:47,33.163s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-edit""))",Firefox 122.0,,,30-01-2024 20:40:47,30-01-2024 20:40:49,1.916s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/Edit User/div_Admin""), 0)",Firefox 122.0,,,30-01-2024 20:40:49,30-01-2024 20:40:50,1.526s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/Edit User/div_Enabled""), 0)",Firefox 122.0,,,30-01-2024 20:40:50,30-01-2024 20:40:51,0.724s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/Edit User/input""), 0)",Firefox 122.0,,,30-01-2024 20:40:51,30-01-2024 20:40:52,0.350s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/Edit User/input_Username_oxd-input oxd-input--focus""), 0)",Firefox 122.0,,,30-01-2024 20:40:52,30-01-2024 20:40:52,0.323s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/TC_Admin_006_Update User,Firefox 122.0,,Jan,30-01-2024 20:40:52,30-01-2024 20:41:38,46.447s,PASSED
+"callTestCase(findTestCase(""Features/Admin/TC_Admin_005_Ensure Data Edit User""), [:], STOP_ON_FAILURE)",Firefox 122.0,,,30-01-2024 20:40:52,30-01-2024 20:41:34,41.624s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Edit User/div_Admin""))",Firefox 122.0,,,30-01-2024 20:41:34,30-01-2024 20:41:34,0.564s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Edit User/span_ESS""))",Firefox 122.0,,,30-01-2024 20:41:34,30-01-2024 20:41:35,0.575s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Edit User/div_Enabled""))",Firefox 122.0,,,30-01-2024 20:41:35,30-01-2024 20:41:36,0.553s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Edit User/span_Disabled""))",Firefox 122.0,,,30-01-2024 20:41:36,30-01-2024 20:41:36,0.541s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/Edit User/button_Save""))",Firefox 122.0,,,30-01-2024 20:41:36,30-01-2024 20:41:37,0.544s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/Add User/popup_SuccessSuccessfully Saved""), 0)",Firefox 122.0,,,30-01-2024 20:41:37,30-01-2024 20:41:38,1.663s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/TC_Admin_007_Search Updated User,Firefox 122.0,,Jan,30-01-2024 20:41:38,30-01-2024 20:42:14,35.432s,PASSED
+"callTestCase(findTestCase(""Features/Admin/TC_Admin_001_Access Admin Menu""), [:], STOP_ON_FAILURE)",Firefox 122.0,,,30-01-2024 20:41:39,30-01-2024 20:42:08,28.832s,PASSED
+"sendKeys(findTestObject(""Admin_Menu/User_Management/Users/input_Username""), USERNAME)",Firefox 122.0,,,30-01-2024 20:42:08,30-01-2024 20:42:08,0.380s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/dropdown_user_role""))",Firefox 122.0,,,30-01-2024 20:42:08,30-01-2024 20:42:09,0.656s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/span_ESS""))",Firefox 122.0,,,30-01-2024 20:42:09,30-01-2024 20:42:09,0.565s,PASSED
+"sendKeys(findTestObject(""Admin_Menu/User_Management/Users/input_Employee_Name""), EMPLOYEE_NAME)",Firefox 122.0,,,30-01-2024 20:42:09,30-01-2024 20:42:10,0.404s,PASSED
+"verifyElementVisible(findTestObject(""Admin_Menu/User_Management/Users/span_Odis  Adalwin""))",Firefox 122.0,,,30-01-2024 20:42:10,30-01-2024 20:42:11,1.773s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/span_Odis  Adalwin""))",Firefox 122.0,,,30-01-2024 20:42:11,30-01-2024 20:42:12,0.552s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/dropdown_status""))",Firefox 122.0,,,30-01-2024 20:42:12,30-01-2024 20:42:13,0.590s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/span_Disabled""))",Firefox 122.0,,,30-01-2024 20:42:13,30-01-2024 20:42:13,0.601s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/button_Search""))",Firefox 122.0,,,30-01-2024 20:42:13,30-01-2024 20:42:14,0.613s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/TC_Admin_008_Ensure Data User Updated,Firefox 122.0,,Jan,30-01-2024 20:42:14,30-01-2024 20:42:58,44.390s,PASSED
+"callTestCase(findTestCase(""Features/Admin/TC_Admin_007_Search Updated User""), [:], STOP_ON_FAILURE)",Firefox 122.0,,,30-01-2024 20:42:14,30-01-2024 20:42:56,42.095s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/div_John Doe""), 0)",Firefox 122.0,,,30-01-2024 20:42:56,30-01-2024 20:42:57,0.728s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/div_ESS""), 0)",Firefox 122.0,,,30-01-2024 20:42:57,30-01-2024 20:42:57,0.333s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/div_Odis Adalwin""), 0)",Firefox 122.0,,,30-01-2024 20:42:57,30-01-2024 20:42:58,0.385s,PASSED
+"verifyElementPresent(findTestObject(""Admin_Menu/User_Management/Users/div_Disable""), 0)",Firefox 122.0,,,30-01-2024 20:42:58,30-01-2024 20:42:58,0.417s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/TC_Admin_009_Delete User,Firefox 122.0,,Jan,30-01-2024 20:42:58,30-01-2024 20:44:06,1m - 8.115s,PASSED
+"callTestCase(findTestCase(""Features/Admin/TC_Admin_008_Ensure Data User Updated""), [:], STOP_ON_FAILURE)",Firefox 122.0,,,30-01-2024 20:42:59,30-01-2024 20:43:33,34.355s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-trash""))",Firefox 122.0,,,30-01-2024 20:43:33,30-01-2024 20:43:34,0.593s,PASSED
+"verifyElementVisible(findTestObject(""Admin_Menu/User_Management/Users/div_modals_delete""))",Firefox 122.0,,,30-01-2024 20:43:34,30-01-2024 20:43:34,0.557s,PASSED
+"click(findTestObject(""Admin_Menu/User_Management/Users/button_Yes, Delete""))",Firefox 122.0,,,30-01-2024 20:43:34,30-01-2024 20:44:06,32.100s,PASSED
+,,,,,,,
+Test Cases/Features/Admin/TC_Admin_010_Ensure User Deleted,Firefox 122.0,,Jan,30-01-2024 20:44:06,30-01-2024 20:44:42,35.434s,PASSED
+"callTestCase(findTestCase(""Features/Admin/TC_Admin_007_Search Updated User""), [:], STOP_ON_FAILURE)",Firefox 122.0,,,30-01-2024 20:44:07,30-01-2024 20:44:41,33.929s,PASSED
+"verifyElementVisible(findTestObject(""Admin_Menu/User_Management/Users/div_InfoNo Records Found""))",Firefox 122.0,,,30-01-2024 20:44:41,30-01-2024 20:44:42,0.890s,PASSED

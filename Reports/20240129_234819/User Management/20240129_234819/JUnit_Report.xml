@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User Management" time="520.19" tests="10" failures="0" errors="0">
+   <testsuite name="User Management" tests="10" failures="0" errors="0" time="520.19" skipped="0" timestamp="29-01-2024T23:48:34" hostname="niam - zerone" id="Test Suites/User Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240129_234819/User Management/20240129_234819"/>
+         <property name="logFiles" value="/media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240129_234819/User Management/20240129_234819/execution0.log"/>
+         <property name="attachments" value="/media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240129_234819/User Management/20240129_234819/1706547078901.png, /media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240129_234819/User Management/20240129_234819/1706547079290.png"/>
+         <property name="hostName" value="niam - zerone"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="85227f4f8a4c4d236850c63b8b356380"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu" time="62.824" classname="Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu" status="PASSED">
+         <system-out><![CDATA[29-01-2024T23:48:35 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu: Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu
+
+29-01-2024T23:48:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login Valid Admin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:48:37 - [TEST_CASE][PASSED] - Test Cases/Login/Login Valid Admin: Test Cases/Login/Login Valid Admin
+
+29-01-2024T23:48:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2024T23:48:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-01-2024T23:48:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2024T23:48:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2024T23:48:44 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:49:25 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:49:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_username"), G_USERNAME): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:49:27 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:49:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_password"), PASSWORD): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:49:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:49:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:49:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img")): Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:49:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:49:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:49:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:49:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:49:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OrangeHRM/h5_System Users"), 0): Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:49:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:49:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Features/Admin/TC_Admin_002_Add New User" time="36.036" classname="Test Cases/Features/Admin/TC_Admin_002_Add New User" status="PASSED">
+         <system-out><![CDATA[29-01-2024T23:51:19 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_002_Add New User: Test Cases/Features/Admin/TC_Admin_002_Add New User
+
+29-01-2024T23:51:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_001_Access Admin Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:51:19 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu: Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu
+
+29-01-2024T23:51:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login Valid Admin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:51:19 - [TEST_CASE][PASSED] - Test Cases/Login/Login Valid Admin: Test Cases/Login/Login Valid Admin
+
+29-01-2024T23:51:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2024T23:51:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-01-2024T23:51:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-01-2024T23:51:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2024T23:51:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2024T23:51:21 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:51:26 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:51:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_username"), G_USERNAME): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:51:29 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:51:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_password"), PASSWORD): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:51:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:51:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:51:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img")): Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:51:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:51:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:51:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:51:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:51:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OrangeHRM/h5_System Users"), 0): Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:51:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:51:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:51:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:51:39 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/button_Add_User")): Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Add_User' is clicked on
+
+29-01-2024T23:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Add_User' is clicked on
+
+29-01-2024T23:51:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/Add User/h6_Add User"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/Add User/h6_Add User' is present
+
+29-01-2024T23:51:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:51:42 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/Add User/h6_Add User' is present
+
+29-01-2024T23:51:42 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/Add User/dropdown_role")): Object: 'Object Repository/Admin_Menu/User_Management/Users/Add User/dropdown_role' is clicked on
+
+29-01-2024T23:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/Add User/dropdown_role' is clicked on
+
+29-01-2024T23:51:43 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/Add User/div_Admin")): Object: 'Object Repository/Admin_Menu/User_Management/Users/Add User/div_Admin' is clicked on
+
+29-01-2024T23:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/Add User/div_Admin' is clicked on
+
+29-01-2024T23:51:44 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/Add User/dropdown_status")): Object: 'Object Repository/Admin_Menu/User_Management/Users/Add User/dropdown_status' is clicked on
+
+29-01-2024T23:51:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/Add User/dropdown_status' is clicked on
+
+29-01-2024T23:51:45 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/Add User/div_Enabled")): Object: 'Object Repository/Admin_Menu/User_Management/Users/Add User/div_Enabled' is clicked on
+
+29-01-2024T23:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/Add User/div_Enabled' is clicked on
+
+29-01-2024T23:51:46 - [TEST_STEP][PASSED] - setText(findTestObject("Admin_Menu/User_Management/Users/Add User/input_employee_name"), EMPLOYEE_NAME): Text 'Odis Adalwin' is set on object 'Object Repository/Admin_Menu/User_Management/Users/Add User/input_employee_name'
+
+29-01-2024T23:51:47 - [MESSAGE][PASSED] - Text 'Odis Adalwin' is set on object 'Object Repository/Admin_Menu/User_Management/Users/Add User/input_employee_name'
+
+29-01-2024T23:51:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin_Menu/User_Management/Users/Add User/div_Odis  Adalwin"), STOP_ON_FAILURE): Object 'Object Repository/Admin_Menu/User_Management/Users/Add User/div_Odis  Adalwin' is visible
+
+29-01-2024T23:51:47 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/Add User/div_Odis  Adalwin' is visible
+
+29-01-2024T23:51:47 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/Add User/div_Odis  Adalwin")): Object: 'Object Repository/Admin_Menu/User_Management/Users/Add User/div_Odis  Adalwin' is clicked on
+
+29-01-2024T23:51:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/Add User/div_Odis  Adalwin' is clicked on
+
+29-01-2024T23:51:49 - [TEST_STEP][PASSED] - setText(findTestObject("Admin_Menu/User_Management/Users/Add User/input_Username_oxd-input oxd-input--focus"), USERNAME): Text 'John Doe' is set on object 'Object Repository/Admin_Menu/User_Management/Users/Add User/input_Username_oxd-input oxd-input--focus'
+
+29-01-2024T23:51:50 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Admin_Menu/User_Management/Users/Add User/input_Username_oxd-input oxd-input--focus'
+
+29-01-2024T23:51:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Admin_Menu/User_Management/Users/Add User/input_Password_oxd-input oxd-input--focus"), PASSWORD): Text ****** has been set on object 'Object Repository/Admin_Menu/User_Management/Users/Add User/input_Password_oxd-input oxd-input--focus'
+
+29-01-2024T23:51:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin_Menu/User_Management/Users/Add User/input_Password_oxd-input oxd-input--focus'
+
+29-01-2024T23:51:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Admin_Menu/User_Management/Users/Add User/input_Confirm Password_oxd-input oxd-input--focus"), PASSWORD): Text ****** has been set on object 'Object Repository/Admin_Menu/User_Management/Users/Add User/input_Confirm Password_oxd-input oxd-input--focus'
+
+29-01-2024T23:51:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin_Menu/User_Management/Users/Add User/input_Confirm Password_oxd-input oxd-input--focus'
+
+29-01-2024T23:51:52 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/Add User/button_Save")): Object: 'Object Repository/Admin_Menu/User_Management/Users/Add User/button_Save' is clicked on
+
+29-01-2024T23:51:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/Add User/button_Save' is clicked on
+
+29-01-2024T23:51:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/Add User/popup_SuccessSuccessfully Saved"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/Add User/popup_SuccessSuccessfully Saved' is present
+
+29-01-2024T23:51:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:51:55 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/Add User/popup_SuccessSuccessfully Saved' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Features/Admin/TC_Admin_003_Search User" time="33.938" classname="Test Cases/Features/Admin/TC_Admin_003_Search User" status="PASSED">
+         <system-out><![CDATA[29-01-2024T23:51:55 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_003_Search User: Test Cases/Features/Admin/TC_Admin_003_Search User
+
+29-01-2024T23:51:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_001_Access Admin Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:51:56 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu: Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu
+
+29-01-2024T23:51:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login Valid Admin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:51:56 - [TEST_CASE][PASSED] - Test Cases/Login/Login Valid Admin: Test Cases/Login/Login Valid Admin
+
+29-01-2024T23:51:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2024T23:51:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-01-2024T23:51:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-01-2024T23:51:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2024T23:51:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2024T23:51:58 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:52:07 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:52:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_username"), G_USERNAME): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:52:10 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:52:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_password"), PASSWORD): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:52:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:52:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:52:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img")): Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:52:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:52:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:52:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OrangeHRM/h5_System Users"), 0): Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:52:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:52:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:52:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:52:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin_Menu/User_Management/Users/input_Username"), USERNAME): Keys 'John Doe' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Username'
+
+29-01-2024T23:52:22 - [MESSAGE][PASSED] - Keys 'John Doe' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Username'
+
+29-01-2024T23:52:22 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/dropdown_user_role")): Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_user_role' is clicked on
+
+29-01-2024T23:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_user_role' is clicked on
+
+29-01-2024T23:52:23 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Admin")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Admin' is clicked on
+
+29-01-2024T23:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Admin' is clicked on
+
+29-01-2024T23:52:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin_Menu/User_Management/Users/input_Employee_Name"), EMPLOYEE_NAME): Keys 'Odis Adalwin' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Employee_Name'
+
+29-01-2024T23:52:24 - [MESSAGE][PASSED] - Keys 'Odis Adalwin' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Employee_Name'
+
+29-01-2024T23:52:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin_Menu/User_Management/Users/span_Odis  Adalwin")): Object 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is visible
+
+29-01-2024T23:52:26 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is visible
+
+29-01-2024T23:52:26 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Odis  Adalwin")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is clicked on
+
+29-01-2024T23:52:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is clicked on
+
+29-01-2024T23:52:27 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/dropdown_status")): Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_status' is clicked on
+
+29-01-2024T23:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_status' is clicked on
+
+29-01-2024T23:52:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Enabled")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Enabled' is clicked on
+
+29-01-2024T23:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Enabled' is clicked on
+
+29-01-2024T23:52:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/button_Search")): Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Search' is clicked on
+
+29-01-2024T23:52:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Search' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Features/Admin/TC_Admin_004_Ensure User Search" time="37.151" classname="Test Cases/Features/Admin/TC_Admin_004_Ensure User Search" status="PASSED">
+         <system-out><![CDATA[29-01-2024T23:52:29 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_004_Ensure User Search: Test Cases/Features/Admin/TC_Admin_004_Ensure User Search
+
+29-01-2024T23:52:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_003_Search User"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_003_Search User' successfully
+
+29-01-2024T23:52:30 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_003_Search User: Test Cases/Features/Admin/TC_Admin_003_Search User
+
+29-01-2024T23:52:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_001_Access Admin Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:52:30 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu: Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu
+
+29-01-2024T23:52:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login Valid Admin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:52:30 - [TEST_CASE][PASSED] - Test Cases/Login/Login Valid Admin: Test Cases/Login/Login Valid Admin
+
+29-01-2024T23:52:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2024T23:52:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-01-2024T23:52:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-01-2024T23:52:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2024T23:52:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2024T23:52:31 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:52:40 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:52:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_username"), G_USERNAME): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:52:43 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:52:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_password"), PASSWORD): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:52:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:52:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:52:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img")): Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:52:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:52:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:52:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:52:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OrangeHRM/h5_System Users"), 0): Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:52:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:52:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:52:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:52:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin_Menu/User_Management/Users/input_Username"), USERNAME): Keys 'John Doe' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Username'
+
+29-01-2024T23:52:55 - [MESSAGE][PASSED] - Keys 'John Doe' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Username'
+
+29-01-2024T23:52:55 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/dropdown_user_role")): Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_user_role' is clicked on
+
+29-01-2024T23:52:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_user_role' is clicked on
+
+29-01-2024T23:52:56 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Admin")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Admin' is clicked on
+
+29-01-2024T23:52:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Admin' is clicked on
+
+29-01-2024T23:52:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin_Menu/User_Management/Users/input_Employee_Name"), EMPLOYEE_NAME): Keys 'Odis Adalwin' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Employee_Name'
+
+29-01-2024T23:52:58 - [MESSAGE][PASSED] - Keys 'Odis Adalwin' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Employee_Name'
+
+29-01-2024T23:52:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin_Menu/User_Management/Users/span_Odis  Adalwin")): Object 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is visible
+
+29-01-2024T23:53:00 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is visible
+
+29-01-2024T23:53:00 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Odis  Adalwin")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is clicked on
+
+29-01-2024T23:53:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is clicked on
+
+29-01-2024T23:53:00 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/dropdown_status")): Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_status' is clicked on
+
+29-01-2024T23:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_status' is clicked on
+
+29-01-2024T23:53:01 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Enabled")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Enabled' is clicked on
+
+29-01-2024T23:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Enabled' is clicked on
+
+29-01-2024T23:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/button_Search")): Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Search' is clicked on
+
+29-01-2024T23:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Search' is clicked on
+
+29-01-2024T23:53:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_003_Search User' successfully
+
+29-01-2024T23:53:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/div_John Doe"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/div_John Doe' is present
+
+29-01-2024T23:53:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:53:04 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/div_John Doe' is present
+
+29-01-2024T23:53:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/div_Admin"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/div_Admin' is present
+
+29-01-2024T23:53:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:53:05 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/div_Admin' is present
+
+29-01-2024T23:53:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/div_Odis Adalwin"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/div_Odis Adalwin' is present
+
+29-01-2024T23:53:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:53:05 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/div_Odis Adalwin' is present
+
+29-01-2024T23:53:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/div_Enabled"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/div_Enabled' is present
+
+29-01-2024T23:53:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:53:06 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/div_Enabled' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Features/Admin/TC_Admin_005_Ensure Data Edit User" time="35.602" classname="Test Cases/Features/Admin/TC_Admin_005_Ensure Data Edit User" status="PASSED">
+         <system-out><![CDATA[29-01-2024T23:53:06 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_005_Ensure Data Edit User: Test Cases/Features/Admin/TC_Admin_005_Ensure Data Edit User
+
+29-01-2024T23:53:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_003_Search User"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_003_Search User' successfully
+
+29-01-2024T23:53:07 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_003_Search User: Test Cases/Features/Admin/TC_Admin_003_Search User
+
+29-01-2024T23:53:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_001_Access Admin Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:53:07 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu: Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu
+
+29-01-2024T23:53:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login Valid Admin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:53:07 - [TEST_CASE][PASSED] - Test Cases/Login/Login Valid Admin: Test Cases/Login/Login Valid Admin
+
+29-01-2024T23:53:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2024T23:53:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-01-2024T23:53:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-01-2024T23:53:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2024T23:53:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2024T23:53:09 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:53:15 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:53:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_username"), G_USERNAME): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:53:17 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:53:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_password"), PASSWORD): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:53:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:53:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:53:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img")): Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:53:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:53:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:53:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:53:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:53:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OrangeHRM/h5_System Users"), 0): Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:53:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:53:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:53:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:53:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin_Menu/User_Management/Users/input_Username"), USERNAME): Keys 'John Doe' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Username'
+
+29-01-2024T23:53:28 - [MESSAGE][PASSED] - Keys 'John Doe' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Username'
+
+29-01-2024T23:53:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/dropdown_user_role")): Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_user_role' is clicked on
+
+29-01-2024T23:53:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_user_role' is clicked on
+
+29-01-2024T23:53:29 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Admin")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Admin' is clicked on
+
+29-01-2024T23:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Admin' is clicked on
+
+29-01-2024T23:53:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin_Menu/User_Management/Users/input_Employee_Name"), EMPLOYEE_NAME): Keys 'Odis Adalwin' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Employee_Name'
+
+29-01-2024T23:53:31 - [MESSAGE][PASSED] - Keys 'Odis Adalwin' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Employee_Name'
+
+29-01-2024T23:53:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin_Menu/User_Management/Users/span_Odis  Adalwin")): Object 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is visible
+
+29-01-2024T23:53:33 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is visible
+
+29-01-2024T23:53:33 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Odis  Adalwin")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is clicked on
+
+29-01-2024T23:53:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is clicked on
+
+29-01-2024T23:53:34 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/dropdown_status")): Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_status' is clicked on
+
+29-01-2024T23:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_status' is clicked on
+
+29-01-2024T23:53:35 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Enabled")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Enabled' is clicked on
+
+29-01-2024T23:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Enabled' is clicked on
+
+29-01-2024T23:53:35 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/button_Search")): Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Search' is clicked on
+
+29-01-2024T23:53:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Search' is clicked on
+
+29-01-2024T23:53:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_003_Search User' successfully
+
+29-01-2024T23:53:36 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-edit")): Object: 'Object Repository/Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-edit' is clicked on
+
+29-01-2024T23:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-edit' is clicked on
+
+29-01-2024T23:53:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/Edit User/div_Admin"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/Edit User/div_Admin' is present
+
+29-01-2024T23:53:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:53:39 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/Edit User/div_Admin' is present
+
+29-01-2024T23:53:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/Edit User/div_Enabled"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/Edit User/div_Enabled' is present
+
+29-01-2024T23:53:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:53:40 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/Edit User/div_Enabled' is present
+
+29-01-2024T23:53:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/Edit User/input"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/Edit User/input' is present
+
+29-01-2024T23:53:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:53:41 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/Edit User/input' is present
+
+29-01-2024T23:53:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/Edit User/input_Username_oxd-input oxd-input--focus"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/Edit User/input_Username_oxd-input oxd-input--focus' is present
+
+29-01-2024T23:53:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:53:42 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/Edit User/input_Username_oxd-input oxd-input--focus' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Features/Admin/TC_Admin_006_Update User" time="43.868" classname="Test Cases/Features/Admin/TC_Admin_006_Update User" status="PASSED">
+         <system-out><![CDATA[29-01-2024T23:53:42 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_006_Update User: Test Cases/Features/Admin/TC_Admin_006_Update User
+
+29-01-2024T23:53:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_005_Ensure Data Edit User"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_005_Ensure Data Edit User' successfully
+
+29-01-2024T23:53:43 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_005_Ensure Data Edit User: Test Cases/Features/Admin/TC_Admin_005_Ensure Data Edit User
+
+29-01-2024T23:53:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_003_Search User"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_003_Search User' successfully
+
+29-01-2024T23:53:43 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_003_Search User: Test Cases/Features/Admin/TC_Admin_003_Search User
+
+29-01-2024T23:53:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_001_Access Admin Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:53:43 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu: Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu
+
+29-01-2024T23:53:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login Valid Admin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:53:43 - [TEST_CASE][PASSED] - Test Cases/Login/Login Valid Admin: Test Cases/Login/Login Valid Admin
+
+29-01-2024T23:53:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2024T23:53:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-01-2024T23:53:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-01-2024T23:53:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2024T23:53:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2024T23:53:44 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:53:51 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:53:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_username"), G_USERNAME): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:53:54 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:53:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_password"), PASSWORD): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:53:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:53:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:53:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img")): Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:54:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:54:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:54:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:54:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OrangeHRM/h5_System Users"), 0): Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:54:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:54:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:54:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:54:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin_Menu/User_Management/Users/input_Username"), USERNAME): Keys 'John Doe' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Username'
+
+29-01-2024T23:54:06 - [MESSAGE][PASSED] - Keys 'John Doe' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Username'
+
+29-01-2024T23:54:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/dropdown_user_role")): Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_user_role' is clicked on
+
+29-01-2024T23:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_user_role' is clicked on
+
+29-01-2024T23:54:07 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Admin")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Admin' is clicked on
+
+29-01-2024T23:54:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Admin' is clicked on
+
+29-01-2024T23:54:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin_Menu/User_Management/Users/input_Employee_Name"), EMPLOYEE_NAME): Keys 'Odis Adalwin' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Employee_Name'
+
+29-01-2024T23:54:08 - [MESSAGE][PASSED] - Keys 'Odis Adalwin' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Employee_Name'
+
+29-01-2024T23:54:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin_Menu/User_Management/Users/span_Odis  Adalwin")): Object 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is visible
+
+29-01-2024T23:54:10 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is visible
+
+29-01-2024T23:54:10 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Odis  Adalwin")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is clicked on
+
+29-01-2024T23:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is clicked on
+
+29-01-2024T23:54:11 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/dropdown_status")): Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_status' is clicked on
+
+29-01-2024T23:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_status' is clicked on
+
+29-01-2024T23:54:12 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Enabled")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Enabled' is clicked on
+
+29-01-2024T23:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Enabled' is clicked on
+
+29-01-2024T23:54:13 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/button_Search")): Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Search' is clicked on
+
+29-01-2024T23:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Search' is clicked on
+
+29-01-2024T23:54:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_003_Search User' successfully
+
+29-01-2024T23:54:14 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-edit")): Object: 'Object Repository/Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-edit' is clicked on
+
+29-01-2024T23:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-edit' is clicked on
+
+29-01-2024T23:54:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/Edit User/div_Admin"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/Edit User/div_Admin' is present
+
+29-01-2024T23:54:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:54:18 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/Edit User/div_Admin' is present
+
+29-01-2024T23:54:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/Edit User/div_Enabled"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/Edit User/div_Enabled' is present
+
+29-01-2024T23:54:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:54:19 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/Edit User/div_Enabled' is present
+
+29-01-2024T23:54:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/Edit User/input"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/Edit User/input' is present
+
+29-01-2024T23:54:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:54:19 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/Edit User/input' is present
+
+29-01-2024T23:54:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/Edit User/input_Username_oxd-input oxd-input--focus"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/Edit User/input_Username_oxd-input oxd-input--focus' is present
+
+29-01-2024T23:54:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:54:20 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/Edit User/input_Username_oxd-input oxd-input--focus' is present
+
+29-01-2024T23:54:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_005_Ensure Data Edit User' successfully
+
+29-01-2024T23:54:20 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/Edit User/div_Admin")): Object: 'Object Repository/Admin_Menu/User_Management/Users/Edit User/div_Admin' is clicked on
+
+29-01-2024T23:54:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/Edit User/div_Admin' is clicked on
+
+29-01-2024T23:54:21 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/Edit User/span_ESS")): Object: 'Object Repository/Admin_Menu/User_Management/Users/Edit User/span_ESS' is clicked on
+
+29-01-2024T23:54:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/Edit User/span_ESS' is clicked on
+
+29-01-2024T23:54:22 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/Edit User/div_Enabled")): Object: 'Object Repository/Admin_Menu/User_Management/Users/Edit User/div_Enabled' is clicked on
+
+29-01-2024T23:54:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/Edit User/div_Enabled' is clicked on
+
+29-01-2024T23:54:22 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/Edit User/span_Disabled")): Object: 'Object Repository/Admin_Menu/User_Management/Users/Edit User/span_Disabled' is clicked on
+
+29-01-2024T23:54:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/Edit User/span_Disabled' is clicked on
+
+29-01-2024T23:54:23 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/Edit User/button_Save")): Object: 'Object Repository/Admin_Menu/User_Management/Users/Edit User/button_Save' is clicked on
+
+29-01-2024T23:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/Edit User/button_Save' is clicked on
+
+29-01-2024T23:54:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/Add User/popup_SuccessSuccessfully Saved"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/Add User/popup_SuccessSuccessfully Saved' is present
+
+29-01-2024T23:54:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:54:26 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/Add User/popup_SuccessSuccessfully Saved' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Features/Admin/TC_Admin_007_Search Updated User" time="29.827" classname="Test Cases/Features/Admin/TC_Admin_007_Search Updated User" status="PASSED">
+         <system-out><![CDATA[29-01-2024T23:54:26 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_007_Search Updated User: Test Cases/Features/Admin/TC_Admin_007_Search Updated User
+
+29-01-2024T23:54:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_001_Access Admin Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:54:27 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu: Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu
+
+29-01-2024T23:54:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login Valid Admin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:54:27 - [TEST_CASE][PASSED] - Test Cases/Login/Login Valid Admin: Test Cases/Login/Login Valid Admin
+
+29-01-2024T23:54:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2024T23:54:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-01-2024T23:54:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-01-2024T23:54:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2024T23:54:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2024T23:54:28 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:54:34 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:54:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_username"), G_USERNAME): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:54:37 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:54:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_password"), PASSWORD): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:54:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:54:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:54:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:54:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img")): Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:54:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:54:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:54:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:54:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OrangeHRM/h5_System Users"), 0): Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:54:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:54:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:54:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:54:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin_Menu/User_Management/Users/input_Username"), USERNAME): Keys 'John Doe' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Username'
+
+29-01-2024T23:54:48 - [MESSAGE][PASSED] - Keys 'John Doe' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Username'
+
+29-01-2024T23:54:48 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/dropdown_user_role")): Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_user_role' is clicked on
+
+29-01-2024T23:54:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_user_role' is clicked on
+
+29-01-2024T23:54:49 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_ESS")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_ESS' is clicked on
+
+29-01-2024T23:54:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_ESS' is clicked on
+
+29-01-2024T23:54:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin_Menu/User_Management/Users/input_Employee_Name"), EMPLOYEE_NAME): Keys 'Odis Adalwin' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Employee_Name'
+
+29-01-2024T23:54:50 - [MESSAGE][PASSED] - Keys 'Odis Adalwin' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Employee_Name'
+
+29-01-2024T23:54:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin_Menu/User_Management/Users/span_Odis  Adalwin")): Object 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is visible
+
+29-01-2024T23:54:52 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is visible
+
+29-01-2024T23:54:52 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Odis  Adalwin")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is clicked on
+
+29-01-2024T23:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is clicked on
+
+29-01-2024T23:54:53 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/dropdown_status")): Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_status' is clicked on
+
+29-01-2024T23:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_status' is clicked on
+
+29-01-2024T23:54:54 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Disabled")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Disabled' is clicked on
+
+29-01-2024T23:54:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Disabled' is clicked on
+
+29-01-2024T23:54:55 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/button_Search")): Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Search' is clicked on
+
+29-01-2024T23:54:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Search' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Features/Admin/TC_Admin_008_Ensure Data User Updated" time="34.447" classname="Test Cases/Features/Admin/TC_Admin_008_Ensure Data User Updated" status="PASSED">
+         <system-out><![CDATA[29-01-2024T23:54:56 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_008_Ensure Data User Updated: Test Cases/Features/Admin/TC_Admin_008_Ensure Data User Updated
+
+29-01-2024T23:54:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_007_Search Updated User"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_007_Search Updated User' successfully
+
+29-01-2024T23:54:56 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_007_Search Updated User: Test Cases/Features/Admin/TC_Admin_007_Search Updated User
+
+29-01-2024T23:54:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_001_Access Admin Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:54:57 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu: Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu
+
+29-01-2024T23:54:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login Valid Admin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:54:57 - [TEST_CASE][PASSED] - Test Cases/Login/Login Valid Admin: Test Cases/Login/Login Valid Admin
+
+29-01-2024T23:54:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2024T23:54:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-01-2024T23:54:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-01-2024T23:54:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2024T23:54:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2024T23:54:58 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:55:05 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:55:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_username"), G_USERNAME): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:55:07 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:55:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_password"), PASSWORD): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:55:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:55:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:55:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img")): Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:55:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:55:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:55:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:55:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OrangeHRM/h5_System Users"), 0): Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:55:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:55:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:55:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:55:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin_Menu/User_Management/Users/input_Username"), USERNAME): Keys 'John Doe' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Username'
+
+29-01-2024T23:55:19 - [MESSAGE][PASSED] - Keys 'John Doe' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Username'
+
+29-01-2024T23:55:19 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/dropdown_user_role")): Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_user_role' is clicked on
+
+29-01-2024T23:55:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_user_role' is clicked on
+
+29-01-2024T23:55:20 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_ESS")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_ESS' is clicked on
+
+29-01-2024T23:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_ESS' is clicked on
+
+29-01-2024T23:55:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin_Menu/User_Management/Users/input_Employee_Name"), EMPLOYEE_NAME): Keys 'Odis Adalwin' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Employee_Name'
+
+29-01-2024T23:55:22 - [MESSAGE][PASSED] - Keys 'Odis Adalwin' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Employee_Name'
+
+29-01-2024T23:55:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin_Menu/User_Management/Users/span_Odis  Adalwin")): Object 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is visible
+
+29-01-2024T23:55:24 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is visible
+
+29-01-2024T23:55:24 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Odis  Adalwin")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is clicked on
+
+29-01-2024T23:55:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is clicked on
+
+29-01-2024T23:55:25 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/dropdown_status")): Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_status' is clicked on
+
+29-01-2024T23:55:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_status' is clicked on
+
+29-01-2024T23:55:25 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Disabled")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Disabled' is clicked on
+
+29-01-2024T23:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Disabled' is clicked on
+
+29-01-2024T23:55:26 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/button_Search")): Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Search' is clicked on
+
+29-01-2024T23:55:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Search' is clicked on
+
+29-01-2024T23:55:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_007_Search Updated User' successfully
+
+29-01-2024T23:55:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/div_John Doe"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/div_John Doe' is present
+
+29-01-2024T23:55:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:55:28 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/div_John Doe' is present
+
+29-01-2024T23:55:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/div_ESS"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/div_ESS' is present
+
+29-01-2024T23:55:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:55:29 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/div_ESS' is present
+
+29-01-2024T23:55:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/div_Odis Adalwin"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/div_Odis Adalwin' is present
+
+29-01-2024T23:55:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:55:29 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/div_Odis Adalwin' is present
+
+29-01-2024T23:55:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/div_Disable"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/div_Disable' is present
+
+29-01-2024T23:55:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:55:30 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/div_Disable' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Features/Admin/TC_Admin_009_Delete User" time="69.342" classname="Test Cases/Features/Admin/TC_Admin_009_Delete User" status="PASSED">
+         <system-out><![CDATA[29-01-2024T23:55:30 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_009_Delete User: Test Cases/Features/Admin/TC_Admin_009_Delete User
+
+29-01-2024T23:55:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_008_Ensure Data User Updated"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_008_Ensure Data User Updated' successfully
+
+29-01-2024T23:55:31 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_008_Ensure Data User Updated: Test Cases/Features/Admin/TC_Admin_008_Ensure Data User Updated
+
+29-01-2024T23:55:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_007_Search Updated User"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_007_Search Updated User' successfully
+
+29-01-2024T23:55:31 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_007_Search Updated User: Test Cases/Features/Admin/TC_Admin_007_Search Updated User
+
+29-01-2024T23:55:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_001_Access Admin Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:55:31 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu: Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu
+
+29-01-2024T23:55:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login Valid Admin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:55:31 - [TEST_CASE][PASSED] - Test Cases/Login/Login Valid Admin: Test Cases/Login/Login Valid Admin
+
+29-01-2024T23:55:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2024T23:55:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-01-2024T23:55:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-01-2024T23:55:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2024T23:55:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2024T23:55:33 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:55:40 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:55:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_username"), G_USERNAME): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:55:42 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:55:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_password"), PASSWORD): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:55:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:55:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:55:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:55:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img")): Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:55:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:55:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:55:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:55:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OrangeHRM/h5_System Users"), 0): Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:55:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:55:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:55:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:55:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin_Menu/User_Management/Users/input_Username"), USERNAME): Keys 'John Doe' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Username'
+
+29-01-2024T23:55:55 - [MESSAGE][PASSED] - Keys 'John Doe' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Username'
+
+29-01-2024T23:55:55 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/dropdown_user_role")): Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_user_role' is clicked on
+
+29-01-2024T23:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_user_role' is clicked on
+
+29-01-2024T23:55:55 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_ESS")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_ESS' is clicked on
+
+29-01-2024T23:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_ESS' is clicked on
+
+29-01-2024T23:55:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin_Menu/User_Management/Users/input_Employee_Name"), EMPLOYEE_NAME): Keys 'Odis Adalwin' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Employee_Name'
+
+29-01-2024T23:55:57 - [MESSAGE][PASSED] - Keys 'Odis Adalwin' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Employee_Name'
+
+29-01-2024T23:55:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin_Menu/User_Management/Users/span_Odis  Adalwin")): Object 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is visible
+
+29-01-2024T23:55:59 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is visible
+
+29-01-2024T23:55:59 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Odis  Adalwin")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is clicked on
+
+29-01-2024T23:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is clicked on
+
+29-01-2024T23:56:00 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/dropdown_status")): Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_status' is clicked on
+
+29-01-2024T23:56:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_status' is clicked on
+
+29-01-2024T23:56:01 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Disabled")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Disabled' is clicked on
+
+29-01-2024T23:56:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Disabled' is clicked on
+
+29-01-2024T23:56:02 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/button_Search")): Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Search' is clicked on
+
+29-01-2024T23:56:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Search' is clicked on
+
+29-01-2024T23:56:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_007_Search Updated User' successfully
+
+29-01-2024T23:56:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/div_John Doe"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/div_John Doe' is present
+
+29-01-2024T23:56:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:56:04 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/div_John Doe' is present
+
+29-01-2024T23:56:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/div_ESS"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/div_ESS' is present
+
+29-01-2024T23:56:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:56:04 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/div_ESS' is present
+
+29-01-2024T23:56:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/div_Odis Adalwin"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/div_Odis Adalwin' is present
+
+29-01-2024T23:56:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:56:05 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/div_Odis Adalwin' is present
+
+29-01-2024T23:56:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin_Menu/User_Management/Users/div_Disable"), 0): Object 'Object Repository/Admin_Menu/User_Management/Users/div_Disable' is present
+
+29-01-2024T23:56:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:56:06 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/div_Disable' is present
+
+29-01-2024T23:56:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_008_Ensure Data User Updated' successfully
+
+29-01-2024T23:56:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-trash")): Object: 'Object Repository/Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-trash' is clicked on
+
+29-01-2024T23:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/btn_i_Enabled_oxd-icon bi-trash' is clicked on
+
+29-01-2024T23:56:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin_Menu/User_Management/Users/div_modals_delete")): Object 'Object Repository/Admin_Menu/User_Management/Users/div_modals_delete' is visible
+
+29-01-2024T23:56:07 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/div_modals_delete' is visible
+
+29-01-2024T23:56:07 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/button_Yes, Delete")): Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Yes, Delete' is clicked on
+
+29-01-2024T23:56:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[110]'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-01-2024T23:56:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Admin_Menu/User_Management/Users/button_Yes, Delete'. Try using Self-healing.
+
+29-01-2024T23:56:39 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Admin_Menu/User_Management/Users/button_Yes, Delete' was broken. Propose an alternative one: '//div[@id='app']/div[3]/div/div/div/div[3]/button[2]'.
+
+29-01-2024T23:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Yes, Delete' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Features/Admin/TC_Admin_010_Ensure User Deleted" time="35.134" classname="Test Cases/Features/Admin/TC_Admin_010_Ensure User Deleted" status="PASSED">
+         <system-out><![CDATA[29-01-2024T23:56:39 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_010_Ensure User Deleted: Test Cases/Features/Admin/TC_Admin_010_Ensure User Deleted
+
+29-01-2024T23:56:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_007_Search Updated User"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_007_Search Updated User' successfully
+
+29-01-2024T23:56:40 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_007_Search Updated User: Test Cases/Features/Admin/TC_Admin_007_Search Updated User
+
+29-01-2024T23:56:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_001_Access Admin Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:56:40 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu: Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu
+
+29-01-2024T23:56:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login Valid Admin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:56:41 - [TEST_CASE][PASSED] - Test Cases/Login/Login Valid Admin: Test Cases/Login/Login Valid Admin
+
+29-01-2024T23:56:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2024T23:56:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-01-2024T23:56:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-01-2024T23:56:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2024T23:56:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2024T23:56:42 - [TEST_STEP][PASSED] - navigateToUrl(BASE_URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:56:51 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-01-2024T23:56:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_username"), G_USERNAME): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:56:54 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+29-01-2024T23:56:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_password"), PASSWORD): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:56:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+29-01-2024T23:56:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:56:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+29-01-2024T23:56:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img")): Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:57:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/img_oxd-userdropdown-img' is visible
+
+29-01-2024T23:57:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login Valid Admin' successfully
+
+29-01-2024T23:57:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_Admin")): Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Admin' is clicked on
+
+29-01-2024T23:57:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OrangeHRM/h5_System Users"), 0): Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:57:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2024T23:57:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/h5_System Users' is present
+
+29-01-2024T23:57:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+29-01-2024T23:57:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin_Menu/User_Management/Users/input_Username"), USERNAME): Keys 'John Doe' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Username'
+
+29-01-2024T23:57:06 - [MESSAGE][PASSED] - Keys 'John Doe' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Username'
+
+29-01-2024T23:57:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/dropdown_user_role")): Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_user_role' is clicked on
+
+29-01-2024T23:57:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_user_role' is clicked on
+
+29-01-2024T23:57:07 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_ESS")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_ESS' is clicked on
+
+29-01-2024T23:57:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_ESS' is clicked on
+
+29-01-2024T23:57:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin_Menu/User_Management/Users/input_Employee_Name"), EMPLOYEE_NAME): Keys 'Odis Adalwin' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Employee_Name'
+
+29-01-2024T23:57:08 - [MESSAGE][PASSED] - Keys 'Odis Adalwin' sent to object: 'Object Repository/Admin_Menu/User_Management/Users/input_Employee_Name'
+
+29-01-2024T23:57:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin_Menu/User_Management/Users/span_Odis  Adalwin")): Object 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is visible
+
+29-01-2024T23:57:10 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is visible
+
+29-01-2024T23:57:10 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Odis  Adalwin")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is clicked on
+
+29-01-2024T23:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin' is clicked on
+
+29-01-2024T23:57:11 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/dropdown_status")): Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_status' is clicked on
+
+29-01-2024T23:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/dropdown_status' is clicked on
+
+29-01-2024T23:57:12 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/span_Disabled")): Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Disabled' is clicked on
+
+29-01-2024T23:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/span_Disabled' is clicked on
+
+29-01-2024T23:57:13 - [TEST_STEP][PASSED] - click(findTestObject("Admin_Menu/User_Management/Users/button_Search")): Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Search' is clicked on
+
+29-01-2024T23:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin_Menu/User_Management/Users/button_Search' is clicked on
+
+29-01-2024T23:57:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_007_Search Updated User' successfully
+
+29-01-2024T23:57:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin_Menu/User_Management/Users/div_InfoNo Records Found")): Object 'Object Repository/Admin_Menu/User_Management/Users/div_InfoNo Records Found' is visible
+
+29-01-2024T23:57:15 - [MESSAGE][PASSED] - Object 'Object Repository/Admin_Menu/User_Management/Users/div_InfoNo Records Found' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-01-2024T23:48:34 - [TEST_SUITE][FAILED] - User Management: Test Cases/Features/Admin/TC_Admin_002_Add New User FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Admin_Menu/User_Management/Users/Add User/popup_SuccessSuccessfully Saved' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at TC_Admin_002_Add New User.run(TC_Admin_002_Add New User:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706546899182.run(TempTestSuite1706546899182.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin_Menu/User_Management/Users/Add User/popup_SuccessSuccessfully Saved' located by '//div[@id='oxd-toaster_1']/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[29-01-2024T23:48:34 - [TEST_SUITE][FAILED] - User Management: Test Cases/Features/Admin/TC_Admin_002_Add New User FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Admin_Menu/User_Management/Users/Add User/popup_SuccessSuccessfully Saved' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at TC_Admin_002_Add New User.run(TC_Admin_002_Add New User:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706546899182.run(TempTestSuite1706546899182.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin_Menu/User_Management/Users/Add User/popup_SuccessSuccessfully Saved' located by '//div[@id='oxd-toaster_1']/div' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
