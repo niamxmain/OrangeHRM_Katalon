@@ -23,23 +23,22 @@ import internal.GlobalVariable
 public class Login {
 
 	@Keyword
-	def static void loginFunc(String url, String username, String password) {
+	def static void login(String url, String username, String password) {
 
 		WebUI.openBrowser(url)
 		WebUI.waitForPageLoad(GlobalVariable.DELAY_TIME)
 		WebUI.maximizeWindow()
 
 		WebUI.waitForElementVisible(findTestObject('Login Page/h5_Login'), GlobalVariable.DELAY_TIME)
-		
+
 		WebUI.sendKeys(findTestObject('Login Page/input_Username_username'), username)
 		WebUI.sendKeys(findTestObject('Login Page/input_Password_password'), password)
 		WebUI.click(findTestObject('Login Page/button_Login'))
 
-		WebUI.verifyElementPresent(findTestObject('Login Page/img_Dashboard'), GlobalVariable.DELAY_TIME)
 	}
 
 	@Keyword
 	def static void loginGlobalVariable() {
-		loginFunc(GlobalVariable.BASE_URL, GlobalVariable.G_USERNAME, GlobalVariable.PASSWORD)
+		login(GlobalVariable.BASE_URL, GlobalVariable.G_USERNAME, GlobalVariable.PASSWORD)
 	}
 }

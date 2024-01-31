@@ -1,11 +1,11 @@
 {
-  "keywordFileContentHash": "002D612816AAE80041E3411A9C70A9BF",
+  "keywordFileContentHash": "BCA1F81C25A306E33A32929CB2A0DC14",
   "keywordClasses": [
     {
       "name": "sample.Login",
       "keywordMethods": [
         {
-          "name": "loginFunc",
+          "name": "login",
           "parameters": [
             {
               "name": "url",
@@ -46,14 +46,16 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "loginGlobalVariable",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

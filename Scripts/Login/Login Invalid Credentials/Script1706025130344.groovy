@@ -17,15 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+CustomKeywords.'sample.Login.login'(GlobalVariable.BASE_URL, GlobalVariable.G_USERNAME, 'randompassword')
 
-WebUI.navigateToUrl(GlobalVariable.BASE_URL)
-
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_username'), GlobalVariable.G_USERNAME)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_password'), 'OxgQgnWTiED+D2kvBeygng==')
-
-WebUI.click(findTestObject('Page_OrangeHRM/button_Login'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_OrangeHRM/p_Invalid credentials'))
+WebUI.verifyElementPresent(findTestObject('Login Page/div_Error_Invalid credentials'), GlobalVariable.DELAY_TIME)
 
