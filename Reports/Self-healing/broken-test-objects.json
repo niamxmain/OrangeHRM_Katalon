@@ -2,63 +2,23 @@
   "brokenTestObjects": [
     {
       "approved": true,
-      "testObjectId": "Object Repository/Admin_Menu/User_Management/Users/span_Enabled",
-      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/div[2]/form/div/div/div[4]/div/div[2]/div/div[2]/div[2]/span",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//*[(text() \u003d \u0027Enabled\u0027 or . \u003d \u0027Enabled\u0027)]",
-      "proposedLocatorMethod": "BASIC",
-      "recoveryMethod": "BASIC",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin_Menu/User_Management/Users/span_Enabled_BASIC.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Admin_Menu/User_Management/Users/Edit User/span_Admin",
-      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div[2]/div[2]/span",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//span[(text() \u003d \u0027Admin\u0027 or . \u003d \u0027Admin\u0027)]",
+      "testObjectId": "Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Roles",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//*[@id\u003d\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin_Menu/User_Management/Users/Edit User/span_Admin_customAttributes.png"
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Roles_XPATH.png"
     },
     {
       "approved": true,
-      "testObjectId": "Object Repository/Admin_Menu/User_Management/Users/Edit User/span_Enabled",
-      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div[3]/div/div[2]/div/div[2]/div[2]/span",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//*[(text() \u003d \u0027Enabled\u0027 or . \u003d \u0027Enabled\u0027)]",
-      "proposedLocatorMethod": "BASIC",
-      "recoveryMethod": "BASIC",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin_Menu/User_Management/Users/Edit User/span_Enabled_BASIC.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Admin_Menu/User_Management/Users/button_Yes, Delete",
-      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[110]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div[3]/div/div/div/div[3]/button[2]",
+      "testObjectId": "Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Statuses",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//*[@id\u003d\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[3]/div/div[2]/div/div",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin_Menu/User_Management/Users/button_Yes, Delete_idRelative.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Admin_Menu/User_Management/Users/span_ESS",
-      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/div[2]/form/div/div/div[2]/div/div[2]/div/div[2]/div[3]/span",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//*[(text() \u003d \u0027ESS\u0027 or . \u003d \u0027ESS\u0027)]",
-      "proposedLocatorMethod": "BASIC",
-      "recoveryMethod": "BASIC",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin_Menu/User_Management/Users/span_ESS_BASIC.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin",
-      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/div[2]/form/div/div/div[3]/div/div[2]/div/div[2]/div/span",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//div/div[2]/div/span",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin_Menu/User_Management/Users/span_Odis  Adalwin_position.png"
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Statuses_XPATH.png"
     }
   ]
 }

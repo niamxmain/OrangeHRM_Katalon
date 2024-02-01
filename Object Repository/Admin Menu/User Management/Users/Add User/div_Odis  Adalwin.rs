@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Odis  Adalwin</name>
    <tag></tag>
-   <elementGuidId>e96e21db-0ea3-45c6-9be9-6c0306e1ffd9</elementGuidId>
+   <elementGuidId>dd4bcc2f-f8c1-4e50-8c4c-85c57c6de5c8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>9d0998c0-08eb-4a20-8c1b-d5549b33b2d9</webElementGuid>
+      <webElementGuid>727cdb49-d65a-4218-95d8-3cf108db9f51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>4c6ee9f7-13c1-4cf3-bb34-9d71e10aec9d</webElementGuid>
+      <webElementGuid>22bd4ea7-f85c-48b4-ab70-f1cfae7052a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-autocomplete-option</value>
-      <webElementGuid>e2a5beb1-8ce5-4950-be6b-a5a455d21b3f</webElementGuid>
+      <webElementGuid>bfbbf12f-1e3b-4df5-8bb6-e31729d7e175</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Odis  Adalwin</value>
-      <webElementGuid>a2d10e3d-67eb-4759-b814-bd89a258b28c</webElementGuid>
+      <webElementGuid>2203c0f1-0ce6-4c99-b044-1af42e65b282</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-autocomplete-wrapper&quot;]/div[@class=&quot;oxd-autocomplete-dropdown --positon-bottom&quot;]/div[@class=&quot;oxd-autocomplete-option&quot;]</value>
-      <webElementGuid>577b3fb8-a540-4547-b1b7-20b90f79b499</webElementGuid>
+      <webElementGuid>fc815647-17a5-465e-94c2-6e3a43da5873</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div[2]/div/div[2]/div/div[2]/div</value>
-      <webElementGuid>c23630dc-cfee-4f8f-ab22-ff3b76da47a6</webElementGuid>
+      <webElementGuid>ddcdd656-1c19-44fa-9c8a-b9f9f360dedf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div[2]/div</value>
-      <webElementGuid>071a01f9-c54a-41a7-9931-38a8d95a21f7</webElementGuid>
+      <webElementGuid>04b8f2e8-f2c1-4165-b32a-e2b2a7cc5aac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Odis  Adalwin' or . = 'Odis  Adalwin')]</value>
-      <webElementGuid>74e29d1c-82a4-4c2f-ab54-2e74263994f0</webElementGuid>
+      <webElementGuid>9c4713a8-37cb-4d56-9178-16e5d491e611</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

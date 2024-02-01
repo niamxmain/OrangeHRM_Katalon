@@ -6,12 +6,15 @@
    <elementGuidId>e3264335-f72f-4976-954f-67cb1abfdc07</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'ESS' or . = 'ESS')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div[2]/div[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e5feaf1a-19b2-4cea-9a1f-6505a745ddf8</webElementGuid>
+      <webElementGuid>df038649-b244-43ed-a14a-1c4f22f8d66c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>7f642575-6ac5-4f26-8805-d6239b3dcc63</webElementGuid>
+      <webElementGuid>306f9b24-2a09-444f-833e-2a40c0a5f8c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-select-option</value>
-      <webElementGuid>c5d8f72d-220a-4c30-9cc3-75b0cac62117</webElementGuid>
+      <webElementGuid>25b7db2f-0f83-4b23-b02a-2a7562c563ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ESS</value>
-      <webElementGuid>9a2c6ab4-9f98-4eed-a519-b788b6456e0e</webElementGuid>
+      <webElementGuid>e0e65ee9-106e-4f86-9862-db2567b0d30c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-select-wrapper&quot;]/div[@class=&quot;oxd-select-dropdown --positon-bottom&quot;]/div[@class=&quot;oxd-select-option&quot;]</value>
-      <webElementGuid>9c26ce3a-755e-4107-a7b8-e86dbf9dbc4e</webElementGuid>
+      <webElementGuid>8d112060-15f0-4eb3-9f14-dca75bcbf839</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div[2]/div[3]</value>
-      <webElementGuid>af971ea9-23eb-4d9e-a309-815f789a2d5d</webElementGuid>
+      <webElementGuid>afdaa731-d71c-4a41-9749-0b10a6f64cf4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div[3]</value>
-      <webElementGuid>1ef194f9-7bec-4490-b017-eb592bf9f8f6</webElementGuid>
+      <webElementGuid>68dcac80-0f69-4f5b-98dd-8e800d8d7d09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'ESS' or . = 'ESS')]</value>
-      <webElementGuid>c551701d-f8e7-4a20-9c12-61bd49bc292d</webElementGuid>
+      <webElementGuid>495451e6-44b4-460a-9de7-ab38b8425939</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

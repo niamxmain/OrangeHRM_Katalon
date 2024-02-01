@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="uji" time="505.803" tests="1" failures="1" errors="0">
+   <testsuite name="uji" tests="1" failures="1" errors="0" time="505.803" skipped="0" timestamp="01-02-2024T21:21:05" hostname="niam - zerone" id="Test Suites/uji">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240201_212056/uji/20240201_212056"/>
+         <property name="logFiles" value="/media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240201_212056/uji/20240201_212056/execution0.log"/>
+         <property name="attachments" value="/media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240201_212056/uji/20240201_212056/1706797376742.png, /media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240201_212056/uji/20240201_212056/1706797510325.png, /media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240201_212056/uji/20240201_212056/1706797510511.png, /media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240201_212056/uji/20240201_212056/1706797640804.png, /media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240201_212056/uji/20240201_212056/1706797640991.png, /media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240201_212056/uji/20240201_212056/1706797771330.png, /media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240201_212056/uji/20240201_212056/1706797771545.png"/>
+         <property name="hostName" value="niam - zerone"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="8f79f812b93c264023ed1cfe47cb728c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Features/Admin/Uji" time="130.516" classname="Test Cases/Features/Admin/Uji" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Features/Admin/Uji FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved' is visible&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)&#xa;	at sample.Admin.addNewUser(Admin.groovy:74)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at Uji.run(Uji:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1706797256786.run(TempTestSuite1706797256786.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved' is NOT visible&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 28 more&#xa;"/>
+         <system-out><![CDATA[01-02-2024T21:27:21 - [TEST_CASE][FAILED] - Test Cases/Features/Admin/Uji: Test Cases/Features/Admin/Uji FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at sample.Admin.addNewUser(Admin.groovy:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Uji.run(Uji:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706797256786.run(TempTestSuite1706797256786.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 28 more
+
+
+01-02-2024T21:27:21 - [TEST_STEP][PASSED] - sample.Login.loginGlobalVariable(): sample.Login.loginGlobalVariable is PASSED
+
+01-02-2024T21:27:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+01-02-2024T21:27:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-02-2024T21:27:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2024T21:27:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+01-02-2024T21:27:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+01-02-2024T21:27:30 - [MESSAGE][PASSED] - Current window maximized
+
+01-02-2024T21:27:31 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/h5_Login' is visible
+
+01-02-2024T21:27:31 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/Login Page/input_Username_username'
+
+01-02-2024T21:27:32 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/Login Page/input_Password_password'
+
+01-02-2024T21:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+01-02-2024T21:27:32 - [MESSAGE][PASSED] - sample.Login.loginGlobalVariable is PASSED
+
+01-02-2024T21:27:32 - [TEST_STEP][PASSED] - sample.Admin.accessAdminMenu(): sample.Admin.accessAdminMenu is PASSED
+
+01-02-2024T21:27:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Side Menus/a_Admin' is clicked on
+
+01-02-2024T21:27:41 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+01-02-2024T21:27:41 - [MESSAGE][PASSED] - sample.Admin.accessAdminMenu is PASSED
+
+01-02-2024T21:27:41 - [TEST_STEP][FAILED] - sample.Admin.addNewUser("Odis Adalwin", "Jhon Doe", "admin123", "admin123", "Admin", "Enable"): Unable to verify object 'Object Repository/Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved' is visible
+
+01-02-2024T21:27:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/button_Add_User' is clicked on
+
+01-02-2024T21:27:43 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/Add User/h6_Add User' is present
+
+01-02-2024T21:28:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+01-02-2024T21:28:14 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Roles'. Try using Self-healing.
+
+01-02-2024T21:28:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Roles' was broken. Propose an alternative one: '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div'.
+
+01-02-2024T21:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Roles' is clicked on
+
+01-02-2024T21:28:15 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/Add User/div_Select AdminESS' is visible
+
+01-02-2024T21:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/div_Admin' is clicked on
+
+01-02-2024T21:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Statuses' is clicked on
+
+01-02-2024T21:28:17 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/Add User/div_Select EnabledDisabled' is visible
+
+01-02-2024T21:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/div_Enabled' is clicked on
+
+01-02-2024T21:28:18 - [MESSAGE][PASSED] - Text 'Odis Adalwin' is set on object 'Object Repository/Admin Menu/User Management/Users/Add User/input_Employee_Name'
+
+01-02-2024T21:28:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = '$(employee)' or . = '$(employee)')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+01-02-2024T21:28:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Admin Menu/User Management/Users/Add User/div_Employee Name'. Try using Self-healing.
+
+01-02-2024T21:28:25 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Admin Menu/User Management/Users/Add User/div_Employee Name' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div[2]/div/div[2]/div/div[2]/div'.
+
+01-02-2024T21:28:25 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/Add User/div_Employee Name' is visible
+
+01-02-2024T21:28:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = '$(employee)' or . = '$(employee)')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+01-02-2024T21:28:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Admin Menu/User Management/Users/Add User/div_Employee Name'. Try using Self-healing.
+
+01-02-2024T21:28:56 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Admin Menu/User Management/Users/Add User/div_Employee Name' was broken. Propose an alternative one: '//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div[2]/div/div[2]/div/div[2]/div'.
+
+01-02-2024T21:28:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/div_Employee Name' is clicked on
+
+01-02-2024T21:28:57 - [MESSAGE][PASSED] - Keys 'Jhon Doe' sent to object: 'Object Repository/Admin Menu/User Management/Users/Add User/input_Username'
+
+01-02-2024T21:28:58 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/Admin Menu/User Management/Users/Add User/input_Password'
+
+01-02-2024T21:28:59 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/Admin Menu/User Management/Users/Add User/input_Confirm Password'
+
+01-02-2024T21:28:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/button_Save' is clicked on
+
+01-02-2024T21:29:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='oxd-toaster_1']/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+01-02-2024T21:29:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved'. Try using Self-healing.
+
+01-02-2024T21:29:31 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved' was broken. Propose an alternative one: '//div/div[2]/div'.
+
+01-02-2024T21:29:31 - [MESSAGE][FAILED] - Object 'Object Repository/Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at sample.Admin.addNewUser(Admin.groovy:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Uji.run(Uji:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706797256786.run(TempTestSuite1706797256786.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240201_212056/uji/20240201_212056/1706797771330.png]]
+
+01-02-2024T21:29:31 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at sample.Admin.addNewUser(Admin.groovy:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Uji.run(Uji:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706797256786.run(TempTestSuite1706797256786.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 28 more
+)
+[[ATTACHMENT|/media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240201_212056/uji/20240201_212056/1706797771545.png]]
+
+01-02-2024T21:29:31 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved' is visible]]></system-out>
+         <system-err><![CDATA[01-02-2024T21:27:21 - [TEST_CASE][FAILED] - Test Cases/Features/Admin/Uji: Test Cases/Features/Admin/Uji FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at sample.Admin.addNewUser(Admin.groovy:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Uji.run(Uji:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706797256786.run(TempTestSuite1706797256786.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 28 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-02-2024T21:21:05 - [TEST_SUITE][FAILED] - uji: Test Cases/Features/Admin/Uji FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Menu/User Management/Users/Add User/div_Employee Name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at sample.Admin.addNewUser(Admin.groovy:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Uji.run(Uji:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706797256786.run(TempTestSuite1706797256786.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Menu/User Management/Users/Add User/div_Employee Name' located by '//*[(text() = '$(employee)' or . = '$(employee)')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more]]></system-out>
+      <system-err><![CDATA[01-02-2024T21:21:05 - [TEST_SUITE][FAILED] - uji: Test Cases/Features/Admin/Uji FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Menu/User Management/Users/Add User/div_Employee Name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at sample.Admin.addNewUser(Admin.groovy:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Uji.run(Uji:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706797256786.run(TempTestSuite1706797256786.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Menu/User Management/Users/Add User/div_Employee Name' located by '//*[(text() = '$(employee)' or . = '$(employee)')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more]]></system-err>
+   </testsuite>
+</testsuites>

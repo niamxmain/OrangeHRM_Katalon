@@ -39,4 +39,24 @@
       <initValue>5</initValue>
       <name>DELAY_TIME</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestObject('Admin Menu/User Management/Users/div_Admin')</initValue>
+      <name>Role_Admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestObject('Admin Menu/User Management/Users/Add User/div_ESS')</initValue>
+      <name>Role_ESS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestObject('Admin Menu/User Management/Users/div_Enabled')</initValue>
+      <name>Status_Enable</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestObject('Admin Menu/User Management/Users/Add User/div_Disabled')</initValue>
+      <name>Status_Disable</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

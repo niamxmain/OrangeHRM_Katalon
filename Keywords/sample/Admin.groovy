@@ -27,4 +27,50 @@ public class Admin {
 		WebUI.click(findTestObject('Side Menus/a_Admin'))
 		WebUI.waitForElementPresent(findTestObject("Admin Menu/User Management/h5_System Users"), GlobalVariable.DELAY_TIME)
 	}
+
+
+	@Keyword
+	def static void addNewUser(String employee, String username, String password, String confirmPass, String role, String status) {
+
+		WebUI.click(findTestObject('Admin Menu/User Management/Users/button_Add_User'))
+		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/Add User/h6_Add User'), GlobalVariable.DELAY_TIME)
+
+		//		set role employee
+		WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/dropdown_Roles'))
+		WebUI.waitForElementVisible(findTestObject('Admin Menu/User Management/Users/Add User/div_Select AdminESS'), GlobalVariable.DELAY_TIME)
+		if(role.equalsIgnoreCase("Admin")) {
+			WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/div_Admin'))
+		} else if (role.equalsIgnoreCase("ESS")) {
+			WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/div_ESS'))
+		} else {
+			throw new RuntimeException("Invalid role: ${role}")
+		}
+
+
+		//		set status employee
+		WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/dropdown_Statuses'))
+		WebUI.waitForElementVisible(findTestObject('Admin Menu/User Management/Users/Add User/div_Select EnabledDisabled'), GlobalVariable.DELAY_TIME)
+		if(status.equalsIgnoreCase("Enable")) {
+			WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/div_Enabled'))
+		} else if (status.equalsIgnoreCase("Disable")) {
+			WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/div_Disable'))
+		} else {
+			throw new RuntimeException("Invalid role: ${status}")
+		}
+		//		set employee name
+		WebUI.setText(findTestObject('Admin Menu/User Management/Users/Add User/input_Employee_Name'), employee)
+		//		find test object employee
+		TestObject employeeName = findTestObject('Admin Menu/User Management/Users/Add User/div_Odis Adalwin', ['employee':employee])
+		WebUI.waitForElementVisible(employeeName, 5)
+
+		WebUI.click(employeeName)
+
+		WebUI.sendKeys(findTestObject('Admin Menu/User Management/Users/Add User/input_Username'), username)
+		WebUI.sendKeys(findTestObject('Admin Menu/User Management/Users/Add User/input_Password'), password)
+		WebUI.sendKeys(findTestObject('Admin Menu/User Management/Users/Add User/input_Confirm Password'), confirmPass)
+		
+		WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/button_Save'))
+		
+		WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved'))
+	}
 }

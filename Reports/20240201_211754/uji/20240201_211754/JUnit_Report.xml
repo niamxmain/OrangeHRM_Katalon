@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="uji" time="105.686" tests="1" failures="0" errors="0">
+   <testsuite name="uji" tests="1" failures="0" errors="0" time="105.686" skipped="0" timestamp="01-02-2024T21:18:03" hostname="niam - zerone" id="Test Suites/uji">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240201_211754/uji/20240201_211754"/>
+         <property name="logFiles" value="/media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240201_211754/uji/20240201_211754/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="niam - zerone"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="5e87096de4d079579f366c9e0467f6f4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Features/Admin/TC_Admin_002_Add New User" time="105.232" classname="Test Cases/Features/Admin/TC_Admin_002_Add New User" status="PASSED">
+         <system-out><![CDATA[01-02-2024T21:18:03 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_002_Add New User: Test Cases/Features/Admin/TC_Admin_002_Add New User
+
+01-02-2024T21:18:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_001_Access Admin Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+01-02-2024T21:18:04 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu: Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu
+
+01-02-2024T21:18:05 - [TEST_STEP][PASSED] - sample.Login.loginGlobalVariable(): sample.Login.loginGlobalVariable is PASSED
+
+01-02-2024T21:18:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-02-2024T21:18:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2024T21:18:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+01-02-2024T21:18:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+01-02-2024T21:18:23 - [MESSAGE][PASSED] - Current window maximized
+
+01-02-2024T21:18:24 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/h5_Login' is visible
+
+01-02-2024T21:18:24 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/Login Page/input_Username_username'
+
+01-02-2024T21:18:25 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/Login Page/input_Password_password'
+
+01-02-2024T21:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+01-02-2024T21:18:25 - [MESSAGE][PASSED] - sample.Login.loginGlobalVariable is PASSED
+
+01-02-2024T21:18:25 - [TEST_STEP][PASSED] - sample.Admin.accessAdminMenu(): sample.Admin.accessAdminMenu is PASSED
+
+01-02-2024T21:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Side Menus/a_Admin' is clicked on
+
+01-02-2024T21:18:33 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+01-02-2024T21:18:33 - [MESSAGE][PASSED] - sample.Admin.accessAdminMenu is PASSED
+
+01-02-2024T21:18:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin Menu/User Management/h5_System Users"), 5): Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+01-02-2024T21:18:33 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+01-02-2024T21:18:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+01-02-2024T21:18:33 - [TEST_STEP][PASSED] - click(findTestObject("Admin Menu/User Management/Users/button_Add_User")): Object: 'Object Repository/Admin Menu/User Management/Users/button_Add_User' is clicked on
+
+01-02-2024T21:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/button_Add_User' is clicked on
+
+01-02-2024T21:18:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin Menu/User Management/Users/Add User/h6_Add User"), 0): Object 'Object Repository/Admin Menu/User Management/Users/Add User/h6_Add User' is present
+
+01-02-2024T21:18:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-02-2024T21:18:36 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/Add User/h6_Add User' is present
+
+01-02-2024T21:18:36 - [TEST_STEP][PASSED] - click(findTestObject("Admin Menu/User Management/Users/Add User/dropdown_Roles")): Object: 'Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Roles' is clicked on
+
+01-02-2024T21:19:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+01-02-2024T21:19:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Roles'. Try using Self-healing.
+
+01-02-2024T21:19:07 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Roles' was broken. Propose an alternative one: '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div'.
+
+01-02-2024T21:19:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Roles' is clicked on
+
+01-02-2024T21:19:07 - [TEST_STEP][PASSED] - click(findTestObject("Admin Menu/User Management/Users/Add User/div_Admin")): Object: 'Object Repository/Admin Menu/User Management/Users/Add User/div_Admin' is clicked on
+
+01-02-2024T21:19:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/div_Admin' is clicked on
+
+01-02-2024T21:19:08 - [TEST_STEP][PASSED] - click(findTestObject("Admin Menu/User Management/Users/Add User/dropdown_Statuses")): Object: 'Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Statuses' is clicked on
+
+01-02-2024T21:19:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Statuses' is clicked on
+
+01-02-2024T21:19:09 - [TEST_STEP][PASSED] - click(findTestObject("Admin Menu/User Management/Users/Add User/div_Enabled")): Object: 'Object Repository/Admin Menu/User Management/Users/Add User/div_Enabled' is clicked on
+
+01-02-2024T21:19:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/div_Enabled' is clicked on
+
+01-02-2024T21:19:09 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Menu/User Management/Users/Add User/input_Employee_Name"), EMPLOYEE_NAME): Text 'Odis Adalwin' is set on object 'Object Repository/Admin Menu/User Management/Users/Add User/input_Employee_Name'
+
+01-02-2024T21:19:10 - [MESSAGE][PASSED] - Text 'Odis Adalwin' is set on object 'Object Repository/Admin Menu/User Management/Users/Add User/input_Employee_Name'
+
+01-02-2024T21:19:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Admin Menu/User Management/Users/div_Odis Adalwin"), 5): Web element with id: 'Object Repository/Admin Menu/User Management/Users/div_Odis Adalwin' located by '//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[4]/div' not found
+
+01-02-2024T21:19:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[4]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+01-02-2024T21:19:17 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Admin Menu/User Management/Users/div_Odis Adalwin'. Try using Self-healing.
+
+01-02-2024T21:19:17 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[4]/div'.
+
+01-02-2024T21:19:17 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div/div/div[4]/div'.
+
+01-02-2024T21:19:17 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = 'Odis Adalwin' or . = 'Odis Adalwin')]'.
+
+01-02-2024T21:19:18 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[4]/div'.
+
+01-02-2024T21:19:18 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div/div/div[4]/div'.
+
+01-02-2024T21:19:18 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = 'Odis Adalwin' or . = 'Odis Adalwin')]'.
+
+01-02-2024T21:19:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Odis Adalwin' or . = 'Odis Adalwin')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+01-02-2024T21:19:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+01-02-2024T21:19:21 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Admin Menu/User Management/Users/div_Odis Adalwin' located by '//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[4]/div' not found
+
+01-02-2024T21:19:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin Menu/User Management/Users/Add User/div_Employee Name"), STOP_ON_FAILURE): Object 'Object Repository/Admin Menu/User Management/Users/Add User/div_Employee Name' is visible
+
+01-02-2024T21:19:39 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/Add User/div_Employee Name' is visible
+
+01-02-2024T21:19:39 - [TEST_STEP][PASSED] - click(findTestObject("Admin Menu/User Management/Users/Add User/div_Employee Name")): Object: 'Object Repository/Admin Menu/User Management/Users/Add User/div_Employee Name' is clicked on
+
+01-02-2024T21:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/div_Employee Name' is clicked on
+
+01-02-2024T21:19:41 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Menu/User Management/Users/Add User/input_Username"), USERNAME): Text 'John Doe' is set on object 'Object Repository/Admin Menu/User Management/Users/Add User/input_Username'
+
+01-02-2024T21:19:42 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Admin Menu/User Management/Users/Add User/input_Username'
+
+01-02-2024T21:19:42 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Menu/User Management/Users/Add User/input_Password"), PASSWORD): Text 'admin123' is set on object 'Object Repository/Admin Menu/User Management/Users/Add User/input_Password'
+
+01-02-2024T21:19:43 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Admin Menu/User Management/Users/Add User/input_Password'
+
+01-02-2024T21:19:43 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Menu/User Management/Users/Add User/input_Confirm Password"), PASSWORD): Text 'admin123' is set on object 'Object Repository/Admin Menu/User Management/Users/Add User/input_Confirm Password'
+
+01-02-2024T21:19:45 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Admin Menu/User Management/Users/Add User/input_Confirm Password'
+
+01-02-2024T21:19:45 - [TEST_STEP][PASSED] - click(findTestObject("Admin Menu/User Management/Users/Add User/button_Save")): Object: 'Object Repository/Admin Menu/User Management/Users/Add User/button_Save' is clicked on
+
+01-02-2024T21:19:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/button_Save' is clicked on
+
+01-02-2024T21:19:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved"), 0): Object 'Object Repository/Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved' is present
+
+01-02-2024T21:19:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-02-2024T21:19:48 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-02-2024T21:18:03 - [TEST_SUITE][PASSED] - uji: Test Cases/Features/Admin/TC_Admin_002_Add New User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -23,29 +23,27 @@ WebUI.click(findTestObject('Admin Menu/User Management/Users/button_Add_User'))
 
 WebUI.verifyElementPresent(findTestObject('Admin Menu/User Management/Users/Add User/h6_Add User'), 0)
 
-WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/dropdown_role'))
+WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/dropdown_Roles'))
 
 WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/div_Admin'))
 
-WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/dropdown_status'))
+WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/dropdown_Statuses'))
 
 WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/div_Enabled'))
 
-WebUI.setText(findTestObject('Admin Menu/User Management/Users/Add User/input_employee_name'), GlobalVariable.EMPLOYEE_NAME)
+WebUI.setText(findTestObject('Admin Menu/User Management/Users/Add User/input_Employee_Name'), GlobalVariable.EMPLOYEE_NAME)
 
 WebUI.waitForElementVisible(findTestObject('Admin Menu/User Management/Users/div_Odis Adalwin'), 5)
 
-WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/Add User/div_Odis  Adalwin'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/Add User/div_Employee Name'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/div_Odis  Adalwin'))
+WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/div_Employee Name'))
 
-WebUI.setText(findTestObject('Admin Menu/User Management/Users/Add User/input_Username_oxd-input oxd-input--focus'), GlobalVariable.USERNAME)
+WebUI.setText(findTestObject('Admin Menu/User Management/Users/Add User/input_Username'), GlobalVariable.USERNAME)
 
-WebUI.setEncryptedText(findTestObject('Admin Menu/User Management/Users/Add User/input_Password_oxd-input oxd-input--focus'), 
-    GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('Admin Menu/User Management/Users/Add User/input_Password'), GlobalVariable.PASSWORD)
 
-WebUI.setEncryptedText(findTestObject('Admin Menu/User Management/Users/Add User/input_Confirm Password_oxd-input oxd-input--focus'), 
-    GlobalVariable.PASSWORD)
+WebUI.setText(findTestObject('Admin Menu/User Management/Users/Add User/input_Confirm Password'), GlobalVariable.PASSWORD)
 
 WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/button_Save'))
 

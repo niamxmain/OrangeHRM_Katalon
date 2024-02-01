@@ -10,11 +10,15 @@
          <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[2]/form/div/div/div[4]/div/div[2]/div/div[2]/div[2]/span</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Enabled' or . = 'Enabled')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.oxd-select-option > span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>11a817ad-8761-4a45-8346-56bc0735956c</webElementGuid>
+      <webElementGuid>a588895d-221b-4b07-82c8-7a76146b9804</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Enabled</value>
-      <webElementGuid>e8dc64f5-26ae-434a-9eed-2ceb821a487e</webElementGuid>
+      <webElementGuid>7ef78f98-9529-4075-b2f8-bc2f8cece687</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;oxd-table-filter&quot;]/div[@class=&quot;oxd-table-filter-area&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-4 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-select-wrapper&quot;]/div[@class=&quot;oxd-select-dropdown --positon-bottom&quot;]/div[@class=&quot;oxd-select-option&quot;]/span[1]</value>
-      <webElementGuid>c01719b3-b957-43a4-9438-68f7bdd2ccf7</webElementGuid>
+      <webElementGuid>40d09b75-fdfb-46ea-8797-98b50be86a5d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[2]/form/div/div/div[4]/div/div[2]/div/div[2]/div[2]/span</value>
-      <webElementGuid>93da1144-d3cd-4647-8281-4fe6d22d9b4c</webElementGuid>
+      <webElementGuid>8a27f719-1f37-4a02-804d-e27ac140e280</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/span</value>
-      <webElementGuid>4cf45104-09e4-444a-a348-4be23bdce386</webElementGuid>
+      <webElementGuid>360d1abe-8554-4426-b60d-76cf38f8551a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +66,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Enabled' or . = 'Enabled')]</value>
-      <webElementGuid>7e0e9826-bbdf-4571-a32f-73b8665a0088</webElementGuid>
+      <webElementGuid>c9aa76da-e5e0-4238-85a0-9ce684923ca0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

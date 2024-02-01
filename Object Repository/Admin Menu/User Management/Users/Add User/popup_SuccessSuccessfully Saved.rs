@@ -6,12 +6,12 @@
    <elementGuidId>32018459-cfbb-4185-b1ef-a051037448c0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='oxd-toaster_1']/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.oxd-toast.oxd-toast--success.oxd-toast-container--toast</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div[2]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
