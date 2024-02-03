@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_oxd-input oxd-input--focus</name>
+   <name>input_Username</name>
    <tag></tag>
    <elementGuidId>2efddda5-3ff5-45a2-b98a-f467c42cdcdf</elementGuidId>
    <selectorCollection>

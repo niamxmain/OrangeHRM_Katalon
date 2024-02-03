@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>popup_SuccessSuccessfully Saved</name>
+   <name>popup_Success</name>
    <tag></tag>
    <elementGuidId>32018459-cfbb-4185-b1ef-a051037448c0</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;oxd-toaster_1&quot;)/div[@class=&quot;oxd-toast oxd-toast--success oxd-toast-container--toast&quot;][count(. | //*[(text() = 'SuccessSuccessfully Saved×' or . = 'SuccessSuccessfully Saved×')]) = count(//*[(text() = 'SuccessSuccessfully Saved×' or . = 'SuccessSuccessfully Saved×')])]</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div/div[2]/div</value>
@@ -12,10 +16,6 @@
       <entry>
          <key>CSS</key>
          <value>div.oxd-toast.oxd-toast--success.oxd-toast-container--toast</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;oxd-toaster_1&quot;)/div[@class=&quot;oxd-toast oxd-toast--success oxd-toast-container--toast&quot;][count(. | //*[(text() = 'SuccessSuccessfully Saved×' or . = 'SuccessSuccessfully Saved×')]) = count(//*[(text() = 'SuccessSuccessfully Saved×' or . = 'SuccessSuccessfully Saved×')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

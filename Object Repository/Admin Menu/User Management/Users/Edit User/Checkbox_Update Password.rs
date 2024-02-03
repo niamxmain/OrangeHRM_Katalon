@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Checkbox_update_password_span_Yes_oxd-checkbox-input oxd-checkbox-input--active --label-right oxd-checkbox-input</name>
+   <name>Checkbox_Update Password</name>
    <tag></tag>
    <elementGuidId>b4243a67-1545-4c3e-99b1-88b9095a3bfa</elementGuidId>
    <selectorCollection>

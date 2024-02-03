@@ -57,28 +57,68 @@ public class Admin {
 		WebUI.sendKeys(findTestObject('Admin Menu/User Management/Users/Add User/input_Username'), username)
 		WebUI.sendKeys(findTestObject('Admin Menu/User Management/Users/Add User/input_Password'), password)
 		WebUI.sendKeys(findTestObject('Admin Menu/User Management/Users/Add User/input_Confirm Password'), password)
-		
-//		saved data
+
+		//		saved data
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/button_Save'))
-//verify data successfully saved
-		WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/Add User/popup_SuccessSuccessfully Saved'))
+		//verify data successfully saved
+		WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/popup_Success'))
 	}
-	
+
 	@Keyword
 	def static searchUserByUsername(String username) {
-//		input username
+		//		input user name
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/input_Search Username'))
 		WebUI.sendKeys(findTestObject('Admin Menu/User Management/Users/input_Search Username'), username)
-		
+
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/button_Search'))
-		
-//		verify user succeed search
+
+		//		verify user succeed search
 		WebUI.delay(5)
 		WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/div_Username Recorded',[('username'):username]))
 	}
-	
-//	@Keyword
-//	def static ensureUserSearchSucceed() {
-//		
-//	}
+
+	@Keyword
+	def static editUserWithoutChangePassword(String role,String status,String employee,String username) {
+//		access edit user page
+		WebUI.click(findTestObject('Admin Menu/User Management/Users/i_Edit User'))
+		
+		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/Edit User/h6_Edit User'), GlobalVariable.DELAY_TIME)
+		
+//		find role before
+		String roleBefore = WebUI.getText(findTestObject('Admin Menu/User Management/Users/Edit User/div_Dropdown Role'))
+		if (!role.equalsIgnoreCase(roleBefore)) {
+			WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/div_Dropdown Role'))
+			WebUI.delay(1)
+			WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/div_Result Role', [('role'):role]))
+		}
+		
+//		find status before
+		String statusBefore = WebUI.getText(findTestObject('Admin Menu/User Management/Users/Edit User/div_Dropdown Status'))
+		if (!statusBefore.equalsIgnoreCase(status)) {
+			WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/div_Dropdown Status'))
+			WebUI.delay(1)
+			WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/div_Result Status', [('status'):status]))
+		}
+		
+//		find employee before
+		String employeeBefore = WebUI.getText(findTestObject('Admin Menu/User Management/Users/Edit User/sample/input_employee'))
+		if (!employeeBefore.equalsIgnoreCase(employee)) {
+			WebUI.clearText(findTestObject('Admin Menu/User Management/Users/Edit User/sample/input_employee'))
+			WebUI.setText(findTestObject('Admin Menu/User Management/Users/Edit User/sample/input_employee'), employee)
+			WebUI.delay(GlobalVariable.DELAY_TIME)
+			
+			WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/div_Result Employee', [('employee'): employee]))
+			
+		}
+		
+//		find user name before
+		String usernameBefore = WebUI.getText(findTestObject('Admin Menu/User Management/Users/Edit User/input_Username'))
+		if (!employeeBefore.equalsIgnoreCase(username)) {
+			WebUI.clearText(findTestObject('Admin Menu/User Management/Users/Edit User/input_Username'))
+			WebUI.setText(findTestObject('Admin Menu/User Management/Users/Edit User/input_Username'), username)			
+		}
+		
+		WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/button_Save'))
+		WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/popup_Success'))
+	}
 }
