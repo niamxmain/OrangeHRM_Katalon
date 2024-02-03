@@ -1,24 +1,3 @@
 {
-  "brokenTestObjects": [
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Roles",
-      "brokenLocator": "",
-      "brokenLocatorMethod": "BASIC",
-      "proposedLocator": "//*[@id\u003d\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Roles_XPATH.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Statuses",
-      "brokenLocator": "",
-      "brokenLocatorMethod": "BASIC",
-      "proposedLocator": "//*[@id\u003d\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[3]/div/div[2]/div/div",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin Menu/User Management/Users/Add User/dropdown_Statuses_XPATH.png"
-    }
-  ]
+  "brokenTestObjects" : [ ]
 }

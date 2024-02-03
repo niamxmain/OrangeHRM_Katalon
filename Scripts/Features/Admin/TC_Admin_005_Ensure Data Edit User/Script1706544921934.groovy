@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_003_Search User'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Admin Menu/User Management/Users/btn_i_Enabled_oxd-icon bi-edit'))
+WebUI.click(findTestObject('null'))
 
 WebUI.verifyElementPresent(findTestObject('Admin Menu/User Management/Users/Edit User/div_Admin'), 0)
 

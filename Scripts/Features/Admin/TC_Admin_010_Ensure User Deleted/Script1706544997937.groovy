@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_007_Search Updated User'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/div_InfoNo Records Found'))
+WebUI.verifyElementVisible(findTestObject('null'))
 

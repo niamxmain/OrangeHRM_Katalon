@@ -1,54 +1,9 @@
 {
-  "keywordFileContentHash": "EEE3D1A2AB6928DBFE627CE3577899CB",
+  "keywordFileContentHash": "99205714D6906BDF80992445C03511F2",
   "keywordClasses": [
     {
       "name": "sample.Login",
       "keywordMethods": [
-        {
-          "name": "login",
-          "parameters": [
-            {
-              "name": "url",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "username",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "password",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            }
-          ],
-          "javadoc": ""
-        },
         {
           "name": "loginGlobalVariable",
           "parameters": [],

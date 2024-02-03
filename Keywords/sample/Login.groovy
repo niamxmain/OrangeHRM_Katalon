@@ -22,7 +22,7 @@ import internal.GlobalVariable
 
 public class Login {
 
-	@Keyword
+	
 	def static void login(String url, String username, String password) {
 
 		WebUI.openBrowser(url)

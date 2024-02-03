@@ -19,13 +19,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1e002fe2-a813-4b0d-8e77-c5430a0eeab9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Features/Admin/TC_Admin_002_Add New User</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>46773c05-efc7-4b26-85e2-f934cc5982c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

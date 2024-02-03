@@ -17,11 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_008_Ensure Data User Updated'), [:], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'sample.Login.loginGlobalVariable'()
 
-WebUI.click(findTestObject('null'))
+CustomKeywords.'sample.Admin.accessAdminMenu'()
 
-WebUI.verifyElementVisible(findTestObject('null'))
-
-WebUI.click(findTestObject('Admin Menu/User Management/Users/button_Yes, Delete'))
+CustomKeywords.'sample.Admin.addNewUser'(GlobalVariable.EMPLOYEE_NAME, GlobalVariable.USERNAME, GlobalVariable.PASSWORD, 
+    GlobalVariable.Role_Admin, GlobalVariable.Status_Enable)
 

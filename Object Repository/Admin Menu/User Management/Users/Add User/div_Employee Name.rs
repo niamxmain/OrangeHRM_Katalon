@@ -3,22 +3,22 @@
    <description></description>
    <name>div_Employee Name</name>
    <tag></tag>
-   <elementGuidId>e96e21db-0ea3-45c6-9be9-6c0306e1ffd9</elementGuidId>
+   <elementGuidId>9cb6b37b-79c2-4a0a-a3e7-3c4f8d8ebd65</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div[2]/div/div[2]/div/div[2]/div</value>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div[2]/div/div[2]/div/div[2]/div[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = '$(employee)' or . = '$(employee)')]</value>
+         <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-autocomplete-wrapper&quot;]/div[@class=&quot;oxd-autocomplete-dropdown --positon-bottom&quot;]/div[@class=&quot;oxd-autocomplete-option&quot;][count(. | //*[(text() = '${employee}' or . = '${employee}')]) = count(//*[(text() = '${employee}' or . = '${employee}')])]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.oxd-autocomplete-option</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>78fbb731-fc11-41c0-a12a-c4ca88b3586f</webElementGuid>
+      <webElementGuid>e9f599c4-b0c2-4260-87e6-512207d87906</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>f89fa043-8e26-4f98-b3c4-f95d83c8a28f</webElementGuid>
+      <webElementGuid>9b4da0ba-119a-4f02-b782-a4ff5971ca62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,46 +42,46 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-autocomplete-option</value>
-      <webElementGuid>a02de120-259d-4dcf-97b1-dcdd166147b6</webElementGuid>
+      <webElementGuid>a0fde8f3-15e1-40f7-8967-f27f43be6cd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>$(employee)</value>
-      <webElementGuid>01d80927-2758-4604-b9b3-76aefbf665b6</webElementGuid>
+      <value>${employee}</value>
+      <webElementGuid>cc25c599-d49d-47c7-a966-01b396e6b943</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-autocomplete-wrapper&quot;]/div[@class=&quot;oxd-autocomplete-dropdown --positon-bottom&quot;]/div[@class=&quot;oxd-autocomplete-option&quot;]</value>
-      <webElementGuid>1692440f-a16e-4c08-9ade-00cb44b14b39</webElementGuid>
+      <webElementGuid>595e1df5-f09c-45fe-b367-54b2b1d57669</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div[2]/div/div[2]/div/div[2]/div</value>
-      <webElementGuid>900b2bdb-a128-4888-855b-cf263a9c03c0</webElementGuid>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div[2]/div/div[2]/div/div[2]/div[3]</value>
+      <webElementGuid>3a87f58f-6674-43c1-bebf-937194f19ace</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/div/div[2]/div</value>
-      <webElementGuid>50e0c923-fa06-46b8-b640-7af73bb1b6c2</webElementGuid>
+      <value>//div[2]/div/div[2]/div[3]</value>
+      <webElementGuid>72b3abbe-addd-4bf0-b110-ab342c1e8b76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Odis  Adalwin' or . = 'Odis  Adalwin')]</value>
-      <webElementGuid>87973616-2aa4-46d5-8217-342c1fefc0fc</webElementGuid>
+      <value>//div[(text() = 'Peter Mac Anderson' or . = 'Peter Mac Anderson')]</value>
+      <webElementGuid>5454ebb4-cd85-47ac-9c90-e7efb30f4a77</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

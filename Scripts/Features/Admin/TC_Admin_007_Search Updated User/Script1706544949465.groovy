@@ -19,21 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_001_Access Admin Menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Admin Menu/User Management/Users/input_Username'), GlobalVariable.USERNAME)
+WebUI.sendKeys(findTestObject('null'), GlobalVariable.USERNAME)
 
-WebUI.click(findTestObject('Admin Menu/User Management/Users/dropdown_user_role'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Admin Menu/User Management/Users/span_ESS'))
+WebUI.click(findTestObject('null'))
 
-WebUI.sendKeys(findTestObject('Admin Menu/User Management/Users/input_Employee_Name'), GlobalVariable.EMPLOYEE_NAME)
+WebUI.sendKeys(findTestObject('null'), GlobalVariable.EMPLOYEE_NAME)
 
-WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/span_Odis  Adalwin'))
+WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.click(findTestObject('Admin Menu/User Management/Users/span_Odis  Adalwin'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Admin Menu/User Management/Users/dropdown_status'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Admin Menu/User Management/Users/span_Disabled'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Admin Menu/User Management/Users/button_Search'))
 

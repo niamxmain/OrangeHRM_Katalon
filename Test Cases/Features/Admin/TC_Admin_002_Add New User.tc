@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC_Admin_002_Add New User</name>
-   <tag>Jan</tag>
+   <tag></tag>
    <comment></comment>
-   <testCaseGuid>abd00b5b-07c6-47af-b553-0e9a24e4c673</testCaseGuid>
+   <testCaseGuid>3c84b850-ae80-428c-8380-038159bcc336</testCaseGuid>
 </TestCaseEntity>

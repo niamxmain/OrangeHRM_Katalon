@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-uji,Chrome 121.0.0.0,,,01-02-2024 21:21:05,01-02-2024 21:29:31,8m - 25.803s,FAILED
-,,,,,,,
-Test Cases/Features/Admin/Uji,Chrome 121.0.0.0,,,01-02-2024 21:27:21,01-02-2024 21:29:31,2m - 10.516s,FAILED
-sample.Login.loginGlobalVariable(),Chrome 121.0.0.0,,,01-02-2024 21:27:21,01-02-2024 21:27:32,11.641s,PASSED
-sample.Admin.accessAdminMenu(),Chrome 121.0.0.0,,,01-02-2024 21:27:32,01-02-2024 21:27:41,8.368s,PASSED
-"sample.Admin.addNewUser(""Odis Adalwin"", ""Jhon Doe"", ""admin123"", ""admin123"", ""Admin"", ""Enable"")",Chrome 121.0.0.0,,,01-02-2024 21:27:41,01-02-2024 21:29:31,1m - 50.475s,FAILED

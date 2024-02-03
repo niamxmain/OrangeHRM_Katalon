@@ -1,13 +1,12 @@
 {
-  "keywordFileContentHash": "12035AAB7550451F0D3FF828922736BE",
+  "keywordFileContentHash": "1F406CE978A9083C53D5C3944BE7BE28",
   "keywordClasses": [
     {
       "name": "sample.Admin",
       "keywordMethods": [
         {
           "name": "accessAdminMenu",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "addNewUser",
@@ -52,19 +51,6 @@
               }
             },
             {
-              "name": "confirmPass",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
               "name": "role",
               "initialExpression": "",
               "type": {
@@ -90,11 +76,28 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
+        },
+        {
+          "name": "searchUserByUsername",
+          "parameters": [
+            {
+              "name": "username",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

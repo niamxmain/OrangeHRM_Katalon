@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Odis Adalwin'</initValue>
+      <initValue>'Peter Mac Anderson'</initValue>
       <name>EMPLOYEE_NAME</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -41,22 +41,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestObject('Admin Menu/User Management/Users/div_Admin')</initValue>
+      <initValue>'Admin'</initValue>
       <name>Role_Admin</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestObject('Admin Menu/User Management/Users/Add User/div_ESS')</initValue>
+      <initValue>'ESS'</initValue>
       <name>Role_ESS</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestObject('Admin Menu/User Management/Users/div_Enabled')</initValue>
+      <initValue>'Enabled'</initValue>
       <name>Status_Enable</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestObject('Admin Menu/User Management/Users/Add User/div_Disabled')</initValue>
+      <initValue>'Disabled'</initValue>
       <name>Status_Disable</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

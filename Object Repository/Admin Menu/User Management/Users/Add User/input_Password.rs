@@ -3,11 +3,11 @@
    <description></description>
    <name>input_Password</name>
    <tag></tag>
-   <elementGuidId>f60e0a9f-c605-4009-a611-6d166f43ae5f</elementGuidId>
+   <elementGuidId>60afcb80-5b03-4c71-b8fa-20697bd89bb6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/div[1]/div[2]/div[2]/div/div/form/div[2]/div/div[1]/div/div[2]/input</value>
+         <value>//input[@type='password']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e12ae8a4-659c-4d9e-a6a3-2e4f88fa842a</webElementGuid>
+      <webElementGuid>7f9a972b-5aac-4b6e-9af7-2972caf52b4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-input oxd-input--focus</value>
-      <webElementGuid>b83d4ed5-1eb4-4557-bea9-66982cb65b2f</webElementGuid>
+      <webElementGuid>111e411f-6b32-46be-9d3f-70fde4ac8665</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>e3cf3a48-2559-44f1-9753-7471cef8bcc3</webElementGuid>
+      <webElementGuid>87d2bbd9-faba-47a0-a02a-ea52a8e624c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>0d013d44-cab9-424d-be04-50bfabb7e3a1</webElementGuid>
+      <webElementGuid>8181c5cd-2a17-4fd8-98c9-970a2e6e1135</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row user-password-row&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters user-password-cell&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/input[@class=&quot;oxd-input oxd-input--focus&quot;]</value>
-      <webElementGuid>b7e57281-03d2-4d2a-8cdf-a08d48bd420f</webElementGuid>
+      <webElementGuid>6e44553e-18bf-4b33-95c6-71f3bf1b4194</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='password']</value>
-      <webElementGuid>3ba997ca-a9bc-4e2a-9c00-88df490a2dbf</webElementGuid>
+      <webElementGuid>95d7219a-5d85-4254-b2a3-54ef475c1921</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div[2]/div/div/div/div[2]/input</value>
-      <webElementGuid>bb26c3bd-986d-4bc5-a98e-4fdcee5983ea</webElementGuid>
+      <webElementGuid>99815472-6483-46d0-b2cd-c15cdbfae5fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div[2]/input</value>
-      <webElementGuid>5bb9c9c5-685b-41c4-bce2-0497abc0a13a</webElementGuid>
+      <webElementGuid>af793f0d-46af-47da-87ed-cdeb363814ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'password']</value>
-      <webElementGuid>dd7a0161-944f-4891-a97a-485488fdb8a1</webElementGuid>
+      <webElementGuid>1c8a0191-8e64-40fb-b32f-e0a0c0d18569</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
