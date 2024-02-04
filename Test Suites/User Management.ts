@@ -36,14 +36,7 @@
       <guid>0b64356e-badd-486b-8b89-aaaa12e9a7f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Features/Admin/TC_Admin_009_Delete User</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f60cce7e-e735-4878-aafa-54e3969b99f1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Features/Admin/TC_Admin_010_Ensure User Deleted</testCaseId>
+      <testCaseId>Test Cases/Features/Admin/TC_Admin_006_Delete User</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

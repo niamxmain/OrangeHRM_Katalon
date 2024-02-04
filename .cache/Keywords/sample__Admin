@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "87BB9E8E2311507B09A898B1866D699C",
+  "keywordFileContentHash": "D6E08D908EC3F71B5BC104D14E3C5B9F",
   "keywordClasses": [
     {
       "name": "sample.Admin",
@@ -100,7 +100,7 @@
           "javadoc": ""
         },
         {
-          "name": "editUserWithoutChangePassword",
+          "name": "editUser",
           "parameters": [
             {
               "name": "role",
@@ -171,7 +171,26 @@
           "javadoc": ""
         },
         {
-          "name": "editUserWithoutChangePassword",
+          "name": "deleteUser",
+          "parameters": [
+            {
+              "name": "username",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "editUser",
           "parameters": [
             {
               "name": "role",

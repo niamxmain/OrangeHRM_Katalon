@@ -75,16 +75,16 @@ public class Admin {
 
 		//		verify user succeed search
 		WebUI.delay(5)
-		WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/div_Username Recorded',[('username'):username]))
+		WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/div_Username Record Found',[('username'):username]))
 	}
 
-	
+
 	def static void clickSaveAndVerifySuccess() {
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/button_Save'))
 		WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/Edit User/div_Success'))
 	}
 	@Keyword
-	def static void editUserWithoutChangePassword(String role,String status,String employee,String username, String password=null) {
+	def static void editUser(String role,String status,String employee,String username, String password=null) {
 		//		access edit user page
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/i_Edit User'))
 
@@ -107,15 +107,15 @@ public class Admin {
 		}
 
 		//		find employee before
-		TestObject objEmployee = findTestObject('Admin Menu/User Management/Users/Edit User/sample/input_employee')
+		TestObject objEmployee = findTestObject('Admin Menu/User Management/Users/Edit User/input_Employee')
 		String employeeBefore = WebUI.getAttribute(objEmployee, 'value')
 		if (!employee.equalsIgnoreCase(employeeBefore)) {
-			
+
 			for (int i = 0; i < employeeBefore.length(); i++) {
 				WebUI.sendKeys(objEmployee, '\ue003')
 			}
 			WebUI.delay(1)
-			WebUI.setText(findTestObject('Admin Menu/User Management/Users/Edit User/sample/input_employee'), employee)
+			WebUI.setText(findTestObject('Admin Menu/User Management/Users/Edit User/input_Employee'), employee)
 			WebUI.delay(GlobalVariable.DELAY_TIME)
 
 			WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/div_Result Employee', [('employee'): employee]))
@@ -126,27 +126,39 @@ public class Admin {
 		//		find user name before
 		TestObject objUsername = findTestObject('Admin Menu/User Management/Users/Edit User/input_Username')
 		String usernameBefore = WebUI.getAttribute(objUsername, 'value')
-		if (!username.equalsIgnoreCase(usernameBefore)) {	
-			
+		if (!username.equalsIgnoreCase(usernameBefore)) {
+
 			for (int i = 0; i < usernameBefore.length(); i++) {
 				WebUI.sendKeys(objUsername, '\ue003')
 			}
 			WebUI.delay(1)
 			WebUI.setText(findTestObject('Admin Menu/User Management/Users/Edit User/input_Username'), username)
 		}
-		
+
 		//check if user want change password
 		if(password != null) {
 			WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/label_Yes Update Password'))
-			WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/Edit User/sample/div_Box Change Password'), GlobalVariable.DELAY_TIME)
-			
-	//		set password and confirm password
-			WebUI.setText(findTestObject('Admin Menu/User Management/Users/Edit User/sample/input_Password'), password)
-			WebUI.setText(findTestObject('Admin Menu/User Management/Users/Edit User/sample/input_Confirm Password'), password)
+			WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/Edit User/div_Box Change Password'), GlobalVariable.DELAY_TIME)
+
+			//		set password and confirm password
+			WebUI.setText(findTestObject('Admin Menu/User Management/Users/Edit User/input_Password'), password)
+			WebUI.setText(findTestObject('Admin Menu/User Management/Users/Edit User/input_Confirm Password'), password)
 		}
-		
-//		click save and verify success
+
+		//		click save and verify success
 		clickSaveAndVerifySuccess()
 	}
 	
+	@Keyword
+	def static void deleteUser(String username) {
+		searchUserByUsername(username)
+		
+		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/i_Delete User'), GlobalVariable.DELAY_TIME)
+		WebUI.click(findTestObject('Admin Menu/User Management/Users/i_Delete User'))
+		
+		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/div_Are You Sure Delete'), GlobalVariable.DELAY_TIME)
+		WebUI.click(findTestObject('Admin Menu/User Management/Users/button_Yes, Delete'))
+		
+		WebUI.verifyElementPresent(findTestObject('Admin Menu/User Management/Users/div_Success Deleted'), GlobalVariable.DELAY_TIME)
+	}
 }

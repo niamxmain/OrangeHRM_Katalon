@@ -6,12 +6,12 @@
    <elementGuidId>178cfba3-ba91-4cea-9dd5-9bb6bbc4532e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.oxd-form-row.user-password-row</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

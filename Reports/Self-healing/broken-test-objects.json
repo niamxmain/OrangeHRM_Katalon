@@ -1,24 +1,3 @@
 {
-  "brokenTestObjects": [
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Admin Menu/User Management/Users/popup_Success",
-      "brokenLocator": "id(\"oxd-toaster_1\")/div[@class\u003d\"oxd-toast oxd-toast--success oxd-toast-container--toast\"][count(. | //*[(text() \u003d \u0027SuccessSuccessfully Saved×\u0027 or . \u003d \u0027SuccessSuccessfully Saved×\u0027)]) \u003d count(//*[(text() \u003d \u0027SuccessSuccessfully Saved×\u0027 or . \u003d \u0027SuccessSuccessfully Saved×\u0027)])]",
-      "brokenLocatorMethod": "BASIC",
-      "proposedLocator": "//div/div[2]/div",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": ""
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Admin Menu/User Management/Users/Edit User/div_Success",
-      "brokenLocator": "//div[@id\u003d\u0027oxd-toaster_1\u0027]/div",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//div/div[2]/div",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": ""
-    }
-  ]
+  "brokenTestObjects" : [ ]
 }

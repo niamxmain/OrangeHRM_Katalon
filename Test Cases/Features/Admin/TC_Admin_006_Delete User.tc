@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Admin_010_Ensure User Deleted</name>
+   <name>TC_Admin_006_Delete User</name>
    <tag>Jan</tag>
    <comment></comment>
-   <testCaseGuid>e4a1d1e1-9683-4112-ab86-e6fd2d639e46</testCaseGuid>
+   <testCaseGuid>2f5b4540-28e0-43c3-9696-794720e5ce39</testCaseGuid>
 </TestCaseEntity>
