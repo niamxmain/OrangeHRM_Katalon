@@ -1,21 +1,19 @@
 {
-  "keywordFileContentHash": "B579641053AAE7671A376FE8641EAF98",
+  "keywordFileContentHash": "D57E9513907EB9944ADBB717672DCBC7",
   "keywordClasses": [
     {
       "name": "sample.Login",
       "keywordMethods": [
         {
           "name": "loginGlobalVariable",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "logout",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
