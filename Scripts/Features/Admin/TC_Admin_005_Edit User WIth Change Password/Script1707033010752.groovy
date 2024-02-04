@@ -17,13 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_007_Search Updated User'), [:], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'sample.Login.loginGlobalVariable'()
 
-WebUI.verifyElementPresent(findTestObject('null'), 0)
+CustomKeywords.'sample.Admin.accessAdminMenu'()
 
-WebUI.verifyElementPresent(findTestObject('null'), 0)
+CustomKeywords.'sample.Admin.searchUserByUsername'('Anthony.Nolan')
 
-WebUI.verifyElementPresent(findTestObject('null'), 0)
-
-WebUI.verifyElementPresent(findTestObject('null'), 0)
+CustomKeywords.'sample.Admin.editUserWithoutChangePassword'('ESS', 'Enabled', 'Peter Mac Anderson', 'Anthony.Nolan', 'admin123')
 

@@ -6,12 +6,12 @@
    <elementGuidId>32018459-cfbb-4185-b1ef-a051037448c0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;oxd-toaster_1&quot;)/div[@class=&quot;oxd-toast oxd-toast--success oxd-toast-container--toast&quot;][count(. | //*[(text() = 'SuccessSuccessfully Saved×' or . = 'SuccessSuccessfully Saved×')]) = count(//*[(text() = 'SuccessSuccessfully Saved×' or . = 'SuccessSuccessfully Saved×')])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;oxd-toaster_1&quot;)/div[@class=&quot;oxd-toast oxd-toast--success oxd-toast-container--toast&quot;][count(. | //*[(text() = 'SuccessSuccessfully Saved×' or . = 'SuccessSuccessfully Saved×')]) = count(//*[(text() = 'SuccessSuccessfully Saved×' or . = 'SuccessSuccessfully Saved×')])]</value>
       </entry>
       <entry>
          <key>CSS</key>

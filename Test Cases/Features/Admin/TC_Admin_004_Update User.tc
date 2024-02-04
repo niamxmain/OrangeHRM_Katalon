@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_Admin_004_Update User</name>
-   <tag>Jan</tag>
-   <comment></comment>
-   <testCaseGuid>22cf05c9-1f47-4730-b6f7-3635e12bbbae</testCaseGuid>
-</TestCaseEntity>

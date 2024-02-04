@@ -6,6 +6,7 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
+import org.openqa.selenium.Keys
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -61,11 +62,11 @@ public class Admin {
 		//		saved data
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/button_Save'))
 		//verify data successfully saved
-		WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/popup_Success'))
+		WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/Add User/popup_Success'))
 	}
 
 	@Keyword
-	def static searchUserByUsername(String username) {
+	def static void searchUserByUsername(String username) {
 		//		input user name
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/input_Search Username'))
 		WebUI.sendKeys(findTestObject('Admin Menu/User Management/Users/input_Search Username'), username)
@@ -77,48 +78,75 @@ public class Admin {
 		WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/div_Username Recorded',[('username'):username]))
 	}
 
+	
+	def static void clickSaveAndVerifySuccess() {
+		WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/button_Save'))
+		WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/Edit User/div_Success'))
+	}
 	@Keyword
-	def static editUserWithoutChangePassword(String role,String status,String employee,String username) {
-//		access edit user page
+	def static void editUserWithoutChangePassword(String role,String status,String employee,String username, String password=null) {
+		//		access edit user page
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/i_Edit User'))
-		
+
 		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/Edit User/h6_Edit User'), GlobalVariable.DELAY_TIME)
-		
-//		find role before
+
+		//		find role before
 		String roleBefore = WebUI.getText(findTestObject('Admin Menu/User Management/Users/Edit User/div_Dropdown Role'))
 		if (!role.equalsIgnoreCase(roleBefore)) {
 			WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/div_Dropdown Role'))
 			WebUI.delay(1)
 			WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/div_Result Role', [('role'):role]))
 		}
-		
-//		find status before
+
+		//		find status before
 		String statusBefore = WebUI.getText(findTestObject('Admin Menu/User Management/Users/Edit User/div_Dropdown Status'))
-		if (!statusBefore.equalsIgnoreCase(status)) {
+		if (!status.equalsIgnoreCase(statusBefore)) {
 			WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/div_Dropdown Status'))
 			WebUI.delay(1)
 			WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/div_Result Status', [('status'):status]))
 		}
-		
-//		find employee before
-		String employeeBefore = WebUI.getText(findTestObject('Admin Menu/User Management/Users/Edit User/sample/input_employee'))
-		if (!employeeBefore.equalsIgnoreCase(employee)) {
-			WebUI.clearText(findTestObject('Admin Menu/User Management/Users/Edit User/sample/input_employee'))
+
+		//		find employee before
+		TestObject objEmployee = findTestObject('Admin Menu/User Management/Users/Edit User/sample/input_employee')
+		String employeeBefore = WebUI.getAttribute(objEmployee, 'value')
+		if (!employee.equalsIgnoreCase(employeeBefore)) {
+			
+			for (int i = 0; i < employeeBefore.length(); i++) {
+				WebUI.sendKeys(objEmployee, '\ue003')
+			}
+			WebUI.delay(1)
 			WebUI.setText(findTestObject('Admin Menu/User Management/Users/Edit User/sample/input_employee'), employee)
 			WebUI.delay(GlobalVariable.DELAY_TIME)
-			
+
 			WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/div_Result Employee', [('employee'): employee]))
+		}
+
+
+
+		//		find user name before
+		TestObject objUsername = findTestObject('Admin Menu/User Management/Users/Edit User/input_Username')
+		String usernameBefore = WebUI.getAttribute(objUsername, 'value')
+		if (!username.equalsIgnoreCase(usernameBefore)) {	
 			
+			for (int i = 0; i < usernameBefore.length(); i++) {
+				WebUI.sendKeys(objUsername, '\ue003')
+			}
+			WebUI.delay(1)
+			WebUI.setText(findTestObject('Admin Menu/User Management/Users/Edit User/input_Username'), username)
 		}
 		
-//		find user name before
-		String usernameBefore = WebUI.getText(findTestObject('Admin Menu/User Management/Users/Edit User/input_Username'))
-		if (!employeeBefore.equalsIgnoreCase(username)) {
-			WebUI.clearText(findTestObject('Admin Menu/User Management/Users/Edit User/input_Username'))
-			WebUI.setText(findTestObject('Admin Menu/User Management/Users/Edit User/input_Username'), username)			
+		//check if user want change password
+		if(password != null) {
+			WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/label_Yes Update Password'))
+			WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/Edit User/sample/div_Box Change Password'), GlobalVariable.DELAY_TIME)
+			
+	//		set password and confirm password
+			WebUI.setText(findTestObject('Admin Menu/User Management/Users/Edit User/sample/input_Password'), password)
+			WebUI.setText(findTestObject('Admin Menu/User Management/Users/Edit User/sample/input_Confirm Password'), password)
 		}
 		
-		WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/button_Save'))
-		WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/popup_Success'))
+//		click save and verify success
+		clickSaveAndVerifySuccess()
 	}
+	
 }

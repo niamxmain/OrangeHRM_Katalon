@@ -29,21 +29,7 @@
       <guid>660ddbc7-e6af-4d90-a3c2-2f96bead4bac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Features/Admin/TC_Admin_004_Update User</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0f54a833-8887-46b9-a5dc-725bae2385f6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Features/Admin/TC_Admin_007_Search Updated User</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>07e21cbb-5d91-4b7c-99f1-da228293e4b9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Features/Admin/TC_Admin_008_Ensure Data User Updated</testCaseId>
+      <testCaseId>Test Cases/Features/Admin/TC_Admin_004_Edit User Without Change Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
