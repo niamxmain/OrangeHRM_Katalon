@@ -40,13 +40,13 @@ public class Login {
 	def static void loginGlobalVariable() {
 		login(GlobalVariable.BASE_URL, GlobalVariable.G_USERNAME, GlobalVariable.PASSWORD)
 	}
-	
+
 	@Keyword
 	def static void logout() {
 		WebUI.click(findTestObject('Login Page/span_Dropdown Account'))
 		WebUI.delay(1)
 		WebUI.click(findTestObject('Login Page/a_Logout'))
-		
+
 		WebUI.verifyElementPresent(findTestObject('Login Page/h5_Login'), GlobalVariable.DELAY_TIME)
 	}
 }

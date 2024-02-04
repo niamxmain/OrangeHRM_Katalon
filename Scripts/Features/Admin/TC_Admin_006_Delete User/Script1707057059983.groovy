@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'sample.Login.loginGlobalVariable'()
+WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_001_Access Admin Menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'sample.Admin.accessAdminMenu'()
-
-CustomKeywords.'sample.Admin.deleteUser'('Joe.Root')
+CustomKeywords.'sample.Admin.deleteUser'(GlobalVariable.Update_Username)
 

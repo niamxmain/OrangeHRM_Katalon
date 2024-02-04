@@ -15,28 +15,28 @@
       <guid>44e4f5ff-232c-4c79-b3b3-8d29ebc8fd27</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Login Invalid Credentials</testCaseId>
+      <testCaseId>Test Cases/Features/Login/TC_Login_002_Invalid Credentials</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>095f5e31-bc3e-4baa-9a26-1f7b15e74514</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Login Valid Admin</testCaseId>
+      <testCaseId>Test Cases/Features/Login/TC_Login_001_Valid Admin</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>daaf31da-b58d-4285-a6b2-00896c4c38db</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Login WIthout Password</testCaseId>
+      <testCaseId>Test Cases/Features/Login/TC_Login_003_WIthout Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>69218679-2daf-479d-a850-271b35c6ff85</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Login Without Username</testCaseId>
+      <testCaseId>Test Cases/Features/Login/TC_Login_004_Without Username</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

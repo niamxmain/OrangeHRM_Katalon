@@ -75,7 +75,7 @@ public class Admin {
 
 		//		verify user succeed search
 		WebUI.delay(5)
-		WebUI.verifyElementVisible(findTestObject('Admin Menu/User Management/Users/div_Username Record Found',[('username'):username]))
+		WebUI.verifyElementPresent(findTestObject('Admin Menu/User Management/Users/div_Username Record Found',[('username'):username]), GlobalVariable.DELAY_TIME)
 	}
 
 

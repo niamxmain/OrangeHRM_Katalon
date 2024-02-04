@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'sample.Login.loginGlobalVariable'()
-
-CustomKeywords.'sample.Admin.accessAdminMenu'()
-
-CustomKeywords.'sample.Admin.searchUserByUsername'(GlobalVariable.Username)
+WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_003_Search User'), [:], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'sample.Admin.editUser'(GlobalVariable.Role_ESS, GlobalVariable.Status_Disable, GlobalVariable.Update_Employee_Name, 
     GlobalVariable.Update_Username, null)
