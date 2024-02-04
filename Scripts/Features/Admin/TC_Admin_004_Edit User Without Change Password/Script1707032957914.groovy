@@ -21,7 +21,8 @@ CustomKeywords.'sample.Login.loginGlobalVariable'()
 
 CustomKeywords.'sample.Admin.accessAdminMenu'()
 
-CustomKeywords.'sample.Admin.searchUserByUsername'('Alice.Duval')
+CustomKeywords.'sample.Admin.searchUserByUsername'(GlobalVariable.Username)
 
-CustomKeywords.'sample.Admin.editUserWithoutChangePassword'('ESS', 'Disabled', 'Peter Mac Anderson', 'Alice.Dufal', null)
+CustomKeywords.'sample.Admin.editUser'(GlobalVariable.Role_ESS, GlobalVariable.Status_Disable, GlobalVariable.Update_Employee_Name, 
+    GlobalVariable.Update_Username, null)
 

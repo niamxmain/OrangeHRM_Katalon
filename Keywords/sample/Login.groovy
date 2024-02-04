@@ -22,7 +22,7 @@ import internal.GlobalVariable
 
 public class Login {
 
-	
+
 	def static void login(String url, String username, String password) {
 
 		WebUI.openBrowser(url)
@@ -31,13 +31,22 @@ public class Login {
 
 		WebUI.waitForElementVisible(findTestObject('Login Page/h5_Login'), GlobalVariable.DELAY_TIME)
 
-		WebUI.sendKeys(findTestObject('Login Page/input_Username_username'), username)
-		WebUI.sendKeys(findTestObject('Login Page/input_Password_password'), password)
+		WebUI.sendKeys(findTestObject('Login Page/input_Username'), username)
+		WebUI.sendKeys(findTestObject('Login Page/input_Password'), password)
 		WebUI.click(findTestObject('Login Page/button_Login'))
 	}
 
 	@Keyword
 	def static void loginGlobalVariable() {
 		login(GlobalVariable.BASE_URL, GlobalVariable.G_USERNAME, GlobalVariable.PASSWORD)
+	}
+	
+	@Keyword
+	def static void logout() {
+		WebUI.click(findTestObject('Login Page/span_Dropdown Account'))
+		WebUI.delay(1)
+		WebUI.click(findTestObject('Login Page/a_Logout'))
+		
+		WebUI.verifyElementPresent(findTestObject('Login Page/h5_Login'), GlobalVariable.DELAY_TIME)
 	}
 }

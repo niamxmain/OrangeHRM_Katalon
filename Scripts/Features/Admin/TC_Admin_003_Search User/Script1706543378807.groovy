@@ -21,5 +21,5 @@ CustomKeywords.'sample.Login.loginGlobalVariable'()
 
 CustomKeywords.'sample.Admin.accessAdminMenu'()
 
-CustomKeywords.'sample.Admin.searchUserByUsername'(GlobalVariable.USERNAME)
+CustomKeywords.'sample.Admin.searchUserByUsername'(GlobalVariable.Username)
 

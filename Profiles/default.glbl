@@ -21,23 +21,28 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'John Doe'</initValue>
-      <name>USERNAME</name>
+      <initValue>5</initValue>
+      <name>DELAY_TIME</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Peter Mac Anderson'</initValue>
-      <name>EMPLOYEE_NAME</name>
+      <initValue>'John Doe'</initValue>
+      <name>Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Doe Jhon'</initValue>
+      <name>Update_Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Mobile Legend'</initValue>
+      <name>Employee_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Nathan Elliot'</initValue>
-      <name>EDIT_EMPLOYEE_NAME</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>5</initValue>
-      <name>DELAY_TIME</name>
+      <name>Update_Employee_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

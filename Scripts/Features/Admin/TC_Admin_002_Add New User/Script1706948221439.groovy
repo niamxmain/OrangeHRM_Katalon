@@ -21,6 +21,6 @@ CustomKeywords.'sample.Login.loginGlobalVariable'()
 
 CustomKeywords.'sample.Admin.accessAdminMenu'()
 
-CustomKeywords.'sample.Admin.addNewUser'(GlobalVariable.EMPLOYEE_NAME, GlobalVariable.USERNAME, GlobalVariable.PASSWORD, 
+CustomKeywords.'sample.Admin.addNewUser'(GlobalVariable.Employee_Name, GlobalVariable.Username, GlobalVariable.PASSWORD, 
     GlobalVariable.Role_Admin, GlobalVariable.Status_Enable)
 

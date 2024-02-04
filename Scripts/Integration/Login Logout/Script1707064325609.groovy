@@ -19,7 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Features/Login/TC_Login_001_Valid Admin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/PIM_Menu/PIM/a_PIM'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/PIM_Menu/PIM/h5_Employee Information'))
+WebUI.callTestCase(findTestCase('Features/Login/TC_Logout_001_Valid Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

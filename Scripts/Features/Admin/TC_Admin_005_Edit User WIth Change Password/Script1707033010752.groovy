@@ -21,7 +21,7 @@ CustomKeywords.'sample.Login.loginGlobalVariable'()
 
 CustomKeywords.'sample.Admin.accessAdminMenu'()
 
-CustomKeywords.'sample.Admin.searchUserByUsername'('Anthony.Nolan')
+CustomKeywords.'sample.Admin.searchUserByUsername'('Jhon Doe')
 
-CustomKeywords.'sample.Admin.editUserWithoutChangePassword'('ESS', 'Enabled', 'Peter Mac Anderson', 'Anthony.Nolan', 'admin123')
+CustomKeywords.'sample.Admin.editUser'('', '', '', '', '')
 

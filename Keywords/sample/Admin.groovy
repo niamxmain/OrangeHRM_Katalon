@@ -148,17 +148,17 @@ public class Admin {
 		//		click save and verify success
 		clickSaveAndVerifySuccess()
 	}
-	
+
 	@Keyword
 	def static void deleteUser(String username) {
 		searchUserByUsername(username)
-		
+
 		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/i_Delete User'), GlobalVariable.DELAY_TIME)
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/i_Delete User'))
-		
+
 		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/div_Are You Sure Delete'), GlobalVariable.DELAY_TIME)
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/button_Yes, Delete'))
-		
+
 		WebUI.verifyElementPresent(findTestObject('Admin Menu/User Management/Users/div_Success Deleted'), GlobalVariable.DELAY_TIME)
 	}
 }
