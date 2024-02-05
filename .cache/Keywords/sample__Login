@@ -6,14 +6,16 @@
       "keywordMethods": [
         {
           "name": "loginGlobalVariable",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "logout",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
