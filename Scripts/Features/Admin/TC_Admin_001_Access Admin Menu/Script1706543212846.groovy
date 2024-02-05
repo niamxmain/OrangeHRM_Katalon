@@ -23,3 +23,5 @@ CustomKeywords.'sample.Admin.accessAdminMenu'()
 
 WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/h5_System Users'), 5)
 
+WebUI.takeFullPageScreenshotAsCheckpoint('admin page')
+

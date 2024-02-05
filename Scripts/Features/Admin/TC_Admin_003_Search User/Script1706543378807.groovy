@@ -21,3 +21,5 @@ WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_001_Access Admin Menu')
 
 CustomKeywords.'sample.Admin.searchUserByUsername'(GlobalVariable.Username)
 
+WebUI.takeFullPageScreenshotAsCheckpoint('search user')
+
