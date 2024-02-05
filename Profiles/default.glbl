@@ -64,4 +64,9 @@
       <initValue>'Disabled'</initValue>
       <name>Status_Disable</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/home/niam/Downloads/katalon.png'</initValue>
+      <name>Path_Photo</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

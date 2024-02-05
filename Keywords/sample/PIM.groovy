@@ -21,11 +21,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class PIM {
-	
+
 	def static void accessPIMMenu() {
 		WebUI.click(findTestObject('Side Menus/a_PIM'))
 		WebUI.waitForElementPresent(findTestObject('PIM Menu/PIM/h5_Employee Information'), 0)
 	}
-	
-	
+
+	def static void addNewEmployee(String photo, String firstname, String middlename=null, String lastname, String employeeid=null) {
+		WebUI.click(findTestObject('PIM Menu/PIM/button_Add'))
+		WebUI.verifyElementPresent(findTestObject('PIM Menu/PIM/Add Employee/h6_Add Employee'), GlobalVariable.DELAY_TIME)
+		
+		WebUI.uploadFile(findTestObject('PIM Menu/PIM/Add Employee/button_Add Picture'), photo)
+		WebUI.setText(findTestObject('PIM Menu/PIM/Add Employee/input_Firstname'), firstname)
+		WebUI.setText(findTestObject('PIM Menu/PIM/Add Employee/input_Middlename'), middlename)
+		WebUI.setText(findTestObject('PIM Menu/PIM/Add Employee/input_Lastname'), lastname)
+		WebUI.setText(findTestObject('PIM Menu/PIM/Add Employee/input_Employee Id'), employeeid)
+		
+		WebUI.verifyElementPresent(findTestObject('PIM Menu/PIM/Add Employee/div_Success'), GlobalVariable.DELAY_TIME)
+		
+	}
 }
