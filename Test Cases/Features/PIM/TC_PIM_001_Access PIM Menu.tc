@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Access PIM Menu</name>
+   <name>TC_PIM_001_Access PIM Menu</name>
    <tag>Jan</tag>
    <comment></comment>
    <testCaseGuid>55a83efb-51e2-4745-b826-3ae54b7e0424</testCaseGuid>

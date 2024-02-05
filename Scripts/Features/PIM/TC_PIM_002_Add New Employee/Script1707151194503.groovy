@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Features/Login/TC_Login_001_Valid Admin'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Features/PIM/TC_PIM_001_Access PIM Menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('null'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/PIM Menu/PIM/h5_Employee Information'))
+CustomKeywords.'sample.PIM.addNewEmployee'(GlobalVariable.Path_Photo, 'Niam', 'Nurul', 'Anam', '')
 

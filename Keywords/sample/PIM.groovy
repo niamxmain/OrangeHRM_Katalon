@@ -22,20 +22,37 @@ import internal.GlobalVariable
 
 public class PIM {
 
+	@Keyword
 	def static void accessPIMMenu() {
 		WebUI.click(findTestObject('Side Menus/a_PIM'))
 		WebUI.waitForElementPresent(findTestObject('PIM Menu/PIM/h5_Employee Information'), 0)
 	}
 
-	def static void addNewEmployee(String photo, String firstname, String middlename=null, String lastname, String employeeid=null) {
+	@Keyword
+	def static void addNewEmployee(String photo, String firstname, String middlename=null, String lastname, String employeeid) {
 		WebUI.click(findTestObject('PIM Menu/PIM/button_Add'))
 		WebUI.verifyElementPresent(findTestObject('PIM Menu/PIM/Add Employee/h6_Add Employee'), GlobalVariable.DELAY_TIME)
 		
 		WebUI.uploadFile(findTestObject('PIM Menu/PIM/Add Employee/button_Add Picture'), photo)
+		WebUI.delay(GlobalVariable.DELAY_TIME)
 		WebUI.setText(findTestObject('PIM Menu/PIM/Add Employee/input_Firstname'), firstname)
 		WebUI.setText(findTestObject('PIM Menu/PIM/Add Employee/input_Middlename'), middlename)
 		WebUI.setText(findTestObject('PIM Menu/PIM/Add Employee/input_Lastname'), lastname)
-		WebUI.setText(findTestObject('PIM Menu/PIM/Add Employee/input_Employee Id'), employeeid)
+		
+//		check id employee
+		TestObject objId = findTestObject('PIM Menu/PIM/Add Employee/input_Employee Id')
+		String idBefore = WebUI.getAttribute(objId, 'value')
+		if (!employeeid.equalsIgnoreCase(idBefore)) {
+
+			for (int i = 0; i < idBefore.length(); i++) {
+				WebUI.sendKeys(objId, '\ue003')
+			}
+			WebUI.delay(1)
+			WebUI.setText(findTestObject('PIM Menu/PIM/Add Employee/input_Employee Id'), employeeid)
+			
+		}
+				
+		WebUI.click(findTestObject('PIM Menu/PIM/Add Employee/button_Save'))
 		
 		WebUI.verifyElementPresent(findTestObject('PIM Menu/PIM/Add Employee/div_Success'), GlobalVariable.DELAY_TIME)
 		

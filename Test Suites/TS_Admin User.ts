@@ -29,7 +29,7 @@
       <guid>41104fdd-8332-4487-893f-5503ef2edb53</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Features/Admin/TC_Admin_003_Search User</testCaseId>
+      <testCaseId>Test Cases/Features/Admin/TC_Admin_003_Search User By Username</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
