@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Admin User" time="289.991" tests="6" failures="0" errors="0">
+   <testsuite name="TS_Admin User" tests="6" failures="0" errors="0" time="289.991" skipped="0" timestamp="06-02-2024T00:13:50" hostname="niam - zerone" id="Test Suites/TS_Admin User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240206_001341/TS_Admin User/20240206_001341"/>
+         <property name="logFiles" value="/media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240206_001341/TS_Admin User/20240206_001341/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-admin page.png, keyes/keyes-admin page.png, keyes/keyes-admin page.png, keyes/keyes-search user.png, keyes/keyes-admin page.png, keyes/keyes-search user.png, keyes/keyes-admin page.png, /media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/20240206_001341/TS_Admin User/20240206_001341/1707153414815.png, keyes/keyes-admin page.png, keyes/keyes-admin page.png"/>
+         <property name="hostName" value="niam - zerone"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="989568ed45b1bf28de3e29d48e6f5dfd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu" time="29.382" classname="Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu" status="PASSED">
+         <system-out><![CDATA[06-02-2024T00:13:50 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu: Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu
+
+06-02-2024T00:13:52 - [TEST_STEP][PASSED] - sample.Login.loginGlobalVariable(): sample.Login.loginGlobalVariable is PASSED
+
+06-02-2024T00:13:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2024T00:13:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2024T00:14:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+06-02-2024T00:14:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-02-2024T00:14:06 - [MESSAGE][PASSED] - Current window maximized
+
+06-02-2024T00:14:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/h5_Login' is visible
+
+06-02-2024T00:14:07 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/Login Page/input_Username'
+
+06-02-2024T00:14:08 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/Login Page/input_Password'
+
+06-02-2024T00:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+06-02-2024T00:14:10 - [MESSAGE][PASSED] - sample.Login.loginGlobalVariable is PASSED
+
+06-02-2024T00:14:10 - [TEST_STEP][PASSED] - sample.Admin.accessAdminMenu(): sample.Admin.accessAdminMenu is PASSED
+
+06-02-2024T00:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Side Menus/a_Admin' is clicked on
+
+06-02-2024T00:14:17 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:14:17 - [MESSAGE][PASSED] - sample.Admin.accessAdminMenu is PASSED
+
+06-02-2024T00:14:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin Menu/User Management/h5_System Users"), 5): Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:14:17 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:14:17 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("admin page"): Taking screenshot successfully
+
+06-02-2024T00:14:19 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-02-2024T00:14:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-admin page.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Features/Admin/TC_Admin_002_Add New User" time="39.548" classname="Test Cases/Features/Admin/TC_Admin_002_Add New User" status="PASSED">
+         <system-out><![CDATA[06-02-2024T00:14:20 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_002_Add New User: Test Cases/Features/Admin/TC_Admin_002_Add New User
+
+06-02-2024T00:14:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_001_Access Admin Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+06-02-2024T00:14:21 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu: Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu
+
+06-02-2024T00:14:21 - [TEST_STEP][PASSED] - sample.Login.loginGlobalVariable(): sample.Login.loginGlobalVariable is PASSED
+
+06-02-2024T00:14:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-02-2024T00:14:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2024T00:14:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2024T00:14:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+06-02-2024T00:14:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-02-2024T00:14:29 - [MESSAGE][PASSED] - Current window maximized
+
+06-02-2024T00:14:30 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/h5_Login' is visible
+
+06-02-2024T00:14:31 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/Login Page/input_Username'
+
+06-02-2024T00:14:31 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/Login Page/input_Password'
+
+06-02-2024T00:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+06-02-2024T00:14:31 - [MESSAGE][PASSED] - sample.Login.loginGlobalVariable is PASSED
+
+06-02-2024T00:14:31 - [TEST_STEP][PASSED] - sample.Admin.accessAdminMenu(): sample.Admin.accessAdminMenu is PASSED
+
+06-02-2024T00:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Side Menus/a_Admin' is clicked on
+
+06-02-2024T00:14:39 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:14:39 - [MESSAGE][PASSED] - sample.Admin.accessAdminMenu is PASSED
+
+06-02-2024T00:14:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin Menu/User Management/h5_System Users"), 5): Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:14:40 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:14:40 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("admin page"): Taking screenshot successfully
+
+06-02-2024T00:14:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-02-2024T00:14:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-admin page.png]]
+
+06-02-2024T00:14:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+06-02-2024T00:14:42 - [TEST_STEP][PASSED] - sample.Admin.addNewUser(Employee_Name, Username, PASSWORD, Role_Admin, Status_Enable): sample.Admin.addNewUser is PASSED
+
+06-02-2024T00:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/button_Add_User' is clicked on
+
+06-02-2024T00:14:44 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/Add User/h6_Add User' is present
+
+06-02-2024T00:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/div_Dropdown Role' is clicked on
+
+06-02-2024T00:14:45 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/Add User/div_Result Role' is visible
+
+06-02-2024T00:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/div_Type Role' is clicked on
+
+06-02-2024T00:14:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/div_Dropdown Status' is clicked on
+
+06-02-2024T00:14:47 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/Add User/div_Result Status' is visible
+
+06-02-2024T00:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/div_Type Status' is clicked on
+
+06-02-2024T00:14:49 - [MESSAGE][PASSED] - Text 'Peter Mac Anderson' is set on object 'Object Repository/Admin Menu/User Management/Users/Add User/input_Employee_Name'
+
+06-02-2024T00:14:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-02-2024T00:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/div_Employee Name' is clicked on
+
+06-02-2024T00:14:55 - [MESSAGE][PASSED] - Keys 'Jhon Doe' sent to object: 'Object Repository/Admin Menu/User Management/Users/Add User/input_Username'
+
+06-02-2024T00:14:56 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/Admin Menu/User Management/Users/Add User/input_Password'
+
+06-02-2024T00:14:57 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/Admin Menu/User Management/Users/Add User/input_Confirm Password'
+
+06-02-2024T00:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Add User/button_Save' is clicked on
+
+06-02-2024T00:15:00 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/Add User/popup_Success' is visible
+
+06-02-2024T00:15:00 - [MESSAGE][PASSED] - sample.Admin.addNewUser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Features/Admin/TC_Admin_003_Search User By Username" time="32.506" classname="Test Cases/Features/Admin/TC_Admin_003_Search User By Username" status="PASSED">
+         <system-out><![CDATA[06-02-2024T00:15:00 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_003_Search User By Username: Test Cases/Features/Admin/TC_Admin_003_Search User By Username
+
+06-02-2024T00:15:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_001_Access Admin Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+06-02-2024T00:15:00 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu: Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu
+
+06-02-2024T00:15:01 - [TEST_STEP][PASSED] - sample.Login.loginGlobalVariable(): sample.Login.loginGlobalVariable is PASSED
+
+06-02-2024T00:15:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-02-2024T00:15:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2024T00:15:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2024T00:15:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+06-02-2024T00:15:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-02-2024T00:15:10 - [MESSAGE][PASSED] - Current window maximized
+
+06-02-2024T00:15:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/h5_Login' is visible
+
+06-02-2024T00:15:12 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/Login Page/input_Username'
+
+06-02-2024T00:15:13 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/Login Page/input_Password'
+
+06-02-2024T00:15:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+06-02-2024T00:15:13 - [MESSAGE][PASSED] - sample.Login.loginGlobalVariable is PASSED
+
+06-02-2024T00:15:13 - [TEST_STEP][PASSED] - sample.Admin.accessAdminMenu(): sample.Admin.accessAdminMenu is PASSED
+
+06-02-2024T00:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Side Menus/a_Admin' is clicked on
+
+06-02-2024T00:15:21 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:15:21 - [MESSAGE][PASSED] - sample.Admin.accessAdminMenu is PASSED
+
+06-02-2024T00:15:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin Menu/User Management/h5_System Users"), 5): Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:15:22 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:15:22 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("admin page"): Taking screenshot successfully
+
+06-02-2024T00:15:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-02-2024T00:15:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-admin page.png]]
+
+06-02-2024T00:15:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+06-02-2024T00:15:24 - [TEST_STEP][PASSED] - sample.Admin.searchUserByUsername(Username): sample.Admin.searchUserByUsername is PASSED
+
+06-02-2024T00:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/input_Search Username' is clicked on
+
+06-02-2024T00:15:25 - [MESSAGE][PASSED] - Keys 'Jhon Doe' sent to object: 'Object Repository/Admin Menu/User Management/Users/input_Search Username'
+
+06-02-2024T00:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/button_Search' is clicked on
+
+06-02-2024T00:15:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-02-2024T00:15:31 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/div_Username Record Found' is present
+
+06-02-2024T00:15:31 - [MESSAGE][PASSED] - sample.Admin.searchUserByUsername is PASSED
+
+06-02-2024T00:15:31 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("search user"): Taking screenshot successfully
+
+06-02-2024T00:15:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-02-2024T00:15:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-search user.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Features/Admin/TC_Admin_004_Edit User Without Change Password" time="48.368" classname="Test Cases/Features/Admin/TC_Admin_004_Edit User Without Change Password" status="PASSED">
+         <system-out><![CDATA[06-02-2024T00:15:32 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_004_Edit User Without Change Password: Test Cases/Features/Admin/TC_Admin_004_Edit User Without Change Password
+
+06-02-2024T00:15:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_003_Search User By Username"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_003_Search User By Username' successfully
+
+06-02-2024T00:15:33 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_003_Search User By Username: Test Cases/Features/Admin/TC_Admin_003_Search User By Username
+
+06-02-2024T00:15:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_001_Access Admin Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+06-02-2024T00:15:33 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu: Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu
+
+06-02-2024T00:15:33 - [TEST_STEP][PASSED] - sample.Login.loginGlobalVariable(): sample.Login.loginGlobalVariable is PASSED
+
+06-02-2024T00:15:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-02-2024T00:15:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2024T00:15:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2024T00:15:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+06-02-2024T00:15:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-02-2024T00:15:44 - [MESSAGE][PASSED] - Current window maximized
+
+06-02-2024T00:15:45 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/h5_Login' is visible
+
+06-02-2024T00:15:46 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/Login Page/input_Username'
+
+06-02-2024T00:15:46 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/Login Page/input_Password'
+
+06-02-2024T00:15:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+06-02-2024T00:15:46 - [MESSAGE][PASSED] - sample.Login.loginGlobalVariable is PASSED
+
+06-02-2024T00:15:46 - [TEST_STEP][PASSED] - sample.Admin.accessAdminMenu(): sample.Admin.accessAdminMenu is PASSED
+
+06-02-2024T00:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Side Menus/a_Admin' is clicked on
+
+06-02-2024T00:15:53 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:15:53 - [MESSAGE][PASSED] - sample.Admin.accessAdminMenu is PASSED
+
+06-02-2024T00:15:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin Menu/User Management/h5_System Users"), 5): Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:15:54 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:15:54 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("admin page"): Taking screenshot successfully
+
+06-02-2024T00:15:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-02-2024T00:15:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-admin page.png]]
+
+06-02-2024T00:15:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+06-02-2024T00:15:56 - [TEST_STEP][PASSED] - sample.Admin.searchUserByUsername(Username): sample.Admin.searchUserByUsername is PASSED
+
+06-02-2024T00:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/input_Search Username' is clicked on
+
+06-02-2024T00:15:57 - [MESSAGE][PASSED] - Keys 'Jhon Doe' sent to object: 'Object Repository/Admin Menu/User Management/Users/input_Search Username'
+
+06-02-2024T00:15:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/button_Search' is clicked on
+
+06-02-2024T00:16:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-02-2024T00:16:03 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/div_Username Record Found' is present
+
+06-02-2024T00:16:03 - [MESSAGE][PASSED] - sample.Admin.searchUserByUsername is PASSED
+
+06-02-2024T00:16:03 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("search user"): Taking screenshot successfully
+
+06-02-2024T00:16:03 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-02-2024T00:16:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-search user.png]]
+
+06-02-2024T00:16:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_003_Search User By Username' successfully
+
+06-02-2024T00:16:04 - [TEST_STEP][PASSED] - sample.Admin.editUser(Role_ESS, Status_Disable, Update_Employee_Name, Update_Username, null): sample.Admin.editUser is PASSED
+
+06-02-2024T00:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/i_Edit User' is clicked on
+
+06-02-2024T00:16:07 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/Edit User/h6_Edit User' is present
+
+06-02-2024T00:16:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin Menu/User Management/Users/Edit User/div_Dropdown Role' is: 'Admin'
+
+06-02-2024T00:16:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Edit User/div_Dropdown Role' is clicked on
+
+06-02-2024T00:16:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-02-2024T00:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Edit User/div_Result Role' is clicked on
+
+06-02-2024T00:16:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin Menu/User Management/Users/Edit User/div_Dropdown Status' is: 'Enabled'
+
+06-02-2024T00:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Edit User/div_Dropdown Status' is clicked on
+
+06-02-2024T00:16:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-02-2024T00:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Edit User/div_Result Status' is clicked on
+
+06-02-2024T00:16:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Admin Menu/User Management/Users/Edit User/input_Employee' is: 'Peter Mac Anderson'
+
+06-02-2024T00:16:13 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Admin Menu/User Management/Users/Edit User/input_Username' is: 'Jhon Doe'
+
+06-02-2024T00:16:13 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Admin Menu/User Management/Users/Edit User/input_Username'
+
+06-02-2024T00:16:13 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Admin Menu/User Management/Users/Edit User/input_Username'
+
+06-02-2024T00:16:14 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Admin Menu/User Management/Users/Edit User/input_Username'
+
+06-02-2024T00:16:14 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Admin Menu/User Management/Users/Edit User/input_Username'
+
+06-02-2024T00:16:15 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Admin Menu/User Management/Users/Edit User/input_Username'
+
+06-02-2024T00:16:15 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Admin Menu/User Management/Users/Edit User/input_Username'
+
+06-02-2024T00:16:16 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Admin Menu/User Management/Users/Edit User/input_Username'
+
+06-02-2024T00:16:16 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Admin Menu/User Management/Users/Edit User/input_Username'
+
+06-02-2024T00:16:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-02-2024T00:16:18 - [MESSAGE][PASSED] - Text 'Doe Jhon' is set on object 'Object Repository/Admin Menu/User Management/Users/Edit User/input_Username'
+
+06-02-2024T00:16:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Edit User/button_Save' is clicked on
+
+06-02-2024T00:16:20 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/Edit User/div_Success' is visible
+
+06-02-2024T00:16:20 - [MESSAGE][PASSED] - sample.Admin.editUser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Features/Admin/TC_Admin_005_Edit User WIth Change Password" time="40.167" classname="Test Cases/Features/Admin/TC_Admin_005_Edit User WIth Change Password" status="PASSED">
+         <system-out><![CDATA[06-02-2024T00:16:55 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_005_Edit User WIth Change Password: Test Cases/Features/Admin/TC_Admin_005_Edit User WIth Change Password
+
+06-02-2024T00:16:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_001_Access Admin Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+06-02-2024T00:16:55 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu: Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu
+
+06-02-2024T00:16:55 - [TEST_STEP][PASSED] - sample.Login.loginGlobalVariable(): sample.Login.loginGlobalVariable is PASSED
+
+06-02-2024T00:16:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-02-2024T00:16:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2024T00:16:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2024T00:17:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+06-02-2024T00:17:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-02-2024T00:17:02 - [MESSAGE][PASSED] - Current window maximized
+
+06-02-2024T00:17:03 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/h5_Login' is visible
+
+06-02-2024T00:17:04 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/Login Page/input_Username'
+
+06-02-2024T00:17:04 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/Login Page/input_Password'
+
+06-02-2024T00:17:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+06-02-2024T00:17:06 - [MESSAGE][PASSED] - sample.Login.loginGlobalVariable is PASSED
+
+06-02-2024T00:17:06 - [TEST_STEP][PASSED] - sample.Admin.accessAdminMenu(): sample.Admin.accessAdminMenu is PASSED
+
+06-02-2024T00:17:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Side Menus/a_Admin' is clicked on
+
+06-02-2024T00:17:13 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:17:13 - [MESSAGE][PASSED] - sample.Admin.accessAdminMenu is PASSED
+
+06-02-2024T00:17:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin Menu/User Management/h5_System Users"), 5): Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:17:13 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:17:13 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("admin page"): Taking screenshot successfully
+
+06-02-2024T00:17:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-02-2024T00:17:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-admin page.png]]
+
+06-02-2024T00:17:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+06-02-2024T00:17:15 - [TEST_STEP][PASSED] - sample.Admin.searchUserByUsername(Update_Username): sample.Admin.searchUserByUsername is PASSED
+
+06-02-2024T00:17:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/input_Search Username' is clicked on
+
+06-02-2024T00:17:16 - [MESSAGE][PASSED] - Keys 'Doe Jhon' sent to object: 'Object Repository/Admin Menu/User Management/Users/input_Search Username'
+
+06-02-2024T00:17:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/button_Search' is clicked on
+
+06-02-2024T00:17:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-02-2024T00:17:22 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/div_Username Record Found' is present
+
+06-02-2024T00:17:22 - [MESSAGE][PASSED] - sample.Admin.searchUserByUsername is PASSED
+
+06-02-2024T00:17:22 - [TEST_STEP][PASSED] - sample.Admin.editUser(Role_Admin, Status_Disable, Update_Employee_Name, Update_Username, PASSWORD): sample.Admin.editUser is PASSED
+
+06-02-2024T00:17:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/i_Edit User' is clicked on
+
+06-02-2024T00:17:25 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/Edit User/h6_Edit User' is present
+
+06-02-2024T00:17:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin Menu/User Management/Users/Edit User/div_Dropdown Role' is: 'ESS'
+
+06-02-2024T00:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Edit User/div_Dropdown Role' is clicked on
+
+06-02-2024T00:17:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-02-2024T00:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Edit User/div_Result Role' is clicked on
+
+06-02-2024T00:17:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin Menu/User Management/Users/Edit User/div_Dropdown Status' is: 'Disabled'
+
+06-02-2024T00:17:28 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Admin Menu/User Management/Users/Edit User/input_Employee' is: 'Peter Mac Anderson'
+
+06-02-2024T00:17:29 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Admin Menu/User Management/Users/Edit User/input_Username' is: 'Doe Jhon'
+
+06-02-2024T00:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Edit User/label_Yes Update Password' is clicked on
+
+06-02-2024T00:17:30 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/Edit User/div_Box Change Password' is present
+
+06-02-2024T00:17:30 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Admin Menu/User Management/Users/Edit User/input_Password'
+
+06-02-2024T00:17:32 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Admin Menu/User Management/Users/Edit User/input_Confirm Password'
+
+06-02-2024T00:17:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/Edit User/button_Save' is clicked on
+
+06-02-2024T00:17:35 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/Edit User/div_Success' is visible
+
+06-02-2024T00:17:35 - [MESSAGE][PASSED] - sample.Admin.editUser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Features/Admin/TC_Admin_006_Delete User" time="65.085" classname="Test Cases/Features/Admin/TC_Admin_006_Delete User" status="PASSED">
+         <system-out><![CDATA[06-02-2024T00:17:35 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_006_Delete User: Test Cases/Features/Admin/TC_Admin_006_Delete User
+
+06-02-2024T00:17:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Features/Admin/TC_Admin_001_Access Admin Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+06-02-2024T00:17:36 - [TEST_CASE][PASSED] - Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu: Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu
+
+06-02-2024T00:17:36 - [TEST_STEP][PASSED] - sample.Login.loginGlobalVariable(): sample.Login.loginGlobalVariable is PASSED
+
+06-02-2024T00:17:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-02-2024T00:17:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2024T00:17:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2024T00:17:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+06-02-2024T00:17:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-02-2024T00:17:46 - [MESSAGE][PASSED] - Current window maximized
+
+06-02-2024T00:17:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/h5_Login' is visible
+
+06-02-2024T00:17:48 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/Login Page/input_Username'
+
+06-02-2024T00:17:48 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/Login Page/input_Password'
+
+06-02-2024T00:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+06-02-2024T00:17:50 - [MESSAGE][PASSED] - sample.Login.loginGlobalVariable is PASSED
+
+06-02-2024T00:17:50 - [TEST_STEP][PASSED] - sample.Admin.accessAdminMenu(): sample.Admin.accessAdminMenu is PASSED
+
+06-02-2024T00:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Side Menus/a_Admin' is clicked on
+
+06-02-2024T00:17:56 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:17:56 - [MESSAGE][PASSED] - sample.Admin.accessAdminMenu is PASSED
+
+06-02-2024T00:17:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin Menu/User Management/h5_System Users"), 5): Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:17:56 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/h5_System Users' is present
+
+06-02-2024T00:17:56 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("admin page"): Taking screenshot successfully
+
+06-02-2024T00:17:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+06-02-2024T00:17:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-admin page.png]]
+
+06-02-2024T00:17:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu' successfully
+
+06-02-2024T00:17:58 - [TEST_STEP][PASSED] - sample.Admin.deleteUser(Update_Username): sample.Admin.deleteUser is PASSED
+
+06-02-2024T00:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/input_Search Username' is clicked on
+
+06-02-2024T00:17:59 - [MESSAGE][PASSED] - Keys 'Doe Jhon' sent to object: 'Object Repository/Admin Menu/User Management/Users/input_Search Username'
+
+06-02-2024T00:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/button_Search' is clicked on
+
+06-02-2024T00:18:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-02-2024T00:18:05 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/div_Username Record Found' is present
+
+06-02-2024T00:18:05 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/i_Delete User' is present
+
+06-02-2024T00:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/i_Delete User' is clicked on
+
+06-02-2024T00:18:06 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/div_Are You Sure Delete' is present
+
+06-02-2024T00:18:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[110]'. Please recheck the objects properties to make sure the desired element is located. 
+
+06-02-2024T00:18:37 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Admin Menu/User Management/Users/button_Yes, Delete'. Try using Self-healing.
+
+06-02-2024T00:18:38 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//button[@type='button'])[110]'.
+
+06-02-2024T00:18:38 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[@id='app']/div[3]/div/div/div/div[3]/button[2]'.
+
+06-02-2024T00:18:39 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/Reports/Self-healing/Object Repository/Admin Menu/User Management/Users/button_Yes, Delete_idRelative.png
+
+06-02-2024T00:18:39 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Admin Menu/User Management/Users/button_Yes, Delete' was broken. Propose an alternative one: '//div[@id='app']/div[3]/div/div/div/div[3]/button[2]'.
+
+06-02-2024T00:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Menu/User Management/Users/button_Yes, Delete' is clicked on
+
+06-02-2024T00:18:40 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Menu/User Management/Users/div_Success Deleted' is present
+
+06-02-2024T00:18:40 - [MESSAGE][PASSED] - sample.Admin.deleteUser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-02-2024T00:13:50 - [TEST_SUITE][FAILED] - TS_Admin User: Test Cases/Features/Admin/TC_Admin_005_Edit User WIth Change Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Menu/User Management/Users/Edit User/div_Result Role'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at sample.Admin.editUser(Admin.groovy:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at TC_Admin_005_Edit User WIth Change Password.run(TC_Admin_005_Edit User WIth Change Password:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707153221337.run(TempTestSuite1707153221337.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=121.0.6167.139)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'zerone', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-170-generic', java.version: '17.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.139, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fda6cd40197a440535b18c7a5081f794
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more]]></system-out>
+      <system-err><![CDATA[06-02-2024T00:13:50 - [TEST_SUITE][FAILED] - TS_Admin User: Test Cases/Features/Admin/TC_Admin_005_Edit User WIth Change Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Menu/User Management/Users/Edit User/div_Result Role'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at sample.Admin.editUser(Admin.groovy:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at TC_Admin_005_Edit User WIth Change Password.run(TC_Admin_005_Edit User WIth Change Password:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707153221337.run(TempTestSuite1707153221337.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=121.0.6167.139)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'zerone', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-170-generic', java.version: '17.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.139, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fda6cd40197a440535b18c7a5081f794
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more]]></system-err>
+   </testsuite>
+</testsuites>

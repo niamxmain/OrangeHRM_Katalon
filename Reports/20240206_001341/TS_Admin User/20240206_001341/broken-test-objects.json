@@ -8,7 +8,7 @@
       "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div[3]/div/div/div/div[3]/button[2]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin Menu/User Management/Users/button_Yes, Delete_idRelative.png"
+      "pathToScreenshot": "Reports/20240206_001341/TS_Admin User/20240206_001341/Object Repository/Admin Menu/User Management/Users/button_Yes, Delete_idRelative.png"
     }
   ]
 }

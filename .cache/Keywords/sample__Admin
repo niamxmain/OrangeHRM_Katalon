@@ -1,13 +1,12 @@
 {
-  "keywordFileContentHash": "E42EC806E3BE185D18461060FEC4AFB8",
+  "keywordFileContentHash": "73C3618DCEC454D775106D0BF7AF9BF6",
   "keywordClasses": [
     {
       "name": "sample.Admin",
       "keywordMethods": [
         {
           "name": "accessAdminMenu",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "addNewUser",
@@ -77,8 +76,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "searchUserByUsername",
@@ -96,8 +94,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "editUser",
@@ -167,8 +164,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "deleteUser",
@@ -186,8 +182,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "editUser",
@@ -244,11 +239,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

@@ -43,7 +43,7 @@
       <guid>336bc1d7-290e-47cd-b31c-ef9fa7b0af6a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Features/Admin/TC_Admin_005_Edit User WIth Change Password</testCaseId>
+      <testCaseId>Test Cases/Features/Admin/TC_Admin_005_Edit User With Change Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
