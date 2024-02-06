@@ -32,14 +32,14 @@ public class PIM {
 	def static void addNewEmployee(String photo, String firstname, String middlename=null, String lastname, String employeeid) {
 		WebUI.click(findTestObject('PIM Menu/PIM/button_Add'))
 		WebUI.verifyElementPresent(findTestObject('PIM Menu/PIM/Add Employee/h6_Add Employee'), GlobalVariable.DELAY_TIME)
-		
-		WebUI.uploadFile(findTestObject('PIM Menu/PIM/Add Employee/button_Add Picture'), photo)
+
+		WebUI.uploadFile(findTestObject('PIM Menu/PIM/Add Employee/input_Add Picture'), photo)
 		WebUI.delay(GlobalVariable.DELAY_TIME)
 		WebUI.setText(findTestObject('PIM Menu/PIM/Add Employee/input_Firstname'), firstname)
 		WebUI.setText(findTestObject('PIM Menu/PIM/Add Employee/input_Middlename'), middlename)
 		WebUI.setText(findTestObject('PIM Menu/PIM/Add Employee/input_Lastname'), lastname)
-		
-//		check id employee
+
+		//		check id employee
 		TestObject objId = findTestObject('PIM Menu/PIM/Add Employee/input_Employee Id')
 		String idBefore = WebUI.getAttribute(objId, 'value')
 		if (!employeeid.equalsIgnoreCase(idBefore)) {
@@ -49,12 +49,10 @@ public class PIM {
 			}
 			WebUI.delay(1)
 			WebUI.setText(findTestObject('PIM Menu/PIM/Add Employee/input_Employee Id'), employeeid)
-			
 		}
-				
+
 		WebUI.click(findTestObject('PIM Menu/PIM/Add Employee/button_Save'))
-		
+
 		WebUI.verifyElementPresent(findTestObject('PIM Menu/PIM/Add Employee/div_Success'), GlobalVariable.DELAY_TIME)
-		
 	}
 }

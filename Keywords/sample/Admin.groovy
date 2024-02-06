@@ -68,7 +68,7 @@ public class Admin {
 	@Keyword
 	def static void searchUserByUsername(String username) {
 		//		input user name
-		WebUI.click(findTestObject('Admin Menu/User Management/Users/input_Search Username'))
+		WebUI.delay(3)
 		WebUI.sendKeys(findTestObject('Admin Menu/User Management/Users/input_Search Username'), username)
 
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/button_Search'))
