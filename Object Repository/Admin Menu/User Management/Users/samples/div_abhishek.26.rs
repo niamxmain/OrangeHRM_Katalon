@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Username Record Found</name>
+   <name>div_abhishek.26</name>
    <tag></tag>
-   <elementGuidId>88c61d70-43ff-42a5-a42e-1555e735bec1</elementGuidId>
+   <elementGuidId>60e1ad3c-c2c9-44dc-a450-19c63d4485b9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-paper-container&quot;]/div[@class=&quot;orangehrm-container&quot;]/div[@class=&quot;oxd-table&quot;]/div[@class=&quot;oxd-table-body&quot;]/div[@class=&quot;oxd-table-card&quot;]/div[@class=&quot;oxd-table-row oxd-table-row--with-border&quot;]/div[@class=&quot;oxd-table-cell oxd-padding-cell&quot;]/div[1][count(. | //*[(text() = '${result}' or . = '${result}')]) = count(//*[(text() = '${result}' or . = '${result}')])]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[2]/div</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -25,23 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>98ef2aa6-f912-4b05-8787-3b3dbea9ce83</webElementGuid>
+      <webElementGuid>53ae7cd7-0416-47bc-9d73-c1d0282a4ab7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>${result}</value>
-      <webElementGuid>a0f4f8b1-265c-4fd3-a980-0be011c2cd40</webElementGuid>
+      <value>abhishek.26</value>
+      <webElementGuid>27da8efb-4429-4424-9ca3-1dd7dd5dee8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-paper-container&quot;]/div[@class=&quot;orangehrm-container&quot;]/div[@class=&quot;oxd-table&quot;]/div[@class=&quot;oxd-table-body&quot;]/div[@class=&quot;oxd-table-card&quot;]/div[@class=&quot;oxd-table-row oxd-table-row--with-border&quot;]/div[@class=&quot;oxd-table-cell oxd-padding-cell&quot;]/div[1]</value>
-      <webElementGuid>4a691ee5-fbff-4a36-ba40-b535f810a3ef</webElementGuid>
+      <webElementGuid>fafc87cc-a510-4916-a959-4c8560bd44db</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[2]/div</value>
-      <webElementGuid>fcad0949-82d9-41a3-b4fd-0929cb665cf9</webElementGuid>
+      <webElementGuid>344dc758-1168-459f-a46b-ccabcfb91dc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,14 +54,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[2]/div/div/div[2]/div</value>
-      <webElementGuid>6a38b76c-810f-42b7-b64a-70f878ac521d</webElementGuid>
+      <webElementGuid>2fe7214c-5f44-4b96-93de-26bd0f803ef6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Aaliyah.Haq' or . = 'Aaliyah.Haq')]</value>
-      <webElementGuid>b8013efe-7ee1-4351-936e-98bcdefb79ed</webElementGuid>
+      <value>//div[(text() = 'abhishek.26' or . = 'abhishek.26')]</value>
+      <webElementGuid>31b64b46-9c16-4302-8803-35b35acd13eb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

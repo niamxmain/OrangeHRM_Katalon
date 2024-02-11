@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Username Record Found</name>
+   <name>div_ESS</name>
    <tag></tag>
-   <elementGuidId>88c61d70-43ff-42a5-a42e-1555e735bec1</elementGuidId>
+   <elementGuidId>a3fea423-4d01-454b-ad94-82749a3e9c66</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-paper-container&quot;]/div[@class=&quot;orangehrm-container&quot;]/div[@class=&quot;oxd-table&quot;]/div[@class=&quot;oxd-table-body&quot;]/div[@class=&quot;oxd-table-card&quot;]/div[@class=&quot;oxd-table-row oxd-table-row--with-border&quot;]/div[@class=&quot;oxd-table-cell oxd-padding-cell&quot;]/div[1][count(. | //*[(text() = '${result}' or . = '${result}')]) = count(//*[(text() = '${result}' or . = '${result}')])]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[2]/div</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[3]/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -25,46 +22,46 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>98ef2aa6-f912-4b05-8787-3b3dbea9ce83</webElementGuid>
+      <webElementGuid>f990e707-179b-4960-9155-80c62c8e637e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>${result}</value>
-      <webElementGuid>a0f4f8b1-265c-4fd3-a980-0be011c2cd40</webElementGuid>
+      <value>ESS</value>
+      <webElementGuid>cf814c5e-1578-4784-95be-a1de779b5fbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-paper-container&quot;]/div[@class=&quot;orangehrm-container&quot;]/div[@class=&quot;oxd-table&quot;]/div[@class=&quot;oxd-table-body&quot;]/div[@class=&quot;oxd-table-card&quot;]/div[@class=&quot;oxd-table-row oxd-table-row--with-border&quot;]/div[@class=&quot;oxd-table-cell oxd-padding-cell&quot;]/div[1]</value>
-      <webElementGuid>4a691ee5-fbff-4a36-ba40-b535f810a3ef</webElementGuid>
+      <webElementGuid>8770fc96-e9ee-4902-b69a-86acf6f46e9c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[2]/div</value>
-      <webElementGuid>fcad0949-82d9-41a3-b4fd-0929cb665cf9</webElementGuid>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[3]/div</value>
+      <webElementGuid>28652375-0068-46f9-8109-09f867fc0d3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div[2]/div/div/div[2]/div</value>
-      <webElementGuid>6a38b76c-810f-42b7-b64a-70f878ac521d</webElementGuid>
+      <value>//div[3]/div/div[2]/div/div/div[3]/div</value>
+      <webElementGuid>24cb0aed-e990-4c70-9a17-114aa166b811</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Aaliyah.Haq' or . = 'Aaliyah.Haq')]</value>
-      <webElementGuid>b8013efe-7ee1-4351-936e-98bcdefb79ed</webElementGuid>
+      <value>//div[(text() = 'ESS' or . = 'ESS')]</value>
+      <webElementGuid>5588f44d-3a0d-4a0e-a1ca-339a95b9d880</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

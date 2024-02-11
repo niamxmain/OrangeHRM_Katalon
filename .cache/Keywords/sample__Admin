@@ -1,13 +1,12 @@
 {
-  "keywordFileContentHash": "523A886B2EA87CACDEEC799D14AA0F08",
+  "keywordFileContentHash": "5B64FD4862FC90F5729812493C25D75A",
   "keywordClasses": [
     {
       "name": "sample.Admin",
       "keywordMethods": [
         {
           "name": "accessAdminMenu",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "addNewUser",
@@ -77,14 +76,26 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
-          "name": "searchUserByUsername",
+          "name": "searchUserWithSpecificData",
           "parameters": [
             {
-              "name": "username",
+              "name": "type",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "value",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -96,8 +107,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "editUser",
@@ -167,8 +177,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "deleteUser",
@@ -186,8 +195,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "editUser",
@@ -244,11 +252,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

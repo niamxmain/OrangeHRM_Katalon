@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_001_Access Admin Menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'sample.Admin.searchUserByUsername'(GlobalVariable.Update_Username)
+CustomKeywords.'sample.Admin.searchUserWithSpecificData'('Role', 'ESS')
 

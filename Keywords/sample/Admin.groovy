@@ -66,16 +66,36 @@ public class Admin {
 	}
 
 	@Keyword
-	def static void searchUserByUsername(String username) {
+	def static void searchUserWithSpecificData(String type, String value) {
 		//		input user name
 		WebUI.delay(3)
-		WebUI.sendKeys(findTestObject('Admin Menu/User Management/Users/input_Search Username'), username)
+		
+		def cases = type
+		switch (cases) {
+			case "Username":
+				WebUI.sendKeys(findTestObject('Admin Menu/User Management/Users/input_Search Username'), value)
+				break
+			case "Employee":
+				WebUI.sendKeys(findTestObject('Admin Menu/User Management/Users/Search/input_Employee'), value)
+				break
+			case "Role":
+				WebUI.click(findTestObject('Admin Menu/User Management/Users/Search/div_role'))
+				WebUI.click(findTestObject('Admin Menu/User Management/Users/Search/div_Roles', [('role'):value]))
+				break
+			case "Status":
+				WebUI.click(findTestObject('Admin Menu/User Management/Users/Search/div_status'))
+				WebUI.click(findTestObject('Admin Menu/User Management/Users/Search/div_Statuses', [('status'):value]))
+				break
+			default:
+				false
+		}
+		
 
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/button_Search'))
 
 		//		verify user succeed search
 		WebUI.delay(5)
-		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/div_Username Record Found',[('username'):username]), GlobalVariable.DELAY_TIME)
+		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/div_Username Record Found',[('result'):value]), GlobalVariable.DELAY_TIME)
 	}
 
 
