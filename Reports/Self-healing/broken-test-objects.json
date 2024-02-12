@@ -1,3 +1,34 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Admin Menu/User Management/Users/button_Add_User",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type \u003d \u0027button\u0027 and (text() \u003d \u0027 Add \u0027 or . \u003d \u0027 Add \u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin Menu/User Management/Users/button_Add_User_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Admin Menu/User Management/Users/Add User/h6_Add User",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/h6",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/h6",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin Menu/User Management/Users/Add User/h6_Add User_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Admin Menu/User Management/Users/Add User/div_Dropdown Role",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div/div/div[2]/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
 }

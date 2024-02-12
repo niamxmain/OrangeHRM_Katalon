@@ -1,12 +1,13 @@
 {
-  "keywordFileContentHash": "5B64FD4862FC90F5729812493C25D75A",
+  "keywordFileContentHash": "97B4EC879B8180718B416B2C10F0FB4A",
   "keywordClasses": [
     {
       "name": "sample.Admin",
       "keywordMethods": [
         {
           "name": "accessAdminMenu",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "addNewUser",
@@ -76,7 +77,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "searchUserWithSpecificData",
@@ -107,7 +109,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "editUser",
@@ -177,13 +180,27 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "deleteUser",
           "parameters": [
             {
-              "name": "username",
+              "name": "type",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "value",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -195,7 +212,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "editUser",
@@ -252,10 +270,30 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "deleteUser",
+          "parameters": [
+            {
+              "name": "value",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

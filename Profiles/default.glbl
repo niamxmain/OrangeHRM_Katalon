@@ -36,12 +36,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Peter Mac Anderson'</initValue>
+      <initValue>'Michael Jackson'</initValue>
       <name>Employee_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Peter Mac Anderson'</initValue>
+      <initValue>'Michael Jackson'</initValue>
       <name>Update_Employee_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -6,15 +6,19 @@
    <elementGuidId>30f564bd-4885-43b0-8564-1a28bb61f4a8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.oxd-select-text.oxd-select-text--active</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-select-wrapper&quot;]/div[@class=&quot;oxd-select-text oxd-select-text--active&quot;][count(. | //*[(text() = '-- Select --' or . = '-- Select --')]) = count(//*[(text() = '-- Select --' or . = '-- Select --')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>434a6788-e4c7-412a-89c0-caf9a5db1579</webElementGuid>
+      <webElementGuid>a03f8269-95f3-4515-bc4d-8d4bebe6c927</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-select-text oxd-select-text--active</value>
-      <webElementGuid>0e329b80-f4cb-49b9-a1b2-0cf3276b9bb6</webElementGuid>
+      <webElementGuid>9ab75b98-fb10-4f5f-b9a4-ec22c2317702</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +42,15 @@
       <name>text</name>
       <type>Main</type>
       <value>-- Select --</value>
-      <webElementGuid>089030a3-d62a-4c57-8c85-cb24baf6f67f</webElementGuid>
+      <webElementGuid>3f8c823c-2ebe-4ec5-82bc-6e42a394d0ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-select-wrapper&quot;]/div[@class=&quot;oxd-select-text oxd-select-text--active&quot;]</value>
-      <webElementGuid>79c29121-04fa-48e5-a7f0-7512cbf92135</webElementGuid>
+      <webElementGuid>e2ae8806-5c70-4b6e-b948-c5f45322a116</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div</value>
-      <webElementGuid>22b449c4-707f-48f2-9630-e42281527c9c</webElementGuid>
+      <webElementGuid>c8174606-aba6-4599-b0e5-97fa158e0216</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div[2]/div/div</value>
-      <webElementGuid>7dc64636-a09c-4a7d-818f-931fee11403c</webElementGuid>
+      <webElementGuid>364f6ce8-668e-4a27-bb54-74515b056db4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '-- Select --' or . = '-- Select --')]</value>
-      <webElementGuid>d7864884-f5d0-45bf-bb83-4bfd92a57954</webElementGuid>
+      <webElementGuid>7d4d5f4e-e5d9-4a1d-b692-ccb07de12e6c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

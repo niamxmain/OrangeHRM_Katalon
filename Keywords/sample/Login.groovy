@@ -34,6 +34,7 @@ public class Login {
 		WebUI.sendKeys(findTestObject('Login Page/input_Username'), username)
 		WebUI.sendKeys(findTestObject('Login Page/input_Password'), password)
 		WebUI.click(findTestObject('Login Page/button_Login'))
+		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/h5_System Users'), GlobalVariable.DELAY_TIME)
 	}
 
 	@Keyword

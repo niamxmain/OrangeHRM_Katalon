@@ -25,7 +25,9 @@ public class Admin {
 
 	@Keyword
 	def static void accessAdminMenu() {
+		WebUI.delay(5)
 		WebUI.click(findTestObject('Side Menus/a_Admin'))
+		WebUI.delay(1)
 		WebUI.waitForElementPresent(findTestObject("Admin Menu/User Management/h5_System Users"), GlobalVariable.DELAY_TIME)
 	}
 
@@ -53,7 +55,8 @@ public class Admin {
 		WebUI.setText(findTestObject('Admin Menu/User Management/Users/Add User/input_Employee_Name'), employee)
 		//		find test object employee
 		WebUI.delay(5)
-		WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/div_Employee Name', [('employee'):employee]), FailureHandling.STOP_ON_FAILURE)
+//		WebUI.verifyElementClickable(findTestObject('Admin Menu/User Management/Users/Add User/div_Employee Name', [('employee'):employee]))
+		WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/div_Employee Name'), FailureHandling.STOP_ON_FAILURE)
 
 		WebUI.sendKeys(findTestObject('Admin Menu/User Management/Users/Add User/input_Username'), username)
 		WebUI.sendKeys(findTestObject('Admin Menu/User Management/Users/Add User/input_Password'), password)
@@ -69,7 +72,7 @@ public class Admin {
 	def static void searchUserWithSpecificData(String type, String value) {
 		//		input user name
 		WebUI.delay(3)
-		
+
 		def cases = type
 		switch (cases) {
 			case "Username":
@@ -89,7 +92,7 @@ public class Admin {
 			default:
 				false
 		}
-		
+
 
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/button_Search'))
 
@@ -170,8 +173,8 @@ public class Admin {
 	}
 
 	@Keyword
-	def static void deleteUser(String username) {
-		searchUserByUsername(username)
+	def static void deleteUser(String type="Username", String value) {
+		searchUserWithSpecificData(type, value)
 
 		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/i_Delete User'), GlobalVariable.DELAY_TIME)
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/i_Delete User'))

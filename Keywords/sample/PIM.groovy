@@ -53,6 +53,6 @@ public class PIM {
 
 		WebUI.click(findTestObject('PIM Menu/PIM/Add Employee/button_Save'))
 
-		WebUI.verifyElementPresent(findTestObject('PIM Menu/PIM/Add Employee/div_Success'), GlobalVariable.DELAY_TIME)
+		WebUI.waitForElementPresent(findTestObject('PIM Menu/PIM/Add Employee/div_Success'), GlobalVariable.DELAY_TIME)
 	}
 }

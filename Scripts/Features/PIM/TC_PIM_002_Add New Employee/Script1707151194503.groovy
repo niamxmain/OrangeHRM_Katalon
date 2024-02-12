@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Features/PIM/TC_PIM_001_Access PIM Menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'sample.PIM.addNewEmployee'(GlobalVariable.Path_Photo, 'Niam', 'Nurul', 'Anam', '8900')
+CustomKeywords.'sample.PIM.addNewEmployee'(GlobalVariable.Path_Photo, 'Michael', '', 'Jackson', '2589')
 

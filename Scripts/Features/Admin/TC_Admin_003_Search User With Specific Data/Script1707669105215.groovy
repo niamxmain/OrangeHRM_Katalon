@@ -17,7 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_001_Access Admin Menu'), [:], FailureHandling.STOP_ON_FAILURE)
-
-CustomKeywords.'sample.Admin.searchUserWithSpecificData'('Role', 'ESS')
+CustomKeywords.'sample.Admin.searchUserWithSpecificData'('Username', 'Jhon Doe')
 
