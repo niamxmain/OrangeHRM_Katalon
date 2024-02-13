@@ -17,8 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'features.Admin.searchUserWithSpecificData'('Username', GlobalVariable.Update_Username)
-
-CustomKeywords.'features.Admin.editUser'(GlobalVariable.Role_Admin, GlobalVariable.Status_Disable, GlobalVariable.Update_Employee_Name, 
-    GlobalVariable.Update_Username, GlobalVariable.PASSWORD)
-

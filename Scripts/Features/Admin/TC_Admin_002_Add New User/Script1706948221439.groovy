@@ -21,6 +21,6 @@ WebUI.callTestCase(findTestCase('Features/Login/TC_Login_001_Valid Admin'), [:],
 
 WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_001_Access Admin Menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'sample.Admin.addNewUser'(GlobalVariable.Employee_Name, GlobalVariable.Username, GlobalVariable.PASSWORD, 
+CustomKeywords.'features.Admin.addNewUser'(GlobalVariable.Employee_Name, GlobalVariable.Username, GlobalVariable.PASSWORD, 
     GlobalVariable.Role_Admin, GlobalVariable.Status_Enable)
 

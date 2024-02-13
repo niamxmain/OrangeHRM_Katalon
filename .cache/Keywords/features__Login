@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "8B2548774DF297FC75D79BD4CF468D41",
+  "keywordClasses": [
+    {
+      "name": "features.Login",
+      "keywordMethods": [
+        {
+          "name": "loginGlobalVariable",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "logout",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

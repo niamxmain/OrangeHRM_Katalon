@@ -1,4 +1,4 @@
-package sample
+package features
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -54,5 +54,26 @@ public class PIM {
 		WebUI.click(findTestObject('PIM Menu/PIM/Add Employee/button_Save'))
 
 		WebUI.waitForElementPresent(findTestObject('PIM Menu/PIM/Add Employee/div_Success'), GlobalVariable.DELAY_TIME)
+	}
+
+	@Keyword
+	def static void searchEmployee(String name) {
+		WebUI.setText(findTestObject('PIM Menu/PIM/Search Employee/input_Employee Name'), name)
+		WebUI.click(findTestObject('PIM Menu/PIM/Search Employee/button_Search'))
+
+		WebUI.scrollToElement(findTestObject('PIM Menu/PIM/Search Employee/div_First Middle Name'), 0)
+		WebUI.waitForElementPresent(findTestObject('PIM Menu/PIM/Search Employee/div_First Middle Name'), GlobalVariable.DELAY_TIME)
+		String fmName = WebUI.getText(findTestObject('PIM Menu/PIM/Search Employee/div_First Middle Name'))
+		String lastName = WebUI.getText(findTestObject('PIM Menu/PIM/Search Employee/div_Last Name'))
+
+		String fullName = fmName+" "+lastName
+
+		println fullName
+		WebUI.verifyMatch(name, fullName, false)
+	}
+	
+	@Keyword
+	def static void updateEmployee(String employee, ) {
+		
 	}
 }
