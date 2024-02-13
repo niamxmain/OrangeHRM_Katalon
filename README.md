@@ -8,6 +8,8 @@
 - Setelah itu akan muncul form dan isi sesuai dengan credentials.
 ![git clone](https://github.com/niamxmain/OrangeHRM_Katalon/blob/main/images/clone.png)
 *note (password didapat dari setting github / personal token)*
+
+## Test Case
 Pada penerapan pengujian kali ini saya menggunakan Tools [Katalon Studio](https://katalon.com/).
 Pengujian saya lakukan pada website [OrangHRM](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login).
 
