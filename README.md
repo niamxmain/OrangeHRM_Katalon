@@ -1,6 +1,6 @@
 # OrangeHRM_Katalon
-Pada penerapan pengujian kali ini saya menggunakan Tools [https://katalon.com/](Katalon Studio).
-Pengujian saya lakukan pada website [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login](Orangehrm).
+Pada penerapan pengujian kali ini saya menggunakan Tools [Katalon Studio] (https://katalon.com/).
+Pengujian saya lakukan pada website [OrangHRM] (https://opensource-demo.orangehrmlive.com/web/index.php/auth/login).
 
 Adapun beberapa fitur yang saya uji dalam portfolio saya ini:
 
