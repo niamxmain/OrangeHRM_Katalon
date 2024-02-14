@@ -1,13 +1,12 @@
 {
-  "keywordFileContentHash": "C9047ECF85C114E24811561798A98216",
+  "keywordFileContentHash": "F8E51340CDF8AA26D2C14F79100D202B",
   "keywordClasses": [
     {
       "name": "features.PIM",
       "keywordMethods": [
         {
           "name": "accessPIMMenu",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "addNewEmployee",
@@ -77,8 +76,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "searchEmployee",
@@ -96,8 +94,25 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
+        },
+        {
+          "name": "updateEmployee",
+          "parameters": [
+            {
+              "name": "employee",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         },
         {
           "name": "addNewEmployee",
@@ -154,11 +169,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

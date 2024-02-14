@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Error_Invalid credentials</name>
+   <name>div_Error Invalid Credential</name>
    <tag></tag>
    <elementGuidId>a0bd1992-61f1-4e3e-a99d-32b17e45fb63</elementGuidId>
    <selectorCollection>

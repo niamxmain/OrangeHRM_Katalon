@@ -1,21 +1,112 @@
 {
-  "keywordFileContentHash": "8B2548774DF297FC75D79BD4CF468D41",
+  "keywordFileContentHash": "0309B61CC6527B1C58D893C7236CD3D3",
   "keywordClasses": [
     {
       "name": "features.Login",
       "keywordMethods": [
         {
+          "name": "login",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "username",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
           "name": "loginGlobalVariable",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "logout",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
+        },
+        {
+          "name": "login",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "username",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "login",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

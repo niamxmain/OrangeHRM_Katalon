@@ -22,8 +22,8 @@ import internal.GlobalVariable
 
 public class Login {
 
-
-	def static void login(String url, String username, String password) {
+	@Keyword
+	def static void login(String url, String username=null, String password=null) {
 
 		WebUI.openBrowser(url)
 		WebUI.waitForPageLoad(GlobalVariable.DELAY_TIME)
@@ -34,12 +34,12 @@ public class Login {
 		WebUI.sendKeys(findTestObject('Login Page/input_Username'), username)
 		WebUI.sendKeys(findTestObject('Login Page/input_Password'), password)
 		WebUI.click(findTestObject('Login Page/button_Login'))
-		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/h5_System Users'), GlobalVariable.DELAY_TIME)
 	}
 
 	@Keyword
 	def static void loginGlobalVariable() {
 		login(GlobalVariable.BASE_URL, GlobalVariable.G_USERNAME, GlobalVariable.PASSWORD)
+		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/h5_System Users'), GlobalVariable.DELAY_TIME)
 	}
 
 	@Keyword

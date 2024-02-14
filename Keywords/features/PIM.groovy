@@ -68,12 +68,12 @@ public class PIM {
 
 		String fullName = fmName+" "+lastName
 
-		println fullName
 		WebUI.verifyMatch(name, fullName, false)
 	}
-	
+
 	@Keyword
-	def static void updateEmployee(String employee, ) {
+	def static void updateEmployee(String employee ) {
+		searchEmployee(employee)
 		
 	}
 }

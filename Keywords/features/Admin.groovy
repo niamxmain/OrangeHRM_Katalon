@@ -55,7 +55,6 @@ public class Admin {
 		WebUI.setText(findTestObject('Admin Menu/User Management/Users/Add User/input_Employee_Name'), employee)
 		//		find test object employee
 		WebUI.delay(5)
-		//		WebUI.verifyElementClickable(findTestObject('Admin Menu/User Management/Users/Add User/div_Employee Name', [('employee'):employee]))
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/div_Employee Name'), FailureHandling.STOP_ON_FAILURE)
 
 		WebUI.sendKeys(findTestObject('Admin Menu/User Management/Users/Add User/input_Username'), username)
