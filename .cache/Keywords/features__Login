@@ -46,15 +46,18 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "loginGlobalVariable",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "logout",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "login",
@@ -85,7 +88,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "login",
@@ -103,10 +107,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

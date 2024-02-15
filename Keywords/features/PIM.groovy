@@ -29,7 +29,7 @@ public class PIM {
 	}
 
 	@Keyword
-	def static void addNewEmployee(String photo, String firstname, String middlename=null, String lastname, String employeeid) {
+	def static void addNewEmployee(String photo, String firstname, String middlename, String lastname, String employeeid) {
 		WebUI.click(findTestObject('PIM Menu/PIM/button_Add'))
 		WebUI.verifyElementPresent(findTestObject('PIM Menu/PIM/Add Employee/h6_Add Employee'), GlobalVariable.DELAY_TIME)
 
@@ -72,8 +72,11 @@ public class PIM {
 	}
 
 	@Keyword
-	def static void updateEmployee(String employee ) {
+	def static void updatePersonalDetailEmployee(String employee ) {
 		searchEmployee(employee)
 		
+		WebUI.delay(3)
+		WebUI.click(findTestObject('PIM Menu/PIM/Search Employee/i_Edit'))
+		WebUI.waitForElementPresent(findTestObject('PIM Menu/PIM/Edit Employee/h6_Personal Detail'), 3)		
 	}
 }

@@ -6,7 +6,8 @@
       "keywordMethods": [
         {
           "name": "accessAdminMenu",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "addNewUser",
@@ -76,7 +77,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "searchUserWithSpecificData",
@@ -107,7 +109,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "editUser",
@@ -177,7 +180,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "deleteUser",
@@ -208,7 +212,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "editUser",
@@ -265,7 +270,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "deleteUser",
@@ -283,10 +289,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

@@ -1,12 +1,13 @@
 {
-  "keywordFileContentHash": "F8E51340CDF8AA26D2C14F79100D202B",
+  "keywordFileContentHash": "4513555EB0E49665410695B7488D238B",
   "keywordClasses": [
     {
       "name": "features.PIM",
       "keywordMethods": [
         {
           "name": "accessPIMMenu",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "addNewEmployee",
@@ -76,7 +77,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "searchEmployee",
@@ -94,10 +96,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
-          "name": "updateEmployee",
+          "name": "updatePersonalDetailEmployee",
           "parameters": [
             {
               "name": "employee",
@@ -112,67 +115,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
-        },
-        {
-          "name": "addNewEmployee",
-          "parameters": [
-            {
-              "name": "photo",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "firstname",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "lastname",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "employeeid",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
