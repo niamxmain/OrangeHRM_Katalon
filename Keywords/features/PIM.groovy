@@ -54,6 +54,7 @@ public class PIM {
 		WebUI.click(findTestObject('PIM Menu/PIM/Add Employee/button_Save'))
 
 		WebUI.waitForElementPresent(findTestObject('PIM Menu/PIM/Add Employee/div_Success'), GlobalVariable.DELAY_TIME)
+		accessPIMMenu()
 	}
 
 	@Keyword
@@ -74,9 +75,9 @@ public class PIM {
 	@Keyword
 	def static void updatePersonalDetailEmployee(String employee ) {
 		searchEmployee(employee)
-		
+
 		WebUI.delay(3)
 		WebUI.click(findTestObject('PIM Menu/PIM/Search Employee/i_Edit'))
-		WebUI.waitForElementPresent(findTestObject('PIM Menu/PIM/Edit Employee/h6_Personal Detail'), 3)		
+		WebUI.waitForElementPresent(findTestObject('PIM Menu/PIM/Edit Employee/h6_Personal Detail'), 3)
 	}
 }

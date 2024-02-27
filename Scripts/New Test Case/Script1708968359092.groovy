@@ -17,21 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Features/Login/TC_Login_001_Valid Admin'), [:], FailureHandling.STOP_ON_FAILURE)
+def testData = findTestData('Data Employee')
+for (def row : (1..(testData.getRowNumbers()))) {
+	String photo = testData.getValue("poto", row)
+	String firstname = testData.getValue("firstname", row)
+	String middlename = testData.getValue("middlename", row)
+	String lastname = testData.getValue("lastname", row)
+	String employeeid = testData.getValue("employeeid", row)
+	
+	println "${photo} - ${firstname} - ${middlename} - ${lastname} - ${employeeid}"
 
-WebUI.callTestCase(findTestCase('Features/PIM/TC_PIM_001_Access PIM Menu'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Features/PIM/TC_PIM_002_Add New Employee'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_001_Access Admin Menu'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_002_Add New User'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_003_Search User With Specific Data'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_004_Edit User Without Change Password'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_005_Edit User With Change Password'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_006_Delete User'), [:], FailureHandling.STOP_ON_FAILURE)
-
+//	CustomKeywords.'features.PIM.addNewEmployee'(photo, firstname, middlename, lastname, employeeid)
+}

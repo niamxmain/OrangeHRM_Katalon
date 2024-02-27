@@ -21,5 +21,25 @@ WebUI.callTestCase(findTestCase('Features/Login/TC_Login_001_Valid Admin'), [:],
 
 WebUI.callTestCase(findTestCase('Features/PIM/TC_PIM_001_Access PIM Menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'features.PIM.addNewEmployee'('', '', '', '', '')
+def testData = findTestData('Data Employee')
+
+for (def row : (1..testData.getRowNumbers())) {
+    String photo = testData.getValue('poto', row)
+
+    String firstname = testData.getValue('firstname', row)
+
+    String middlename = testData.getValue('middlename', row)
+
+    String lastname = testData.getValue('lastname', row)
+
+    String employeeid = testData.getValue('employeeid', row)
+
+    println("$photo - $firstname - $middlename - $lastname - $employeeid")
+
+    CustomKeywords.'features.PIM.addNewEmployee'(photo, firstname, middlename, lastname, employeeid)
+
+    CustomKeywords.'features.PIM.accessPIMMenu'()
+}
+
+WebUI.closeBrowser()
 
