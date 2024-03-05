@@ -26,10 +26,10 @@ public class Login {
 	def static void login(String url, String username=null, String password=null) {
 
 		WebUI.openBrowser(url)
-		WebUI.waitForPageLoad(GlobalVariable.DELAY_TIME)
+		WebUI.waitForPageLoad(GlobalVariable.Delay_Time)
 		WebUI.maximizeWindow()
 
-		WebUI.waitForElementVisible(findTestObject('Login Page/h5_Login'), GlobalVariable.DELAY_TIME)
+		WebUI.waitForElementVisible(findTestObject('Login Page/h5_Login'), GlobalVariable.Delay_Time)
 
 		WebUI.sendKeys(findTestObject('Login Page/input_Username'), username)
 		WebUI.sendKeys(findTestObject('Login Page/input_Password'), password)
@@ -38,8 +38,8 @@ public class Login {
 
 	@Keyword
 	def static void loginGlobalVariable() {
-		login(GlobalVariable.BASE_URL, GlobalVariable.G_USERNAME, GlobalVariable.PASSWORD)
-		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/h5_System Users'), GlobalVariable.DELAY_TIME)
+		login(GlobalVariable.Base_Url, GlobalVariable.Global_Username, GlobalVariable.Password)
+		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/h5_System Users'), GlobalVariable.Delay_Time)
 	}
 
 	@Keyword
@@ -48,6 +48,6 @@ public class Login {
 		WebUI.delay(1)
 		WebUI.click(findTestObject('Login Page/a_Logout'))
 
-		WebUI.verifyElementPresent(findTestObject('Login Page/h5_Login'), GlobalVariable.DELAY_TIME)
+		WebUI.verifyElementPresent(findTestObject('Login Page/h5_Login'), GlobalVariable.Delay_Time)
 	}
 }

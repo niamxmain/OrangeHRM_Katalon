@@ -4,8 +4,12 @@
    <name>OrangeHRM_Katalon</name>
    <tag></tag>
    <UUID>b392e3e8-1dda-4ca3-9bab-b05fd55ad4b5</UUID>
+   <createdVersion>9.3.1</createdVersion>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedVersion>9.3.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/media/niam/New Volume1/MATERI/Portfolio/katalon/OrangeHRM_Katalon/OrangeHRM_Katalon.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

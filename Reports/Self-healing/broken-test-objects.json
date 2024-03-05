@@ -29,6 +29,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PIM Menu/PIM/Add Employee/div_Success",
+      "brokenLocator": "//div[@id\u003d\u0027oxd-toaster_1\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PIM Menu/PIM/div_Success Deleted",
+      "brokenLocator": "//div[@id\u003d\u0027oxd-toaster_1\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PIM Menu/PIM/button_Yes, Delete",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[109]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div[3]/div/div/div/div[3]/button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PIM Menu/PIM/button_Yes, Delete_idRelative.png"
     }
   ]
 }

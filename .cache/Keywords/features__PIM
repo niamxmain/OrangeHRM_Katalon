@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "A6D5AB7D69FB71DDD2D3127B9CAC653C",
+  "keywordFileContentHash": "B2A3E663067184CB03D094F6B2D97B37",
   "keywordClasses": [
     {
       "name": "features.PIM",
@@ -104,6 +104,25 @@
           "parameters": [
             {
               "name": "employee",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "deleteEmployee",
+          "parameters": [
+            {
+              "name": "name",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",

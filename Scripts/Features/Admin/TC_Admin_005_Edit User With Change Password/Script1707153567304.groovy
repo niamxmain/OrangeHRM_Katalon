@@ -20,5 +20,5 @@ import org.openqa.selenium.Keys as Keys
 CustomKeywords.'features.Admin.searchUserWithSpecificData'('Username', GlobalVariable.Update_Username)
 
 CustomKeywords.'features.Admin.editUser'(GlobalVariable.Role_Admin, GlobalVariable.Status_Disable, GlobalVariable.Update_Employee_Name, 
-    GlobalVariable.Update_Username, GlobalVariable.PASSWORD)
+    GlobalVariable.Update_Username, GlobalVariable.Password)
 

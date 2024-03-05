@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Features/Login/TC_Login_001_Valid Admin","testCaseId":"Test Cases/Features/Login/TC_Login_001_Valid Admin","iterationVariableName":""}
+{"testCaseName":"Test Cases/Features/Login/TC_Login_002_Invalid Credentials","testCaseId":"Test Cases/Features/Login/TC_Login_002_Invalid Credentials","iterationVariableName":""}
+{"testCaseName":"Test Cases/Features/Login/TC_Login_003_WIthout Password","testCaseId":"Test Cases/Features/Login/TC_Login_003_WIthout Password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Features/Login/TC_Login_004_Without Username","testCaseId":"Test Cases/Features/Login/TC_Login_004_Without Username","iterationVariableName":""}

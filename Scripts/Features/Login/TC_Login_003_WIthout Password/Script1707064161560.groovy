@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'features.Login.login'(GlobalVariable.BASE_URL, GlobalVariable.G_USERNAME, null)
+CustomKeywords.'features.Login.login'(GlobalVariable.Base_Url, GlobalVariable.Global_Username, "")
 
-WebUI.verifyElementPresent(findTestObject('Login Page/span_Required'), GlobalVariable.DELAY_TIME)
+WebUI.verifyElementPresent(findTestObject('Login Page/span_Required'), GlobalVariable.Delay_Time)
 

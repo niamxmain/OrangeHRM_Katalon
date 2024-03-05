@@ -1,42 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Login Test Suites</name>
+   <name>TS_002_User Management Without Change Password</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>bbudi1011@gmail.com;</mailRecipient>
    <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>37e9e052-ff65-46a9-9c1d-f3d59f61ce77</testSuiteGuid>
+   <testSuiteGuid>d25ffafc-4ed7-4790-ad50-cf383ce20827</testSuiteGuid>
    <testCaseLink>
-      <guid>44e4f5ff-232c-4c79-b3b3-8d29ebc8fd27</guid>
+      <guid>d6948223-bb37-404d-9eb7-fe853756fe39</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Features/Login/TC_Login_002_Invalid Credentials</testCaseId>
+      <testCaseId>Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>095f5e31-bc3e-4baa-9a26-1f7b15e74514</guid>
+      <guid>5cfb4d3f-ff3d-4627-809b-6d3b0aca70e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Features/Login/TC_Login_001_Valid Admin</testCaseId>
+      <testCaseId>Test Cases/Features/Admin/TC_Admin_002_Add New User</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>daaf31da-b58d-4285-a6b2-00896c4c38db</guid>
+      <guid>41104fdd-8332-4487-893f-5503ef2edb53</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Features/Login/TC_Login_003_WIthout Password</testCaseId>
+      <testCaseId>Test Cases/Features/Admin/TC_Admin_003_Search User With Specific Data</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>69218679-2daf-479d-a850-271b35c6ff85</guid>
+      <guid>336bc1d7-290e-47cd-b31c-ef9fa7b0af6a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Features/Login/TC_Login_004_Without Username</testCaseId>
+      <testCaseId>Test Cases/Features/Admin/TC_Admin_004_Edit User Without Change Password</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a079015c-e676-41a0-baa2-221a9b70c077</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Features/Admin/TC_Admin_006_Delete User</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

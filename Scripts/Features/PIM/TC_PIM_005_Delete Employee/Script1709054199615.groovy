@@ -17,9 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Features/Login/TC_Login_001_Valid Admin'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Features/PIM/TC_PIM_001_Access PIM Menu'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Features/PIM/TC_PIM_003_Search Employee'), [:], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'features.PIM.deleteEmployee'('Michael Jackson')
 

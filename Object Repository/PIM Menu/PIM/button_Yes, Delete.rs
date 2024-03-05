@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Search</name>
+   <name>button_Yes, Delete</name>
    <tag></tag>
-   <elementGuidId>e2d71389-866f-4f2a-983e-100dd6fd4d49</elementGuidId>
+   <elementGuidId>07b69465-4de3-4577-9e9b-3c465cb72275</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.oxd-button.oxd-button--medium.oxd-button--secondary.orangehrm-left-space</value>
+         <value>button.oxd-button.oxd-button--medium.oxd-button--label-danger.orangehrm-button-margin</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>(//button[@type='button'])[109]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,70 +22,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>848be9c6-6a96-4d16-a591-8c24d45d0879</webElementGuid>
+      <webElementGuid>5884d709-e631-4fe6-9f53-6ca54e29bc96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>85bd1938-cf4c-494e-9ca4-447425fabc92</webElementGuid>
+      <value>button</value>
+      <webElementGuid>0830012c-5010-43a2-9d90-f0e7132c39c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space</value>
-      <webElementGuid>1e814516-6bda-4ef7-9944-10975d970b8e</webElementGuid>
+      <value>oxd-button oxd-button--medium oxd-button--label-danger orangehrm-button-margin</value>
+      <webElementGuid>5750815e-0022-415d-b417-d22e230fe718</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Search </value>
-      <webElementGuid>c2e3bbab-e9d9-4e30-92cf-1dc8d7276516</webElementGuid>
+      <value> Yes, Delete </value>
+      <webElementGuid>fd66bf67-582a-450c-b94f-ca72998c1b7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;oxd-table-filter&quot;]/div[@class=&quot;oxd-table-filter-area&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-actions&quot;]/button[@class=&quot;oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space&quot;]</value>
-      <webElementGuid>5b030d1c-804f-435d-87d2-62c63136cd2a</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-overlay oxd-overlay--flex oxd-overlay--flex-centered&quot;]/div[@class=&quot;oxd-dialog-container-default&quot;]/div[@class=&quot;oxd-dialog-container-default--inner&quot;]/div[@class=&quot;oxd-sheet oxd-sheet--rounded oxd-sheet--white oxd-dialog-sheet oxd-dialog-sheet--shadow oxd-dialog-sheet--gutters orangehrm-dialog-popup&quot;]/div[@class=&quot;orangehrm-modal-footer&quot;]/button[@class=&quot;oxd-button oxd-button--medium oxd-button--label-danger orangehrm-button-margin&quot;]</value>
+      <webElementGuid>9436cdb1-6f96-4ad2-b196-f5abba71d20d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>0229eaf4-e908-44cb-9a0c-069cbca8cc39</webElementGuid>
+      <value>(//button[@type='button'])[109]</value>
+      <webElementGuid>459baec2-eb43-45aa-aef6-41052ec89b74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[2]/form/div[2]/button[2]</value>
-      <webElementGuid>f8048a82-90bc-4a01-92a1-81d4a5813c8d</webElementGuid>
+      <value>//div[@id='app']/div[3]/div/div/div/div[3]/button[2]</value>
+      <webElementGuid>ce429e39-07d8-4c52-8d6f-68296405d9e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]</value>
-      <webElementGuid>477dca6e-e3d5-44b1-9cc1-c44574e75e7e</webElementGuid>
+      <value>//div[3]/button[2]</value>
+      <webElementGuid>837890ff-1a29-4d5f-81cd-f918f9b42b37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = ' Search ' or . = ' Search ')]</value>
-      <webElementGuid>5e73fa18-99b7-4ecd-a931-2e61a60ec88a</webElementGuid>
+      <value>//button[@type = 'button' and (text() = ' Yes, Delete ' or . = ' Yes, Delete ')]</value>
+      <webElementGuid>cf02987d-2e66-47c6-a582-8a401d51f79e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,31 +7,31 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'</initValue>
-      <name>BASE_URL</name>
+      <name>Base_Url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Admin'</initValue>
-      <name>G_USERNAME</name>
+      <name>Global_Username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'admin123'</initValue>
-      <name>PASSWORD</name>
+      <name>Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>5</initValue>
-      <name>DELAY_TIME</name>
+      <name>Delay_Time</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Jhon Doe'</initValue>
+      <initValue>'Asepudy'</initValue>
       <name>Username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Peter.Anderson'</initValue>
+      <initValue>'John Doe'</initValue>
       <name>Update_Username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Michael Jackson'</initValue>
+      <initValue>'John Doe'</initValue>
       <name>Update_Employee_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

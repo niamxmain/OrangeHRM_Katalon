@@ -17,10 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Features/Login/TC_Login_001_Valid Admin'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Features/Admin/TC_Admin_001_Access Admin Menu'), [:], FailureHandling.STOP_ON_FAILURE)
-
-CustomKeywords.'features.Admin.addNewUser'(GlobalVariable.Employee_Name, GlobalVariable.Username, GlobalVariable.PASSWORD, 
+CustomKeywords.'features.Admin.addNewUser'(GlobalVariable.Employee_Name, GlobalVariable.Username, GlobalVariable.Password, 
     GlobalVariable.Role_Admin, GlobalVariable.Status_Enable)
 

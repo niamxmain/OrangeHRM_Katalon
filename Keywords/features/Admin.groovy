@@ -28,7 +28,7 @@ public class Admin {
 		WebUI.delay(5)
 		WebUI.click(findTestObject('Side Menus/a_Admin'))
 		WebUI.delay(1)
-		WebUI.waitForElementPresent(findTestObject("Admin Menu/User Management/h5_System Users"), GlobalVariable.DELAY_TIME)
+		WebUI.waitForElementPresent(findTestObject("Admin Menu/User Management/h5_System Users"), GlobalVariable.Delay_Time)
 	}
 
 
@@ -38,17 +38,17 @@ public class Admin {
 	def static void addNewUser(String employee, String username, String password, String role, String status) {
 
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/button_Add_User'))
-		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/Add User/h6_Add User'), GlobalVariable.DELAY_TIME)
+		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/Add User/h6_Add User'), GlobalVariable.Delay_Time)
 
 		//		set role employee
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/div_Dropdown Role'))
-		WebUI.waitForElementVisible(findTestObject('Admin Menu/User Management/Users/Add User/div_Result Role'), GlobalVariable.DELAY_TIME)
+		WebUI.waitForElementVisible(findTestObject('Admin Menu/User Management/Users/Add User/div_Result Role'), GlobalVariable.Delay_Time)
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/div_Type Role', [('role'):role]))
 
 
 		//		set status employee
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/div_Dropdown Status'))
-		WebUI.waitForElementVisible(findTestObject('Admin Menu/User Management/Users/Add User/div_Result Status'), GlobalVariable.DELAY_TIME)
+		WebUI.waitForElementVisible(findTestObject('Admin Menu/User Management/Users/Add User/div_Result Status'), GlobalVariable.Delay_Time)
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/Add User/div_Type Status', [('status'):status]))
 
 		//		set employee name
@@ -97,7 +97,7 @@ public class Admin {
 
 		//		verify user succeed search
 		WebUI.delay(5)
-		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/div_Username Record Found',[('result'):value]), GlobalVariable.DELAY_TIME)
+		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/div_Username Record Found',[('result'):value]), GlobalVariable.Delay_Time)
 	}
 
 
@@ -110,7 +110,7 @@ public class Admin {
 		//		access edit user page
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/i_Edit User'))
 
-		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/Edit User/h6_Edit User'), GlobalVariable.DELAY_TIME)
+		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/Edit User/h6_Edit User'), GlobalVariable.Delay_Time)
 
 		//		find role before
 		String roleBefore = WebUI.getText(findTestObject('Admin Menu/User Management/Users/Edit User/div_Dropdown Role'))
@@ -138,7 +138,7 @@ public class Admin {
 			}
 			WebUI.delay(1)
 			WebUI.setText(findTestObject('Admin Menu/User Management/Users/Edit User/input_Employee'), employee)
-			WebUI.delay(GlobalVariable.DELAY_TIME)
+			WebUI.delay(GlobalVariable.Delay_Time)
 
 			WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/div_Result Employee', [('employee'): employee]))
 		}
@@ -160,7 +160,7 @@ public class Admin {
 		//check if user want change password
 		if(password != null) {
 			WebUI.click(findTestObject('Admin Menu/User Management/Users/Edit User/label_Yes Update Password'))
-			WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/Edit User/div_Box Change Password'), GlobalVariable.DELAY_TIME)
+			WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/Edit User/div_Box Change Password'), GlobalVariable.Delay_Time)
 
 			//		set password and confirm password
 			WebUI.setText(findTestObject('Admin Menu/User Management/Users/Edit User/input_Password'), password)
@@ -175,12 +175,12 @@ public class Admin {
 	def static void deleteUser(String type="Username", String value) {
 		searchUserWithSpecificData(type, value)
 
-		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/i_Delete User'), GlobalVariable.DELAY_TIME)
+		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/i_Delete User'), GlobalVariable.Delay_Time)
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/i_Delete User'))
 
-		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/div_Are You Sure Delete'), GlobalVariable.DELAY_TIME)
+		WebUI.waitForElementPresent(findTestObject('Admin Menu/User Management/Users/div_Are You Sure Delete'), GlobalVariable.Delay_Time)
 		WebUI.click(findTestObject('Admin Menu/User Management/Users/button_Yes, Delete'))
 
-		WebUI.verifyElementPresent(findTestObject('Admin Menu/User Management/Users/div_Success Deleted'), GlobalVariable.DELAY_TIME)
+		WebUI.verifyElementPresent(findTestObject('Admin Menu/User Management/Users/div_Success Deleted'), GlobalVariable.Delay_Time)
 	}
 }

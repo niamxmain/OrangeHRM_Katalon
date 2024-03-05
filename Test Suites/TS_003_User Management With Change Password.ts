@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_Admin User</name>
+   <name>TS_003_User Management With Change Password</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>d25ffafc-4ed7-4790-ad50-cf383ce20827</testSuiteGuid>
+   <testSuiteGuid>bbeb3107-8e6a-4031-8e10-51292717927c</testSuiteGuid>
    <testCaseLink>
       <guid>d6948223-bb37-404d-9eb7-fe853756fe39</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -30,13 +30,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Features/Admin/TC_Admin_003_Search User With Specific Data</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>cc27c968-7394-4be2-b58f-f9c5dea6af63</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Features/Admin/TC_Admin_004_Edit User Without Change Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

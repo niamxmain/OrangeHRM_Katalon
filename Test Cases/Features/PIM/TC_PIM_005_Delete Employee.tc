@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_PIM_005_Delete Employee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>88db8d50-48b3-4a48-82fc-beab61e81c16</testCaseGuid>
+</TestCaseEntity>

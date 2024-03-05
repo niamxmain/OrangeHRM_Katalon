@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu","testCaseId":"Test Cases/Features/Admin/TC_Admin_001_Access Admin Menu","iterationVariableName":""}
+{"testCaseName":"Test Cases/Features/Admin/TC_Admin_002_Add New User","testCaseId":"Test Cases/Features/Admin/TC_Admin_002_Add New User","iterationVariableName":""}
+{"testCaseName":"Test Cases/Features/Admin/TC_Admin_003_Search User With Specific Data","testCaseId":"Test Cases/Features/Admin/TC_Admin_003_Search User With Specific Data","iterationVariableName":""}
+{"testCaseName":"Test Cases/Features/Admin/TC_Admin_004_Edit User Without Change Password","testCaseId":"Test Cases/Features/Admin/TC_Admin_004_Edit User Without Change Password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Features/Admin/TC_Admin_006_Delete User","testCaseId":"Test Cases/Features/Admin/TC_Admin_006_Delete User","iterationVariableName":""}
